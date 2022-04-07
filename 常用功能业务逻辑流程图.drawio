@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-07T12:10:21.432Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="gQw_CwDkzdcNCGBb-Vy9" version="17.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-07T12:17:04.409Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="CvllajeCTWxjDZ-F03PI" version="17.2.5" type="github">
   <diagram id="C8zfeUm68QXaKlkgzb-8" name="Page-1">
     <mxGraphModel dx="1783" dy="993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -68,6 +68,52 @@
         </mxCell>
         <mxCell id="Xs8UQ6cBIhTteWRhh0SS-29" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1000" y="210" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Xs8UQ6cBIhTteWRhh0SS-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Xs8UQ6cBIhTteWRhh0SS-30" target="Xs8UQ6cBIhTteWRhh0SS-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xs8UQ6cBIhTteWRhh0SS-30" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Xs8UQ6cBIhTteWRhh0SS-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Xs8UQ6cBIhTteWRhh0SS-31" target="Xs8UQ6cBIhTteWRhh0SS-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xs8UQ6cBIhTteWRhh0SS-31" value="根据区域code查询常用功能" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Xs8UQ6cBIhTteWRhh0SS-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Xs8UQ6cBIhTteWRhh0SS-33" target="Xs8UQ6cBIhTteWRhh0SS-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xs8UQ6cBIhTteWRhh0SS-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Xs8UQ6cBIhTteWRhh0SS-33" target="Xs8UQ6cBIhTteWRhh0SS-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xs8UQ6cBIhTteWRhh0SS-33" value="判断该地区是否开通&lt;br&gt;常用功能" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="690" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Xs8UQ6cBIhTteWRhh0SS-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Xs8UQ6cBIhTteWRhh0SS-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xs8UQ6cBIhTteWRhh0SS-35" value="获取该地区具体常用功能" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="700" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Xs8UQ6cBIhTteWRhh0SS-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Xs8UQ6cBIhTteWRhh0SS-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xs8UQ6cBIhTteWRhh0SS-37" value="提示该地区未配置常用功能" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Xs8UQ6cBIhTteWRhh0SS-39" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="595" y="700" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Xs8UQ6cBIhTteWRhh0SS-40" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="790" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Xs8UQ6cBIhTteWRhh0SS-41" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="860" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
