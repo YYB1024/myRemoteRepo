@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-11T03:27:13.160Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="YJrudN_cg5e2pTXn15H5" version="17.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-11T07:46:04.794Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="DOY3VopDol1QOhPkLlAx" version="17.4.1" type="github">
   <diagram id="C8zfeUm68QXaKlkgzb-8" name="Page-1">
-    <mxGraphModel dx="1826" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3252" dy="1588" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -257,6 +257,204 @@
         </mxCell>
         <mxCell id="TA9cXW273BF9sfZA5clH-51" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="723" y="1538" width="22" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TA9cXW273BF9sfZA5clH-58" target="TA9cXW273BF9sfZA5clH-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-58" value="定义切面监视器&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="52" y="2199" width="245" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-59" value="&lt;pre style=&quot;color: rgb(169 , 183 , 198) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;TaskStateFinishMonitorAspect&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="48" y="2218" width="245" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TA9cXW273BF9sfZA5clH-61" target="TA9cXW273BF9sfZA5clH-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-61" value="根据监控配置监控业务类型" style="whiteSpace=wrap;html=1;rounded=0;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="439.5" y="2195" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TA9cXW273BF9sfZA5clH-64" target="TA9cXW273BF9sfZA5clH-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-64" value="发送任务完成的消息" style="whiteSpace=wrap;html=1;rounded=0;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="740" y="2195" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-66" value="send()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="613" y="2200" width="44" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-67" value="&lt;pre style=&quot;color: rgb(0 , 0 , 0) ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;set 任务完成消息&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1129" y="2195" width="265" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-69" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;color: rgb(0 , 0 , 0) ; background-color: rgb(255 , 255 , 255) ; text-align: left ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;TaskStateFinishMessageMO&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="886" y="2186" width="212" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-71" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="980.5" y="1992.5" width="222" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="TA9cXW273BF9sfZA5clH-72" target="TA9cXW273BF9sfZA5clH-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-72" value="&lt;pre style=&quot;color: rgb(169 , 183 , 198) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;sendTaskStateFinishMessage（）&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1134" y="2213" width="239" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-73" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;接受消息处理消息&lt;br&gt;&lt;/span&gt;&lt;pre style=&quot;color: rgb(169 , 183 , 198) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;TaskFinishConsumer. &lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt ; color: rgb(255 , 198 , 109)&quot;&gt;handleMessage(&lt;/span&gt;message)&lt;/span&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1046" y="2401" width="415" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-75" value="&lt;pre style=&quot;color: rgb(169 , 183 , 198) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;topic = MessageConstants.&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;TASK_STATE_FINISH_TOPIC&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1061" y="2280" width="414" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-78" value="&lt;pre style=&quot;color: rgb(169 , 183 , 198) ; font-size: 10.5pt ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;TaskStateFinishMonitorAspect&lt;/pre&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="206" y="2439" width="318" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;exitX=0.523;exitY=0.477;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TA9cXW273BF9sfZA5clH-81" target="TA9cXW273BF9sfZA5clH-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-81" value="切面-任务完成监视器&lt;br&gt;TaskStateFinishMonmitorAspect" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="361" y="2663" width="193" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-99" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontColor=#000000;gradientColor=none;" vertex="1" parent="TA9cXW273BF9sfZA5clH-81">
+          <mxGeometry x="96" y="95" width="10" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="TA9cXW273BF9sfZA5clH-86" target="TA9cXW273BF9sfZA5clH-104">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1169" y="2806" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1119" y="2806" />
+              <mxPoint x="1119" y="2806" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-86" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E5%88%87%E9%9D%A2-%E4%BB%BB%E5%8A%A1%E5%AE%8C%E6%88%90%E7%9B%91%E8%A7%86%E5%99%A8%26lt%3Bbr%26gt%3BTaskStateFinishMonmitorAspect%22%20style%3D%22shape%3DumlLifeline%3Bperimeter%3DlifelinePerimeter%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3Bcontainer%3D1%3Bcollapsible%3D0%3BrecursiveResize%3D0%3BoutlineConnect%3D0%3Bshadow%3D0%3BlabelBackgroundColor%3D%23FFFFFF%3BlabelBorderColor%3Dnone%3BfontColor%3D%23000000%3BgradientColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22361%22%20y%3D%222663%22%20width%3D%22193%22%20height%3D%22300%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="743" y="2656" width="215" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-88" value="任务处理器&#xa;TaskHandlerProducer" style="text;whiteSpace=wrap;fontColor=#000000;" vertex="1" parent="TA9cXW273BF9sfZA5clH-86">
+          <mxGeometry x="35" y="2" width="180" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-94" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontColor=#000000;gradientColor=none;" vertex="1" parent="TA9cXW273BF9sfZA5clH-86">
+          <mxGeometry x="105" y="149" width="12" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-90" value="1、发消息：sendFinishMessage（Task task）" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="191" y="2731" width="258" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;exitX=0.485;exitY=0.35;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TA9cXW273BF9sfZA5clH-97" target="TA9cXW273BF9sfZA5clH-81">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="381" y="2761" />
+              <mxPoint x="381" y="2761" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-97" value="Actor" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="125" y="2656" width="100" height="296" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-101" value="topic：MessageConstants.TASK_STATE_FINISH_TOPIC)&#xa;&#xa;1、1任务完成消息：sendTaskStateFinishMessage（）" style="text;whiteSpace=wrap;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="488" y="2756" width="319" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;exitX=0.125;exitY=1.063;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1" source="TA9cXW273BF9sfZA5clH-94">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="2845" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="850" y="2845" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-104" value="消费端&#xa;TaskFinishConsumer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1121" y="2648" width="182" height="468" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-115" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontColor=#000000;gradientColor=none;" vertex="1" parent="TA9cXW273BF9sfZA5clH-104">
+          <mxGeometry x="88" y="244" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-116" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;dashed=1;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="TA9cXW273BF9sfZA5clH-115" parent="TA9cXW273BF9sfZA5clH-104" source="TA9cXW273BF9sfZA5clH-117">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="86" y="193" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="98" y="193" />
+              <mxPoint x="116" y="193" />
+              <mxPoint x="116" y="213" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-117" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontColor=#000000;gradientColor=none;" vertex="1" parent="TA9cXW273BF9sfZA5clH-104">
+          <mxGeometry x="88" y="143" width="10" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-105" value="&lt;span style=&quot;text-align: left&quot;&gt;TaskFinishPostProcessorHandler&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1376" y="2648" width="178" height="503" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-130" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontColor=#000000;gradientColor=none;" vertex="1" parent="TA9cXW273BF9sfZA5clH-105">
+          <mxGeometry x="85" y="266" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-108" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;topic：MessageConstants.TASK_STATE_FINISH_TOPIC)&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="863" y="2748" width="317" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-110" value="2、处理消息handleMessage（Message message）" style="text;whiteSpace=wrap;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="877" y="2779" width="289" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-120" value="&lt;span style=&quot;text-align: left&quot;&gt;查任务taskService.getByAsyncNumber&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="2843" width="218" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-122" value="2、1任务完成的后置处理逻辑postProcessTaskFinish（）方法" style="text;whiteSpace=wrap;fontColor=#000000;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="2873" width="197" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;exitX=1;exitY=0.638;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TA9cXW273BF9sfZA5clH-115" target="TA9cXW273BF9sfZA5clH-105">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1219" y="2912" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="TA9cXW273BF9sfZA5clH-126" target="TA9cXW273BF9sfZA5clH-134">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1969" y="3001" />
+              <mxPoint x="1969" y="3003" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-126" value="&lt;span style=&quot;text-align: left&quot;&gt;AbstractTaskFinishPostProcessorHandler&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1673" y="2644" width="237" height="504" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-142" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;labelBackgroundColor=#99FF99;labelBorderColor=none;fontColor=#000000;gradientColor=none;" vertex="1" parent="TA9cXW273BF9sfZA5clH-126">
+          <mxGeometry x="116" y="319" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="TA9cXW273BF9sfZA5clH-130" target="TA9cXW273BF9sfZA5clH-126">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1680" y="2954" />
+              <mxPoint x="1680" y="2954" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-132" value="implements-实现接口" style="text;whiteSpace=wrap;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1542" y="2900" width="129" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-133" value="&lt;span style=&quot;text-align: left&quot;&gt;2、1任务完成的后置处理逻辑postProcessTaskFinish（）方法&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1466" y="2938" width="338" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-134" value="BusinessExceptionMessageAddHander" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;labelBackgroundColor=#99FF99;labelBorderColor=none;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2028" y="2635.5" width="237" height="467.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-143" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;labelBackgroundColor=#99FF99;labelBorderColor=none;fontColor=#000000;gradientColor=none;" vertex="1" parent="TA9cXW273BF9sfZA5clH-134">
+          <mxGeometry x="116" y="338.5" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-144" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;labelBackgroundColor=#99FF99;labelBorderColor=none;fontColor=#000000;gradientColor=none;" vertex="1" parent="TA9cXW273BF9sfZA5clH-134">
+          <mxGeometry x="116" y="446.5" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-145" value="3、1添加异常消息addExceptionMessage()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#000000;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="TA9cXW273BF9sfZA5clH-144" parent="TA9cXW273BF9sfZA5clH-134" source="TA9cXW273BF9sfZA5clH-143">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="407.5" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="175" y="399" />
+              <mxPoint x="175" y="397" />
+              <mxPoint x="205" y="397" />
+              <mxPoint x="205" y="447" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-138" value="3、任务完结处理参数postProcess()" style="text;whiteSpace=wrap;fontColor=#000000;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1925.5" y="2961" width="141.5" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-139" value="extend-继承父类" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1882" y="2922" width="98" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
