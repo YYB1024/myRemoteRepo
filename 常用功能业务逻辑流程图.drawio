@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T04:21:44.966Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="jpEX17Xa0wEQtVTXw-zc" version="17.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-13T10:23:50.297Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="3-G49UyhA5QoFUgdWJeB" version="17.4.1" type="github">
   <diagram id="C8zfeUm68QXaKlkgzb-8" name="Page-1">
-    <mxGraphModel dx="3252" dy="1588" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2701" dy="1059" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -115,38 +115,31 @@
         <mxCell id="Xs8UQ6cBIhTteWRhh0SS-41" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="690" y="860" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-228" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="TA9cXW273BF9sfZA5clH-1" target="TA9cXW273BF9sfZA5clH-224">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-233" y="1044" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-6" value="分页获取已读/未读的消息列表" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="669" y="1044" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TA9cXW273BF9sfZA5clH-17" target="TA9cXW273BF9sfZA5clH-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-17" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-101" y="1438" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TA9cXW273BF9sfZA5clH-19">
+        <mxCell id="TA9cXW273BF9sfZA5clH-228" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="TA9cXW273BF9sfZA5clH-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="424" y="1468" as="targetPoint" />
+            <mxPoint x="-189" y="1084" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-19" value="&lt;span&gt;查询校验&lt;/span&gt;&lt;br&gt;&lt;span&gt;该企业下对应部门的某条异常消息&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="217" y="1438" width="120" height="60" as="geometry" />
+        <mxCell id="TA9cXW273BF9sfZA5clH-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-533" y="1053" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-273" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="TA9cXW273BF9sfZA5clH-6" target="TA9cXW273BF9sfZA5clH-267">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-6" value="分页获取部门所对应已读/未读的消息列表" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="275" y="1044" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TA9cXW273BF9sfZA5clH-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="743" y="1462" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-17" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="1432" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TA9cXW273BF9sfZA5clH-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TA9cXW273BF9sfZA5clH-21">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1225" y="1462" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="729" y="1963" as="targetPoint" />
-            <mxPoint x="729" y="1897" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TA9cXW273BF9sfZA5clH-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TA9cXW273BF9sfZA5clH-21">
@@ -169,48 +162,34 @@
         <mxCell id="TA9cXW273BF9sfZA5clH-27" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1231" y="1434" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-29" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="672" y="1973" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-31" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="735" y="1918" width="22" height="18" as="geometry" />
-        </mxCell>
         <mxCell id="TA9cXW273BF9sfZA5clH-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TA9cXW273BF9sfZA5clH-35">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-43" y="1871" as="targetPoint" />
+            <mxPoint x="-87" y="1649" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TA9cXW273BF9sfZA5clH-35" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-305" y="1841" width="120" height="60" as="geometry" />
+          <mxGeometry x="-349" y="1619" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TA9cXW273BF9sfZA5clH-247" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="TA9cXW273BF9sfZA5clH-36">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="193.66666666666652" y="1864" as="targetPoint" />
+            <mxPoint x="154" y="1642" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="81" y="1642" />
+              <mxPoint x="81" y="1642" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-36" value="&lt;span&gt;查询校验&lt;/span&gt;&lt;br&gt;&lt;span&gt;该企业下对应部门的所有已读异常消息&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-25" y="1834" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TA9cXW273BF9sfZA5clH-42" target="TA9cXW273BF9sfZA5clH-44">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-42" value="批量逻辑删除消息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="453" y="1827" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-44" value="判断消息是否删除成功" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="644" y="1817" width="170" height="80" as="geometry" />
+        <mxCell id="TA9cXW273BF9sfZA5clH-36" value="查询操作员具有操作权限的部门idList" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-69" y="1616" width="120" height="56" as="geometry" />
         </mxCell>
         <mxCell id="TA9cXW273BF9sfZA5clH-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="922" y="1857" as="targetPoint" />
-            <mxPoint x="814" y="1857" as="sourcePoint" />
+            <mxPoint x="662" y="1636" as="targetPoint" />
+            <mxPoint x="554" y="1636" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-46" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="855" y="1839" width="22" height="18" as="geometry" />
-        </mxCell>
         <mxCell id="TA9cXW273BF9sfZA5clH-47" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="923" y="1827" width="120" height="60" as="geometry" />
+          <mxGeometry x="663" y="1606" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TA9cXW273BF9sfZA5clH-50" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="975" y="1606" width="120" height="60" as="geometry" />
@@ -651,103 +630,14 @@
         <mxCell id="TA9cXW273BF9sfZA5clH-218" value="构建返回业务类型列表和顺序" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="261" y="4372" width="166" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-221" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="133" y="4936" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-254" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="TA9cXW273BF9sfZA5clH-224">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="352.3333333333335" y="1074" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-224" value="查询校验&lt;br&gt;该企业下对应部门的所有已读/未读异常消息" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="130" y="1044" width="139" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="TA9cXW273BF9sfZA5clH-226" value="&lt;span&gt;根据customer_id、dept_id、viewed&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-94" y="1046" width="200" height="18" as="geometry" />
+          <mxGeometry x="-400" y="1059" width="200" height="18" as="geometry" />
         </mxCell>
         <mxCell id="TA9cXW273BF9sfZA5clH-229" value="&lt;span&gt;根据customer_id、dept_id、id&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="22" y="1438" width="172" height="18" as="geometry" />
-        </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-231" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="TA9cXW273BF9sfZA5clH-230">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="736" y="1468" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-230" value="判断该消息是否存在" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="428" y="1428" width="170" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-232" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="631" y="1435" width="22" height="18" as="geometry" />
-        </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-233" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="513" y="1612" as="targetPoint" />
-            <mxPoint x="513" y="1508" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="513" y="1585" />
-              <mxPoint x="513" y="1585" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-234" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="456" y="1612" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-235" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="514" y="1542" width="22" height="18" as="geometry" />
+          <mxGeometry x="548" y="1432" width="172" height="18" as="geometry" />
         </mxCell>
         <mxCell id="TA9cXW273BF9sfZA5clH-236" value="&lt;span&gt;根据customer_id、dept_id&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-181" y="1847" width="151" height="18" as="geometry" />
-        </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-246" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="TA9cXW273BF9sfZA5clH-240">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="444.3333333333335" y="1864" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-240" value="判断该消息是否存在" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="197" y="1824" width="170" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-241" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="400" y="1831" width="22" height="18" as="geometry" />
-        </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-242" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="282" y="2008" as="targetPoint" />
-            <mxPoint x="282" y="1904" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="282" y="1981" />
-              <mxPoint x="282" y="1981" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-243" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="225" y="2008" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-244" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="283" y="1938" width="22" height="18" as="geometry" />
-        </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-248" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="TA9cXW273BF9sfZA5clH-249">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="663" y="1074" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-249" value="判断该消息是否存在" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="355" y="1034" width="170" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-251" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="440" y="1218" as="targetPoint" />
-            <mxPoint x="440" y="1114" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="440" y="1191" />
-              <mxPoint x="440" y="1191" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-252" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="383" y="1218" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="TA9cXW273BF9sfZA5clH-253" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="441" y="1148" width="22" height="18" as="geometry" />
+          <mxGeometry x="-225" y="1625" width="151" height="18" as="geometry" />
         </mxCell>
         <mxCell id="TA9cXW273BF9sfZA5clH-257" value="添加到hc_business_exception表" style="whiteSpace=wrap;html=1;fontColor=#000000;shadow=0;labelBackgroundColor=none;labelBorderColor=none;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="2353" y="3244.25" width="204" height="62.25" as="geometry" />
@@ -759,6 +649,43 @@
         </mxCell>
         <mxCell id="TA9cXW273BF9sfZA5clH-259" value="&lt;span style=&quot;color: rgb(40 , 44 , 52) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , sans-serif ; font-size: 18px ; text-align: justify ; word-spacing: 0.9px ; background-color: rgb(254 , 254 , 254)&quot;&gt;筛选支持单户的地区的异常记录&lt;/span&gt;" style="whiteSpace=wrap;fontColor=#000000;rounded=0;shadow=0;labelBackgroundColor=none;labelBorderColor=none;gradientColor=none;html=1;" vertex="1" parent="1">
           <mxGeometry x="1470" y="3248.5" width="141" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-272" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="TA9cXW273BF9sfZA5clH-261">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="269.6666666666665" y="1078" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-261" value="查询操作员具有操作权限的部门idList" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-177" y="1048" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-264" value="根据消息状态、部门idList" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="77" y="1062" width="146" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-267" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="563" y="1044" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-278" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="TA9cXW273BF9sfZA5clH-276" target="TA9cXW273BF9sfZA5clH-277">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-281" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="TA9cXW273BF9sfZA5clH-276">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="248" y="1772" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-276" value="获取多部门下已读消息&lt;br&gt;是否存在" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="163" y="1602" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-277" value="&lt;span&gt;根据MessageIdList批量逻辑删除消息&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="438" y="1612" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-279" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="345" y="1611" width="22" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-282" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="264" y="1714" width="22" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="TA9cXW273BF9sfZA5clH-283" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="177" y="1772" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
