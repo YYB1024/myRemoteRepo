@@ -1,1 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2022-05-06T02:24:45.330Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" version="17.4.3" etag="1QFy0ag08Em1RKgEIU0O" type="github"><diagram id="j9MuaicbtG-JgOerGM_5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-06T03:41:53.954Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="Q8lfcd3SU2JPkABexzdo" version="17.4.3" type="github">
+  <diagram id="j9MuaicbtG-JgOerGM_5" name="第 1 页">
+    <mxGraphModel dx="1886" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_SVAvqNJjMuJKBqELLrA-1" value="hrsscore" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="160" width="110" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="_SVAvqNJjMuJKBqELLrA-2" value="社保中台" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="130" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_SVAvqNJjMuJKBqELLrA-3" value="hrspscore" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="344" y="150" width="100" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="_SVAvqNJjMuJKBqELLrA-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="_SVAvqNJjMuJKBqELLrA-3">
+          <mxGeometry x="45" y="70" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_SVAvqNJjMuJKBqELLrA-4" value="社保底层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="120" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_SVAvqNJjMuJKBqELLrA-5" value="hspsgateway" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="150" width="100" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="_SVAvqNJjMuJKBqELLrA-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="_SVAvqNJjMuJKBqELLrA-5">
+          <mxGeometry x="50" y="100" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_SVAvqNJjMuJKBqELLrA-6" value="daqcore" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="150" width="100" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="_SVAvqNJjMuJKBqELLrA-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="_SVAvqNJjMuJKBqELLrA-6">
+          <mxGeometry x="45" y="110" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_SVAvqNJjMuJKBqELLrA-7" value="客户端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="845" y="120" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_SVAvqNJjMuJKBqELLrA-8" value="iitpie" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="150" width="100" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="_SVAvqNJjMuJKBqELLrA-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="_SVAvqNJjMuJKBqELLrA-8">
+          <mxGeometry x="45" y="260" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_SVAvqNJjMuJKBqELLrA-12" value="将任务拆分为任务明细异步发起下载请求" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=1;exitY=0.125;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="_SVAvqNJjMuJKBqELLrA-11" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_SVAvqNJjMuJKBqELLrA-17" value="发起人员花名册下载任务" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="_SVAvqNJjMuJKBqELLrA-16" parent="1" source="_SVAvqNJjMuJKBqELLrA-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="319" y="220" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_SVAvqNJjMuJKBqELLrA-18" value="return&amp;nbsp; &amp;nbsp; taskNumber" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="_SVAvqNJjMuJKBqELLrA-16" parent="1" target="_SVAvqNJjMuJKBqELLrA-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="319" y="296" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_SVAvqNJjMuJKBqELLrA-21" value="循环调用客户客户端进行任务提交" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=1.2;exitY=0.138;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="_SVAvqNJjMuJKBqELLrA-20" parent="1" source="_SVAvqNJjMuJKBqELLrA-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="775" y="260" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_SVAvqNJjMuJKBqELLrA-22" value="return&amp;nbsp; ossUrl(人员户名册下载路径MQ方式)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="_SVAvqNJjMuJKBqELLrA-20" parent="1" target="_SVAvqNJjMuJKBqELLrA-3">
+          <mxGeometry x="0.2513" y="-4" relative="1" as="geometry">
+            <mxPoint x="795" y="336" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_SVAvqNJjMuJKBqELLrA-25" value="模板解析公共服务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="120" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_SVAvqNJjMuJKBqELLrA-27" value="" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="_SVAvqNJjMuJKBqELLrA-26" parent="1" source="_SVAvqNJjMuJKBqELLrA-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="995" y="410" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_SVAvqNJjMuJKBqELLrA-29" value="处理消息，通知iitpie解析Excel文件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="390" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_SVAvqNJjMuJKBqELLrA-28" value="通过模板解析文件将结果落入本地库，更新任务状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="_SVAvqNJjMuJKBqELLrA-26" parent="1" target="_SVAvqNJjMuJKBqELLrA-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="995" y="486" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
