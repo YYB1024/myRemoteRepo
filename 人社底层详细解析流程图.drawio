@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-19T09:37:05.845Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="9PJDVGkHidMaAX4AbfY1" version="18.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-19T12:22:03.272Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="34ZuA5U7q5E8H7sO0vq1" version="18.0.7" type="github">
   <diagram id="KAGCioQWqWzpXH6GW-4u" name="第 1 页">
     <mxGraphModel dx="1886" dy="850" grid="1" gridSize="6" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -258,11 +258,31 @@
             <mxGeometry x="1137.5" y="686" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="Zt5XqulkagOn3WWmMyJd-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF3333;" edge="1" parent="1" source="Zt5XqulkagOn3WWmMyJd-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="192" y="822" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1398" y="792" />
+              <mxPoint x="192" y="792" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <UserObject label="10、Hspsgateway Facade客户端" tooltip="cn.com.servyou.hspsgateway.facade.v2.employee.HgInsuranceRegisterV2Facade#send" id="Zt5XqulkagOn3WWmMyJd-27">
           <mxCell style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
             <mxGeometry x="1337.5" y="686" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="Zt5XqulkagOn3WWmMyJd-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="Zt5XqulkagOn3WWmMyJd-31" target="Zt5XqulkagOn3WWmMyJd-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;font color=&quot;#000000&quot;&gt;1、处理请求（通用）&lt;/font&gt;" tooltip="cn.com.servyou.hspsgateway.facadeimpl.v2.RequestV2Template#doRequest" id="Zt5XqulkagOn3WWmMyJd-31">
+          <mxCell style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+            <mxGeometry x="129" y="828" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Zt5XqulkagOn3WWmMyJd-32" value="&lt;font color=&quot;#000000&quot;&gt;2、根据websiteCode和ClientBusinessCode获取对应的报文实现类&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="329" y="828" width="163" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
