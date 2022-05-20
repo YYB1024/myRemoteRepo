@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-20T05:40:12.360Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="ToZ9CdC7cFmFK1fufBQD" version="18.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-20T06:05:26.507Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="DkiZMeocQj6zNCTigG2u" version="18.0.7" type="github">
   <diagram id="KAGCioQWqWzpXH6GW-4u" name="第 1 页">
     <mxGraphModel dx="1886" dy="850" grid="1" gridSize="6" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -304,7 +304,7 @@
         <mxCell id="y-Ov5CjwgG_3xpqOnm8k-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="y-Ov5CjwgG_3xpqOnm8k-5" target="y-Ov5CjwgG_3xpqOnm8k-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <UserObject label="&lt;font color=&quot;#000000&quot;&gt;1、3、1、组装公共参数&lt;/font&gt;" tooltip="cn.com.servyou.hspsgateway.datagram.v2.AbstractDatagramService#generateTaskParam&#xa;&#xa;1、查询人社网厅密码&#xa;cn.com.servyou.hspsgateway.integration.hrcustomer.password.HrssPasswordFacadeClient#queryByInsuranceCategory&#xa;&#xa;错误提示：&quot;登录信息不完整，请上传登录信息&quot;&#xa;" id="y-Ov5CjwgG_3xpqOnm8k-5">
+        <UserObject label="&lt;font color=&quot;#000000&quot;&gt;1、3、1、组装公共参数&lt;br&gt;DatagramCommonInfo&amp;lt;T&amp;gt; commonInfo&lt;br&gt;&lt;/font&gt;" tooltip="cn.com.servyou.hspsgateway.datagram.v2.AbstractDatagramService#generateTaskParam&#xa;&#xa;1、查询人社网厅密码&#xa;cn.com.servyou.hspsgateway.integration.hrcustomer.password.HrssPasswordFacadeClient#queryByInsuranceCategory&#xa;&#xa;错误提示：&quot;登录信息不完整，请上传登录信息&quot;&#xa;" id="y-Ov5CjwgG_3xpqOnm8k-5">
           <mxCell style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;fillColor=default;" vertex="1" parent="1">
             <mxGeometry x="827" y="828" width="151" height="60" as="geometry" />
           </mxCell>
@@ -312,7 +312,7 @@
         <mxCell id="y-Ov5CjwgG_3xpqOnm8k-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="y-Ov5CjwgG_3xpqOnm8k-9" target="y-Ov5CjwgG_3xpqOnm8k-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <UserObject label="&lt;font color=&quot;#000000&quot;&gt;1、3、2、组装任意参数&lt;/font&gt;" tooltip="cn.com.servyou.hspsgateway.datagram.v2.AbstractDatagramService#doGenerateTaskParam&#xa;&#xa;1、获取转换数据&#xa;cn.com.servyou.hspsgateway.core.v2.send.impl.TransformSenderServicelmpl#send&#xa;注：这个就是我们在运营平台配的入参转换（将我们的入参转换为daqcore对应的入参）&#xa;&#xa;错误提示：&quot;通过hrparam进行转换失败&quot;&#xa;" id="y-Ov5CjwgG_3xpqOnm8k-9">
+        <UserObject label="&lt;font color=&quot;#000000&quot;&gt;1、3、2、组装任意参数&lt;br&gt;transformedJsonObjList&lt;br&gt;&lt;/font&gt;" tooltip="cn.com.servyou.hspsgateway.datagram.v2.AbstractDatagramService#doGenerateTaskParam&#xa;&#xa;1、获取转换数据&#xa;cn.com.servyou.hspsgateway.core.v2.send.impl.TransformSenderServicelmpl#send&#xa;注：这个就是我们在运营平台配的入参转换（将我们的入参转换为daqcore对应的入参）&#xa;&#xa;错误提示：&quot;通过hrparam进行转换失败&quot;&#xa;&#xa;2、构建公共信息BaseJson&#xa;注：里面会获取mock消息的redisKey(setTestKey)&#xa;cn.com.servyou.hspsgateway.datagram.v2.AbstractDatagramService#redisMock&#xa;&#xa;所以在redis中设置业务相应的key和value&#xa;" id="y-Ov5CjwgG_3xpqOnm8k-9">
           <mxCell style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;fillColor=default;" vertex="1" parent="1">
             <mxGeometry x="1058" y="828" width="151" height="60" as="geometry" />
           </mxCell>
@@ -330,33 +330,32 @@
             <mxGeometry x="1535.5" y="828" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="y-Ov5CjwgG_3xpqOnm8k-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="y-Ov5CjwgG_3xpqOnm8k-16" target="y-Ov5CjwgG_3xpqOnm8k-18">
+        <mxCell id="y-Ov5CjwgG_3xpqOnm8k-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="y-Ov5CjwgG_3xpqOnm8k-16">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1440" y="990" as="targetPoint" />
-            <Array as="points" />
+            <mxPoint x="432" y="990" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="y-Ov5CjwgG_3xpqOnm8k-16" value="当客户端把任务提交到成功到网厅则进行MQ消息" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;fillColor=#FFFFFF;labelBorderColor=none;labelBackgroundColor=none;strokeColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="1534" y="960" width="120" height="60" as="geometry" />
+          <mxGeometry x="129" y="960" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y-Ov5CjwgG_3xpqOnm8k-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="y-Ov5CjwgG_3xpqOnm8k-18" target="y-Ov5CjwgG_3xpqOnm8k-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="MQ 处理消息" tooltip="cn.com.servyou.hspscore.msg.businesstask.consumer.BusinessTaskConsumer#handleMessage" id="y-Ov5CjwgG_3xpqOnm8k-18">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="1193" y="960" width="120" height="60" as="geometry" />
+            <mxGeometry x="438" y="961" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="y-Ov5CjwgG_3xpqOnm8k-20" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;topic：&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;daqcore-topic-hsps&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1332" y="996" width="192" height="24" as="geometry" />
+          <mxGeometry x="246" y="997" width="192" height="24" as="geometry" />
         </mxCell>
         <UserObject label="message" tooltip="cn.com.servyou.hspscore.msg.businesstask.domain.BusinessTaskMessage" id="y-Ov5CjwgG_3xpqOnm8k-21">
           <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
-            <mxGeometry x="1355" y="958" width="66" height="24" as="geometry" />
+            <mxGeometry x="269" y="959" width="66" height="24" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="y-Ov5CjwgG_3xpqOnm8k-22" value="1、message参数校验及获取封装" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="993" y="960" width="120" height="60" as="geometry" />
+          <mxGeometry x="691" y="961" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
