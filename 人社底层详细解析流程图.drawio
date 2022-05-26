@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-25T11:21:07.825Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="NxHFW9ZVPcinteA3LWKM" version="18.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-26T02:47:47.705Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="EO8eWZNOHtCmLdlxCpmM" version="18.1.2" type="github">
   <diagram id="KAGCioQWqWzpXH6GW-4u" name="第 1 页">
     <mxGraphModel dx="1886" dy="850" grid="1" gridSize="6" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -325,7 +325,7 @@
             <mxGeometry x="1289" y="828" width="151" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="EMuF6rVyBxSH4P3E4sjV-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="y-Ov5CjwgG_3xpqOnm8k-13" target="y-Ov5CjwgG_3xpqOnm8k-16">
+        <mxCell id="EMuF6rVyBxSH4P3E4sjV-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="1" source="y-Ov5CjwgG_3xpqOnm8k-13" target="y-Ov5CjwgG_3xpqOnm8k-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1596" y="912" />
@@ -362,7 +362,7 @@
             <mxGeometry x="269" y="959" width="66" height="24" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="EMuF6rVyBxSH4P3E4sjV-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y-Ov5CjwgG_3xpqOnm8k-22" target="EMuF6rVyBxSH4P3E4sjV-1">
+        <mxCell id="EMuF6rVyBxSH4P3E4sjV-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y-Ov5CjwgG_3xpqOnm8k-22" target="EMuF6rVyBxSH4P3E4sjV-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="1、message参数校验及通过path从OSS获取消息的具体数据内容" tooltip="cn.com.servyou.hspscore.msg.businesstask.consumer.BusinessTaskConsumer#preDownloadDataAndParamList" id="y-Ov5CjwgG_3xpqOnm8k-22">
@@ -370,29 +370,29 @@
             <mxGeometry x="648" y="961" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="EMuF6rVyBxSH4P3E4sjV-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EMuF6rVyBxSH4P3E4sjV-1" target="EMuF6rVyBxSH4P3E4sjV-3">
+        <mxCell id="EMuF6rVyBxSH4P3E4sjV-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EMuF6rVyBxSH4P3E4sjV-1" target="EMuF6rVyBxSH4P3E4sjV-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="2、任务处理器，通过websiteCode和ActionCode路由策略选择实现类" tooltip="cn.com.servyou.hspscore.msg.businesstask.factory.BusinessTaskProcessingV2HandlerFactory#getBusinessTaskV2Handler&#xa;&#xa;策略工厂模式：通过实现类上的注解路由到具体策略&#xa;注：不同的新业务要添加新的实现类加入到工厂里面&#xa;否则会报处理器为空" id="EMuF6rVyBxSH4P3E4sjV-1">
-          <mxCell style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
             <mxGeometry x="848" y="961" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="EMuF6rVyBxSH4P3E4sjV-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EMuF6rVyBxSH4P3E4sjV-3" target="EMuF6rVyBxSH4P3E4sjV-5">
+        <mxCell id="EMuF6rVyBxSH4P3E4sjV-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EMuF6rVyBxSH4P3E4sjV-3" target="EMuF6rVyBxSH4P3E4sjV-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="3、路由到具体的实现来处理MQ返回的消息" tooltip="cn.com.servyou.hspscore.msg.businesstask.handler.v2.processing.BusinessTaskProcessingV2Handler#handleBusinessTaskMessage" id="EMuF6rVyBxSH4P3E4sjV-3">
-          <mxCell style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
             <mxGeometry x="1048" y="961" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="EMuF6rVyBxSH4P3E4sjV-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EMuF6rVyBxSH4P3E4sjV-5" target="EMuF6rVyBxSH4P3E4sjV-8">
+        <mxCell id="EMuF6rVyBxSH4P3E4sjV-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EMuF6rVyBxSH4P3E4sjV-5" target="EMuF6rVyBxSH4P3E4sjV-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EMuF6rVyBxSH4P3E4sjV-5" value="3、1获取任务明细、获取没有完成的任务明细" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="EMuF6rVyBxSH4P3E4sjV-5" value="3、1获取任务明细、获取没有完成的任务明细" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1248" y="961" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EMuF6rVyBxSH4P3E4sjV-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="EMuF6rVyBxSH4P3E4sjV-8" target="EMuF6rVyBxSH4P3E4sjV-11">
+        <mxCell id="EMuF6rVyBxSH4P3E4sjV-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" parent="1" source="EMuF6rVyBxSH4P3E4sjV-8" target="EMuF6rVyBxSH4P3E4sjV-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1602" y="991" />
@@ -400,78 +400,78 @@
           </mxGeometry>
         </mxCell>
         <UserObject label="3、2 处理任务状态" tooltip="申报实现类：&#xa;cn.com.servyou.hspscore.msg.businesstask.handler.v2.processing.impl.submit.AbstractInsuranceSubmitService#determineTaskDetailStatus&#xa;&#xa;1、code !=0 或者 message != success 时直接返回&#xa;&#xa;&#xa;&#xa;" id="EMuF6rVyBxSH4P3E4sjV-8">
-          <mxCell style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
             <mxGeometry x="1448" y="961" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="EMuF6rVyBxSH4P3E4sjV-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="EMuF6rVyBxSH4P3E4sjV-11" target="EMuF6rVyBxSH4P3E4sjV-13">
+        <mxCell id="EMuF6rVyBxSH4P3E4sjV-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" parent="1" source="EMuF6rVyBxSH4P3E4sjV-11" target="EMuF6rVyBxSH4P3E4sjV-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="3、2、1&lt;span style=&quot;background-color: initial;&quot;&gt;、 获取字典映射&lt;br&gt;&lt;/span&gt;" tooltip="cn.com.servyou.hspscore.msg.businesstask.handler.v2.processing.AbstractBusinessTaskProcessingV2HandlerService#buildDictConfigMap&#xa;注：需要根据客户端返回的业务处理code，与我们的任务code形成映射，所有在做设计的时要配置字典表的数据" id="EMuF6rVyBxSH4P3E4sjV-11">
-          <mxCell style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
             <mxGeometry x="1524" y="1098" width="118" height="61" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="EMuF6rVyBxSH4P3E4sjV-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="EMuF6rVyBxSH4P3E4sjV-13" target="EMuF6rVyBxSH4P3E4sjV-17">
+        <mxCell id="EMuF6rVyBxSH4P3E4sjV-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" parent="1" source="EMuF6rVyBxSH4P3E4sjV-13" target="EMuF6rVyBxSH4P3E4sjV-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EMuF6rVyBxSH4P3E4sjV-13" value="3、2、3 解析message.data(内容是以人维度的)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="EMuF6rVyBxSH4P3E4sjV-13" value="3、2、3 解析message.data(内容是以人维度的)" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1319" y="1099" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EMuF6rVyBxSH4P3E4sjV-16" value="code ！0 时：处理失败消息&lt;br&gt;processState：04 提交失败&lt;br&gt;submitState: 03 提交已反馈" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="EMuF6rVyBxSH4P3E4sjV-16" value="code ！0 时：处理失败消息&lt;br&gt;processState：04 提交失败&lt;br&gt;submitState: 03 提交已反馈" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="1492" y="912" width="162" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="EMuF6rVyBxSH4P3E4sjV-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="EMuF6rVyBxSH4P3E4sjV-17" target="EMuF6rVyBxSH4P3E4sjV-21">
+        <mxCell id="EMuF6rVyBxSH4P3E4sjV-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" parent="1" source="EMuF6rVyBxSH4P3E4sjV-17" target="EMuF6rVyBxSH4P3E4sjV-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EMuF6rVyBxSH4P3E4sjV-17" value="3、2、3 设置反馈消息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="EMuF6rVyBxSH4P3E4sjV-17" value="3、2、3 设置反馈消息" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1119" y="1098.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EMuF6rVyBxSH4P3E4sjV-19" value="Task 总任务&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="EMuF6rVyBxSH4P3E4sjV-19" value="Task 总任务&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="1145.5" y="1054" width="78" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="EMuF6rVyBxSH4P3E4sjV-20" value="submitState: 03 已反馈" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="EMuF6rVyBxSH4P3E4sjV-20" value="submitState: 03 已反馈" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="1115.5" y="1072" width="138" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="EMuF6rVyBxSH4P3E4sjV-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="EMuF6rVyBxSH4P3E4sjV-21" target="EMuF6rVyBxSH4P3E4sjV-23">
+        <mxCell id="EMuF6rVyBxSH4P3E4sjV-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" parent="1" source="EMuF6rVyBxSH4P3E4sjV-21" target="EMuF6rVyBxSH4P3E4sjV-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="3、2、4 将原始消息data的status映射为我们定义状态，以及险种类型的映射（按人维度）" tooltip="cn.com.servyou.hspscore.msg.businesstask.handler.v2.processing.impl.submit.AbstractInsuranceSubmitService#mappingProcessStateAndInsuranceType" id="EMuF6rVyBxSH4P3E4sjV-21">
-          <mxCell style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
             <mxGeometry x="858" y="1098" width="181" height="60.5" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="EMuF6rVyBxSH4P3E4sjV-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="EMuF6rVyBxSH4P3E4sjV-23" target="EMuF6rVyBxSH4P3E4sjV-27">
+        <mxCell id="EMuF6rVyBxSH4P3E4sjV-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" parent="1" source="EMuF6rVyBxSH4P3E4sjV-23" target="EMuF6rVyBxSH4P3E4sjV-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EMuF6rVyBxSH4P3E4sjV-23" value="3、2、5 处理任务明细状态" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="EMuF6rVyBxSH4P3E4sjV-23" value="3、2、5 处理任务明细状态" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="627.5" y="1098.25" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EMuF6rVyBxSH4P3E4sjV-25" value="提交成功时映射我们的status:03&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="EMuF6rVyBxSH4P3E4sjV-25" value="提交成功时映射我们的status:03&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="852" y="1062" width="186" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="EMuF6rVyBxSH4P3E4sjV-26" value="当消息data中的status 为03时&lt;br&gt;processState：07 审核成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="EMuF6rVyBxSH4P3E4sjV-26" value="当消息data中的status 为03时&lt;br&gt;processState：07 审核成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="600.5" y="1054" width="174" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="EMuF6rVyBxSH4P3E4sjV-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="EMuF6rVyBxSH4P3E4sjV-27" target="EMuF6rVyBxSH4P3E4sjV-29">
+        <mxCell id="EMuF6rVyBxSH4P3E4sjV-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" parent="1" source="EMuF6rVyBxSH4P3E4sjV-27" target="EMuF6rVyBxSH4P3E4sjV-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EMuF6rVyBxSH4P3E4sjV-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="EMuF6rVyBxSH4P3E4sjV-27" target="EMuF6rVyBxSH4P3E4sjV-32">
+        <mxCell id="EMuF6rVyBxSH4P3E4sjV-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" parent="1" source="EMuF6rVyBxSH4P3E4sjV-27" target="EMuF6rVyBxSH4P3E4sjV-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EMuF6rVyBxSH4P3E4sjV-27" value="任务明细是否需要审核&lt;br&gt;（发起TLS）" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="EMuF6rVyBxSH4P3E4sjV-27" value="任务明细是否需要审核&lt;br&gt;（发起TLS）" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="384" y="1086" width="149.5" height="83.38" as="geometry" />
         </mxCell>
-        <mxCell id="EMuF6rVyBxSH4P3E4sjV-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="EMuF6rVyBxSH4P3E4sjV-29" target="EMuF6rVyBxSH4P3E4sjV-38">
+        <mxCell id="EMuF6rVyBxSH4P3E4sjV-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" parent="1" source="EMuF6rVyBxSH4P3E4sjV-29" target="EMuF6rVyBxSH4P3E4sjV-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EMuF6rVyBxSH4P3E4sjV-29" value="3、2、6审核后置处理" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="EMuF6rVyBxSH4P3E4sjV-29" value="3、2、6审核后置处理" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="398.75" y="1248.0000000000002" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EMuF6rVyBxSH4P3E4sjV-31" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="EMuF6rVyBxSH4P3E4sjV-31" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="408" y="1198" width="30" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="EMuF6rVyBxSH4P3E4sjV-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#FF3333;" edge="1" parent="1" source="EMuF6rVyBxSH4P3E4sjV-32" target="EMuF6rVyBxSH4P3E4sjV-38">
+        <mxCell id="EMuF6rVyBxSH4P3E4sjV-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#FF3333;" parent="1" source="EMuF6rVyBxSH4P3E4sjV-32" target="EMuF6rVyBxSH4P3E4sjV-38" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="240" y="1328" />
@@ -480,34 +480,112 @@
           </mxGeometry>
         </mxCell>
         <UserObject label="3、2、6 构建FeedBack" tooltip="cn.com.servyou.hspscore.msg.businesstask.handler.v2.processing.impl.submit.PaymentRadixAdjustmentServiceImpl#fillFeedbackData" id="EMuF6rVyBxSH4P3E4sjV-32">
-          <mxCell style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
             <mxGeometry x="198" y="1098.5" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="EMuF6rVyBxSH4P3E4sjV-34" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="EMuF6rVyBxSH4P3E4sjV-34" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="335" y="1099" width="30" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="EMuF6rVyBxSH4P3E4sjV-35" value="当processState：07 审核成功 时&lt;br&gt;初始LTS任务明细状态&lt;br&gt;processState：05 未审核&lt;br&gt;submitState: 01 未提交" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="EMuF6rVyBxSH4P3E4sjV-35" value="当processState：07 审核成功 时&lt;br&gt;初始LTS任务明细状态&lt;br&gt;processState：05 未审核&lt;br&gt;submitState: 01 未提交" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="456" y="1182" width="192" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="EMuF6rVyBxSH4P3E4sjV-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="EMuF6rVyBxSH4P3E4sjV-38" target="EMuF6rVyBxSH4P3E4sjV-40">
+        <mxCell id="EMuF6rVyBxSH4P3E4sjV-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" parent="1" source="EMuF6rVyBxSH4P3E4sjV-38" target="EMuF6rVyBxSH4P3E4sjV-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="3、3 父节点任务处理、主任务状态处理" tooltip="cn.com.servyou.hspscore.service.calculate.BusinessTaskStateCalculateService#calculateProcessBusinessTaskResult" id="EMuF6rVyBxSH4P3E4sjV-38">
-          <mxCell style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
             <mxGeometry x="598.75" y="1248.0000000000002" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="EMuF6rVyBxSH4P3E4sjV-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="EMuF6rVyBxSH4P3E4sjV-40" target="EMuF6rVyBxSH4P3E4sjV-42">
+        <mxCell id="EMuF6rVyBxSH4P3E4sjV-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" parent="1" source="EMuF6rVyBxSH4P3E4sjV-40" target="EMuF6rVyBxSH4P3E4sjV-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="3、4 更新任务状态，以及后续处理（定时任务、iitpie发送消息）" tooltip="cn.com.servyou.hspscore.msg.businesstask.handler.v2.processing.AbstractBusinessTaskProcessingV2HandlerService#processTaskAndSaveOtherData" id="EMuF6rVyBxSH4P3E4sjV-40">
-          <mxCell style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
             <mxGeometry x="798.75" y="1248" width="179.25" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="EMuF6rVyBxSH4P3E4sjV-42" value="3、4、1 更新任务状态" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1087.63" y="1248" width="130.38" height="60" as="geometry" />
+        <mxCell id="D7xSKiztRIIB3b_VqOiO-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EMuF6rVyBxSH4P3E4sjV-42" target="D7xSKiztRIIB3b_VqOiO-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="3、4、1 更新汇总任务和明细任务状态并异步重算" tooltip="cn.com.servyou.hspscore.service.calculate.impl.BusinessTaskStateCalculateServiceImpl#processBusinessTaskData&#xa;&#xa;&#xa;2、发消息异步计算状态&#xa;cn.com.servyou.hspscore.shared.message.OverallProducer#sendCalculateBusinessTaskMessage&#xa;" id="EMuF6rVyBxSH4P3E4sjV-42">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+            <mxGeometry x="1087.63" y="1248" width="130.38" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="D7xSKiztRIIB3b_VqOiO-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7xSKiztRIIB3b_VqOiO-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1578" y="1338" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="3、4、2 后续的业务处理操作" tooltip="cn.com.servyou.hspscore.msg.businesstask.handler.v2.processing.AbstractBusinessTaskProcessingV2HandlerService#doHandleBusinessLogic&#xa;&#xa;&#xa;" id="D7xSKiztRIIB3b_VqOiO-1">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+            <mxGeometry x="1303.2000000000003" y="1248" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="D7xSKiztRIIB3b_VqOiO-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="D7xSKiztRIIB3b_VqOiO-5" target="D7xSKiztRIIB3b_VqOiO-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D7xSKiztRIIB3b_VqOiO-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7xSKiztRIIB3b_VqOiO-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1573" y="1494" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D7xSKiztRIIB3b_VqOiO-5" value="是否存在需要审核&lt;br&gt;且未审核的业务" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1504" y="1338" width="138" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="D7xSKiztRIIB3b_VqOiO-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7xSKiztRIIB3b_VqOiO-7" target="D7xSKiztRIIB3b_VqOiO-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="不需要审核的业务，发起父节点第二步" tooltip="cn.com.servyou.hspscore.service.calculate.BusinessTaskStateCalculateService#processSubmitAsyncHandler" id="D7xSKiztRIIB3b_VqOiO-7">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="1518" y="1494" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="D7xSKiztRIIB3b_VqOiO-9" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1463" y="1354" width="30" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="D7xSKiztRIIB3b_VqOiO-10" value="调用生成定时任务方法写入定时任务表里" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1299" y="1349" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D7xSKiztRIIB3b_VqOiO-12" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1577" y="1438" width="30" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="D7xSKiztRIIB3b_VqOiO-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7xSKiztRIIB3b_VqOiO-18" target="D7xSKiztRIIB3b_VqOiO-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D7xSKiztRIIB3b_VqOiO-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7xSKiztRIIB3b_VqOiO-18" target="dWjZnnxNej27H9L7fvb9-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1722" y="1636" />
+              <mxPoint x="1722" y="618" />
+              <mxPoint x="848" y="618" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D7xSKiztRIIB3b_VqOiO-18" value="明细是否存在&lt;br&gt;待提交的" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1518" y="1596" width="119" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D7xSKiztRIIB3b_VqOiO-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7xSKiztRIIB3b_VqOiO-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1152" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D7xSKiztRIIB3b_VqOiO-20" value="return" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1318.5" y="1606" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D7xSKiztRIIB3b_VqOiO-22" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1469" y="1612" width="30" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="D7xSKiztRIIB3b_VqOiO-24" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1655" y="1612" width="30" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="D7xSKiztRIIB3b_VqOiO-25" value="提交数据到客户端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1247" y="586" width="114" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="D7xSKiztRIIB3b_VqOiO-27" value="&lt;font color=&quot;#ff3333&quot;&gt;更新汇总表和任务明细表&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1077.8200000000002" y="1218" width="150" height="24" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
