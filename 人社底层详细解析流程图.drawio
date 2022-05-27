@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-27T09:52:12.277Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="G4TPceQcFdsAXTqcwMBv" version="18.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-27T09:58:49.881Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="uzPZUpsW4306Jz77tk6n" version="18.1.2" type="github">
   <diagram id="KAGCioQWqWzpXH6GW-4u" name="第 1 页">
     <mxGraphModel dx="1886" dy="850" grid="1" gridSize="6" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -743,7 +743,7 @@
         <mxCell id="t-vhy5mgJ4QahfhSQWCf-17" value="任务明细表：&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;processState：06&amp;nbsp; 审核中&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;submitState: 02 未反馈" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=#3399FF;" vertex="1" parent="1">
           <mxGeometry x="972.5" y="1807.5" width="246" height="54" as="geometry" />
         </mxCell>
-        <UserObject label="&lt;font color=&quot;#000000&quot;&gt;3、2 通过gateway调用ˇ&lt;/font&gt;&lt;font color=&quot;#ff3333&quot;&gt;业务反馈请求（Client）&lt;/font&gt;" tooltip="cn.com.servyou.hspscore.integration.hspsgateway.v2.feedback.impl.HgBusinessFeedbackFacadeV2ClientImpl#send&#xa;&#xa;当调用异常或调用失败是 更新LTS和任务明细&#xa;（ProcessState、SubmitState）&#xa;lts 改成01 05&#xa;&#xa;明细改成 02 06" id="t-vhy5mgJ4QahfhSQWCf-14">
+        <UserObject label="&lt;font color=&quot;#000000&quot;&gt;3、2 通过gateway调用ˇ&lt;/font&gt;&lt;font color=&quot;#ff3333&quot;&gt;业务反馈请求（Client）&lt;/font&gt;" tooltip="入参：构建网关需要的参数&#xa;注：actionCodeEnum &#xa;目前在业务business_code后加_FEEDBACK&#xa;&#xa;&#xa;cn.com.servyou.hspscore.integration.hspsgateway.v2.feedback.impl.HgBusinessFeedbackFacadeV2ClientImpl#send&#xa;&#xa;当调用异常或调用失败是 更新LTS和任务明细&#xa;（ProcessState、SubmitState）&#xa;lts 改成01 05&#xa;&#xa;明细改成 02 06" id="t-vhy5mgJ4QahfhSQWCf-14">
           <mxCell style="whiteSpace=wrap;html=1;strokeColor=#3399FF;fontColor=#3399FF;rounded=0;" vertex="1" parent="1">
             <mxGeometry x="1271" y="1746" width="120" height="60" as="geometry" />
           </mxCell>
