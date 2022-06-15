@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-15T06:14:40.905Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="uxPm2nB8ABoa3M7OZm0i" version="18.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-15T06:31:31.489Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="IlJiIgFDuu4d6ezYZQ62" version="18.2.0" type="github">
   <diagram id="WkIeDWe_TXK0vEZoTfMw" name="第 1 页">
     <mxGraphModel dx="1654" dy="788" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -100,23 +100,14 @@
         <mxCell id="4F7vRQ4BNf0SAxyivJxw-48" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="637" y="664" width="74" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="4F7vRQ4BNf0SAxyivJxw-49" value="B+Three索引：加间隙锁" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="123" y="619" width="140" height="18" as="geometry" />
-        </mxCell>
-        <mxCell id="4F7vRQ4BNf0SAxyivJxw-50" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=north;" vertex="1" parent="1">
-          <mxGeometry x="309" y="714" width="144" height="64" as="geometry" />
-        </mxCell>
-        <mxCell id="4F7vRQ4BNf0SAxyivJxw-51" value="（4,7）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="355.5" y="784.5" width="51" height="18" as="geometry" />
-        </mxCell>
-        <mxCell id="4F7vRQ4BNf0SAxyivJxw-52" value="������" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="367" y="723" width="22" height="18" as="geometry" />
+        <mxCell id="4F7vRQ4BNf0SAxyivJxw-49" value="B+Three索引：next-key Lock" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="619" width="166" height="18" as="geometry" />
         </mxCell>
         <mxCell id="4F7vRQ4BNf0SAxyivJxw-53" value="next-key Lock 索引区间划分为" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="135" y="797" width="171" height="18" as="geometry" />
+          <mxGeometry x="123" y="737" width="171" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="4F7vRQ4BNf0SAxyivJxw-54" value="（）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="139" y="822" width="512.5" height="71" as="geometry" />
+        <mxCell id="4F7vRQ4BNf0SAxyivJxw-54" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;（-∞，1]&amp;nbsp;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;(1,4]&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;font color=&quot;#ff3333&quot;&gt;(4,7]&amp;nbsp; &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;（7,10]&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(10,+∞&lt;/font&gt;]&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="153" y="769" width="512.5" height="71" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
