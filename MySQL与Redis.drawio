@@ -1,1 +1,105 @@
-<mxfile host="app.diagrams.net" modified="2022-06-17T06:39:14.322Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" version="18.2.0" etag="_7aBjKdq0wLCU6OW1WD4" type="github"><diagram id="mK71lWDayPxZplL-vtfp">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-17T08:02:21.140Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="H1-oM-RqQvUILviYLv8z" version="18.2.0" type="github">
+  <diagram id="mK71lWDayPxZplL-vtfp" name="第 1 页">
+    <mxGraphModel dx="1875" dy="893" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9QUyd_E1iKzosY33x_3T-3" value="MySQL与Redis缓存数据一致性问题&lt;br&gt;单机版解决方案：&lt;br&gt;1、当数据有更新时，先删除缓存，再更新MYSQL数据库&lt;br&gt;2、在做查询过程中，先去查询Redis缓存发现为null,再去查MySQL数据库，&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 将查询数据返回的同时同步到Redis中&lt;br&gt;&lt;br&gt;存在的问题：业务代码的侵入性强，当存在网络抖动时更新缓存失败导致数据不一致" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" width="610" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9QUyd_E1iKzosY33x_3T-4" value="分布式并发同步的场景：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="65" y="180" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9QUyd_E1iKzosY33x_3T-5" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="110" y="260" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9QUyd_E1iKzosY33x_3T-6" value="线程1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="100" y="240" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9QUyd_E1iKzosY33x_3T-7" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="110" y="390" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9QUyd_E1iKzosY33x_3T-8" value="线程2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="110" y="370" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9QUyd_E1iKzosY33x_3T-12" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="110" y="510" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9QUyd_E1iKzosY33x_3T-13" value="线程1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="110" y="490" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9QUyd_E1iKzosY33x_3T-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="9QUyd_E1iKzosY33x_3T-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9QUyd_E1iKzosY33x_3T-14" value="线程1先删除缓存" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="314" y="260" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9QUyd_E1iKzosY33x_3T-19" value="线程2：读取缓存为null，将db中的数据同步到Redis中" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="470" y="380" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9QUyd_E1iKzosY33x_3T-25" value="线程1：更新db数据库的数据" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="670" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9QUyd_E1iKzosY33x_3T-26" value="第一步" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="340" y="230" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9QUyd_E1iKzosY33x_3T-27" value="第二步" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="520" y="360" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9QUyd_E1iKzosY33x_3T-28" value="第三步" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="690" y="230" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9QUyd_E1iKzosY33x_3T-29" value="线程3：去查询Redis中的缓存数据为旧数据" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="570" y="510" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9QUyd_E1iKzosY33x_3T-30" value="第四步" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="623" y="482" width="58" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="9QUyd_E1iKzosY33x_3T-33" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="831" y="204" width="60" height="436" as="geometry" />
+        </mxCell>
+        <mxCell id="9QUyd_E1iKzosY33x_3T-34" value="延迟双删: 就是为了删除其他线程2同步到Redis中的旧数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="883" y="367" width="421" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="9QUyd_E1iKzosY33x_3T-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="9QUyd_E1iKzosY33x_3T-35" target="9QUyd_E1iKzosY33x_3T-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9QUyd_E1iKzosY33x_3T-35" value="线程1：更新db数据库的数据" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="928" y="257" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9QUyd_E1iKzosY33x_3T-36" value="&lt;font color=&quot;#ff3333&quot;&gt;延迟3s&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1058" y="257" width="59" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="9QUyd_E1iKzosY33x_3T-38" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="9QUyd_E1iKzosY33x_3T-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="839" y="302" as="sourcePoint" />
+            <mxPoint x="671" y="408" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9QUyd_E1iKzosY33x_3T-39" value="就是线程2执行时间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="643" y="337" width="147" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="9QUyd_E1iKzosY33x_3T-40" value="&lt;font color=&quot;#ff3333&quot;&gt;再删除Redis的Key&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1128" y="257" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9QUyd_E1iKzosY33x_3T-42" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="930" y="539" as="sourcePoint" />
+            <mxPoint x="1033" y="539" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9QUyd_E1iKzosY33x_3T-43" value="3S之后" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="944" y="513" width="62" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="9QUyd_E1iKzosY33x_3T-44" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;线程3：读取缓存为null，将db中的最新数据同步到Redis中&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1034" y="502" width="241" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="9QUyd_E1iKzosY33x_3T-45" value="缺点：在线程1更新完db时，延迟的时间比较难以控制，&lt;br&gt;不知道精确延迟多久才能删除Redis缓存。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="935" y="613" width="405" height="42" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
