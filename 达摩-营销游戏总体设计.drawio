@@ -1,1 +1,93 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T07:58:04.676Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.0.4" etag="aYd7yOfOX1xMvGYx_sFA" type="github"><diagram id="vsHyXsfyvYJJam6WC7lM">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-01T08:20:15.406Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="TdhGFTyT7bKApehOKTZn" version="20.0.4" type="github">
+  <diagram id="vsHyXsfyvYJJam6WC7lM" name="第 1 页">
+    <mxGraphModel dx="1886" dy="850" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SBLcVqACdcEobIl41uHO-1" value="GIC运维后台" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="380" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SBLcVqACdcEobIl41uHO-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SBLcVqACdcEobIl41uHO-2" target="SBLcVqACdcEobIl41uHO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SBLcVqACdcEobIl41uHO-21" value="营销计划" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SBLcVqACdcEobIl41uHO-6">
+          <mxGeometry x="0.0421" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBLcVqACdcEobIl41uHO-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SBLcVqACdcEobIl41uHO-2" target="SBLcVqACdcEobIl41uHO-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SBLcVqACdcEobIl41uHO-17" value="后台设置游戏盲盒玩法和配置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SBLcVqACdcEobIl41uHO-8">
+          <mxGeometry x="-0.025" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBLcVqACdcEobIl41uHO-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SBLcVqACdcEobIl41uHO-2" target="SBLcVqACdcEobIl41uHO-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SBLcVqACdcEobIl41uHO-23" value="基础配置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SBLcVqACdcEobIl41uHO-22">
+          <mxGeometry x="0.1097" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBLcVqACdcEobIl41uHO-2" value="GIC商户后台&lt;br&gt;营销活动" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="380" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SBLcVqACdcEobIl41uHO-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SBLcVqACdcEobIl41uHO-3" target="SBLcVqACdcEobIl41uHO-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="870" />
+              <mxPoint x="130" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBLcVqACdcEobIl41uHO-25" value="获得奖品" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SBLcVqACdcEobIl41uHO-24">
+          <mxGeometry x="0.0923" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBLcVqACdcEobIl41uHO-3" value="微信小程序" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="680" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SBLcVqACdcEobIl41uHO-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.05;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SBLcVqACdcEobIl41uHO-4" target="SBLcVqACdcEobIl41uHO-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SBLcVqACdcEobIl41uHO-16" value="扫码或访问链接进入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SBLcVqACdcEobIl41uHO-15">
+          <mxGeometry x="-0.1973" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBLcVqACdcEobIl41uHO-4" value="会员用户" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SBLcVqACdcEobIl41uHO-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SBLcVqACdcEobIl41uHO-5" target="SBLcVqACdcEobIl41uHO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SBLcVqACdcEobIl41uHO-14" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;通过微信公众号智能推送&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SBLcVqACdcEobIl41uHO-9">
+          <mxGeometry x="-0.0069" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBLcVqACdcEobIl41uHO-5" value="智能营销" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SBLcVqACdcEobIl41uHO-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SBLcVqACdcEobIl41uHO-7" target="SBLcVqACdcEobIl41uHO-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBLcVqACdcEobIl41uHO-19" value="获取各种游戏的模板配置（初始化）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SBLcVqACdcEobIl41uHO-18">
+          <mxGeometry x="0.6135" y="-1" relative="1" as="geometry">
+            <mxPoint x="54" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBLcVqACdcEobIl41uHO-7" value="幸运盲盒" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
