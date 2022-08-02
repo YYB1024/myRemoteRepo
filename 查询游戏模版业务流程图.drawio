@@ -1,1 +1,197 @@
-<mxfile host="app.diagrams.net" modified="2022-08-02T05:50:01.842Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.0.4" etag="X0_huwp9VxBEYNgxwOUd" type="github"><diagram id="g4eO52z_9aoXbeLVhlGw">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-02T06:31:13.412Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="S7lDr9fMqtvhm0nudQBn" version="20.0.4" type="github">
+  <diagram id="g4eO52z_9aoXbeLVhlGw" name="第 1 页">
+    <mxGraphModel dx="1886" dy="793" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ApyFQDi73Db_ZVWEz238-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ApyFQDi73Db_ZVWEz238-1" target="ApyFQDi73Db_ZVWEz238-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-4" value="模板templateId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ApyFQDi73Db_ZVWEz238-3">
+          <mxGeometry x="-0.0571" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="290" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApyFQDi73Db_ZVWEz238-2" target="ApyFQDi73Db_ZVWEz238-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-2" value="查询模板信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="285" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApyFQDi73Db_ZVWEz238-6" target="ApyFQDi73Db_ZVWEz238-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-6" value="根据templateId从游戏模板表查询模板" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="285" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApyFQDi73Db_ZVWEz238-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-8" value="根据条件游戏素材的模板ID等于templateId查询素材模板的信息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="285" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ApyFQDi73Db_ZVWEz238-10" target="ApyFQDi73Db_ZVWEz238-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-14" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ApyFQDi73Db_ZVWEz238-13">
+          <mxGeometry x="-0.12" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ApyFQDi73Db_ZVWEz238-10" target="ApyFQDi73Db_ZVWEz238-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="520" />
+              <mxPoint x="300" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-10" value="素材模板list是否为空" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="410" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApyFQDi73Db_ZVWEz238-15" target="ApyFQDi73Db_ZVWEz238-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-15" value="填充到游戏模板的素材列表字段中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApyFQDi73Db_ZVWEz238-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-16" value="返回游戏模板信息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-22" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="425" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.025;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ApyFQDi73Db_ZVWEz238-24" target="ApyFQDi73Db_ZVWEz238-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-29" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;搜索条件&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ApyFQDi73Db_ZVWEz238-26">
+          <mxGeometry x="-0.3171" y="-3" relative="1" as="geometry">
+            <mxPoint x="8" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-24" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="74" y="624" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApyFQDi73Db_ZVWEz238-25" target="ApyFQDi73Db_ZVWEz238-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-25" value="查询模板信息列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="304" y="611" width="119" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApyFQDi73Db_ZVWEz238-30" target="ApyFQDi73Db_ZVWEz238-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-35" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;否&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ApyFQDi73Db_ZVWEz238-33">
+          <mxGeometry x="-0.6408" y="1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ApyFQDi73Db_ZVWEz238-30" target="ApyFQDi73Db_ZVWEz238-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="551" y="854" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-69" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ApyFQDi73Db_ZVWEz238-68">
+          <mxGeometry x="-0.3653" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-30" value="模板类型是否为空" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="503" y="601" width="103.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ApyFQDi73Db_ZVWEz238-32" target="ApyFQDi73Db_ZVWEz238-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-32" value="查询条件组装为&lt;br&gt;游戏模板的类型等于搜索的类型" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="684" y="611" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ApyFQDi73Db_ZVWEz238-40" target="ApyFQDi73Db_ZVWEz238-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-74" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ApyFQDi73Db_ZVWEz238-72">
+          <mxGeometry x="0.1628" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ApyFQDi73Db_ZVWEz238-40" target="ApyFQDi73Db_ZVWEz238-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="853" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-77" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;否&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ApyFQDi73Db_ZVWEz238-76">
+          <mxGeometry x="-0.044" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-40" value="可用状态是否为空" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="601" y="813" width="103.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApyFQDi73Db_ZVWEz238-41" target="ApyFQDi73Db_ZVWEz238-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-41" value="查询条件组装为&lt;br&gt;游戏模板的状态等于搜索的状态" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="988" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ApyFQDi73Db_ZVWEz238-46" target="ApyFQDi73Db_ZVWEz238-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-82" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ApyFQDi73Db_ZVWEz238-78">
+          <mxGeometry x="0.0635" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="ApyFQDi73Db_ZVWEz238-46" target="ApyFQDi73Db_ZVWEz238-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-81" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ApyFQDi73Db_ZVWEz238-80">
+          <mxGeometry x="0.0818" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-46" value="模板名称是否为空" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="503" y="977" width="103.5" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApyFQDi73Db_ZVWEz238-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="336" y="932" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-47" value="查询条件组装为&lt;br&gt;游戏模板的名称等于搜索的名称" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="276" y="1055" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ApyFQDi73Db_ZVWEz238-51" target="ApyFQDi73Db_ZVWEz238-86">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="255" y="891" />
+              <mxPoint x="255" y="891" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-51" value="根据组装的条件查询游戏模板表并返回" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="276" y="871" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyFQDi73Db_ZVWEz238-86" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="81" y="866" width="110" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
