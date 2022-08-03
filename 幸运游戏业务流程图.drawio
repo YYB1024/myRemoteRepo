@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-03T06:25:23.470Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="nqhwKS-rfAtvNrOUT05I" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-03T06:43:57.313Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="SDdgiFciUWh2iOQWRFh_" version="20.0.4" type="github">
   <diagram id="1G8xQlf1kXc83v-TsdEQ" name="第 1 页">
-    <mxGraphModel dx="2686" dy="1250" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2686" dy="1193" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -78,7 +78,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="di5l27wVPfo-70FuPS_U-38" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;1.2 initGameDetail&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="di5l27wVPfo-70FuPS_U-18">
+        <mxCell id="di5l27wVPfo-70FuPS_U-38" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;1.2 initGameDetail（主要处理逻辑）&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="di5l27wVPfo-70FuPS_U-18">
           <mxGeometry x="0.461" y="1" relative="1" as="geometry">
             <mxPoint x="-77" y="-1" as="offset" />
           </mxGeometry>
@@ -275,7 +275,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="di5l27wVPfo-70FuPS_U-64" value="1.2.1.1.1.1.4 list&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="di5l27wVPfo-70FuPS_U-63">
+        <mxCell id="di5l27wVPfo-70FuPS_U-64" value="1.2.1.1.1.1.4 list （奖品信息）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="di5l27wVPfo-70FuPS_U-63">
           <mxGeometry x="0.76" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -343,9 +343,9 @@
             <mxPoint x="95" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="di5l27wVPfo-70FuPS_U-88" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;AbstractHandler.fifter(链路处理)&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="di5l27wVPfo-70FuPS_U-85">
+        <mxCell id="di5l27wVPfo-70FuPS_U-88" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;AbstractHandler.fifter(链路处理：主要处理初始化游戏的三大步骤。下图见详情)&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="di5l27wVPfo-70FuPS_U-85">
           <mxGeometry x="-0.3258" y="-2" relative="1" as="geometry">
-            <mxPoint x="11" y="-2" as="offset" />
+            <mxPoint x="150" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="di5l27wVPfo-70FuPS_U-92" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;monospace&quot; color=&quot;#ba0000&quot;&gt;&lt;span style=&quot;font-size: 0px;&quot;&gt;GameApiService&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
