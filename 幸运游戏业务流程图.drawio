@@ -1,1 +1,290 @@
-<mxfile host="app.diagrams.net" modified="2022-08-03T01:41:00.921Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.0.4" etag="dTrQGgLoed_u_tf7YEfK" type="github"><diagram id="1G8xQlf1kXc83v-TsdEQ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-03T02:47:05.628Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="HUJqqxaNND6GapJFdoxX" version="20.0.4" type="github">
+  <diagram id="1G8xQlf1kXc83v-TsdEQ" name="第 1 页">
+    <mxGraphModel dx="2286" dy="1250" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="di5l27wVPfo-70FuPS_U-1" value="Actor" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-137" width="113" height="392" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-2" value="GameController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-4" width="113" height="392" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="di5l27wVPfo-70FuPS_U-2">
+          <mxGeometry x="51" y="84" width="9" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-5" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="di5l27wVPfo-70FuPS_U-3" parent="di5l27wVPfo-70FuPS_U-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-19" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-4" value="1. initGameDetail" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="di5l27wVPfo-70FuPS_U-3" parent="1" source="di5l27wVPfo-70FuPS_U-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="41" y="80" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-8" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;monospace&quot; color=&quot;#ba0000&quot;&gt;&lt;span style=&quot;font-size: 0px;&quot;&gt;GameApiService&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="373" y="-15" width="125" height="392" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="di5l27wVPfo-70FuPS_U-8">
+          <mxGeometry x="57.5" y="98" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-11" value="GameApiService" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="di5l27wVPfo-70FuPS_U-8">
+          <mxGeometry x="7" y="6" width="118" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.25;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="di5l27wVPfo-70FuPS_U-3" target="di5l27wVPfo-70FuPS_U-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="193" y="92" />
+              <mxPoint x="193" y="92" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-13" value="1.1 getGameDetail(获取操作前的活动信息--记录日志)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="117" y="65" width="302" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-15" value="return（!respBefore.isSuccess()）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.05;exitY=0.7;rounded=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.111;entryY=0.725;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="di5l27wVPfo-70FuPS_U-9" target="di5l27wVPfo-70FuPS_U-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="122" y="133" as="targetPoint" />
+            <mxPoint x="121" y="166" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="115" y="185" width="9" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="434.5" y="188" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.25;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="di5l27wVPfo-70FuPS_U-16" target="di5l27wVPfo-70FuPS_U-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="197" y="197" />
+              <mxPoint x="197" y="197" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-38" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;1.2 initGameDetail&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="di5l27wVPfo-70FuPS_U-18">
+          <mxGeometry x="0.461" y="1" relative="1" as="geometry">
+            <mxPoint x="-77" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-20" value="return（!respBefore.isSuccess()）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.05;exitY=0.7;rounded=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.111;entryY=0.725;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="di5l27wVPfo-70FuPS_U-17" target="di5l27wVPfo-70FuPS_U-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="126" y="238" as="targetPoint" />
+            <mxPoint x="125" y="271" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-21" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;monospace&quot; color=&quot;#ba0000&quot;&gt;&lt;span style=&quot;font-size: 0px;&quot;&gt;GameApiService&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="596" y="-21" width="125" height="597" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="di5l27wVPfo-70FuPS_U-21">
+          <mxGeometry x="57.5" y="98" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-23" value="GameApiServiceImpl" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="di5l27wVPfo-70FuPS_U-21">
+          <mxGeometry x="7" y="7" width="118" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="di5l27wVPfo-70FuPS_U-21">
+          <mxGeometry x="57.5" y="233" width="10" height="327" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-39" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="di5l27wVPfo-70FuPS_U-21">
+          <mxGeometry x="63" y="273" width="10" height="153" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-40" value="1.2.1.1&amp;nbsp;getGameDetail&lt;br&gt;(编辑，查询已存在游戏)&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="di5l27wVPfo-70FuPS_U-39" parent="di5l27wVPfo-70FuPS_U-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="66" y="243" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="96" y="243" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-67" value="return（GameDetailDTO）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.05;exitY=0.7;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="di5l27wVPfo-70FuPS_U-21" source="di5l27wVPfo-70FuPS_U-59">
+          <mxGeometry x="-0.1715" y="-3" relative="1" as="geometry">
+            <mxPoint x="905" y="410" as="sourcePoint" />
+            <mxPoint x="79" y="414" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-26" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;monospace&quot; color=&quot;#ba0000&quot;&gt;&lt;span style=&quot;font-size: 0px;&quot;&gt;GameApiService&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="992" y="-32" width="172" height="392" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="di5l27wVPfo-70FuPS_U-26">
+          <mxGeometry x="81" y="323" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-28" value="GameRuleService" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="di5l27wVPfo-70FuPS_U-26">
+          <mxGeometry x="18" y="5" width="118" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-30" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;monospace&quot; color=&quot;#ba0000&quot;&gt;&lt;span style=&quot;font-size: 0px;&quot;&gt;GameApiService&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1203" y="-34" width="173" height="406" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="di5l27wVPfo-70FuPS_U-30">
+          <mxGeometry x="86" y="98" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-32" value="GameRuleConditionService" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="di5l27wVPfo-70FuPS_U-30">
+          <mxGeometry x="7" y="6" width="118" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="di5l27wVPfo-70FuPS_U-30">
+          <mxGeometry x="81.5" y="326" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="447" y="225" />
+            </Array>
+            <mxPoint x="447" y="225" as="sourcePoint" />
+            <mxPoint x="643" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-37" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;1.2.1 initGameDetail&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="di5l27wVPfo-70FuPS_U-35">
+          <mxGeometry x="-0.0588" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-43" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;monospace&quot; color=&quot;#ba0000&quot;&gt;&lt;span style=&quot;font-size: 0px;&quot;&gt;GameApiService&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="827" y="-30" width="125" height="439" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-45" value="GameExtService" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="di5l27wVPfo-70FuPS_U-43">
+          <mxGeometry x="7" y="6" width="118" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="di5l27wVPfo-70FuPS_U-43">
+          <mxGeometry x="57.5" y="300" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0.463;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="di5l27wVPfo-70FuPS_U-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="887" y="274.03999999999996" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="722" y="274" />
+              <mxPoint x="722" y="274" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-49" value="1.2.1.1.1&amp;nbsp; list" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="di5l27wVPfo-70FuPS_U-47">
+          <mxGeometry x="-0.3575" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-50" value="游戏活动扩展信息（tab_game_ext）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="753" y="-67" width="214" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.472;entryY=0.847;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="di5l27wVPfo-70FuPS_U-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="671" y="300" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="813" y="300" />
+              <mxPoint x="813" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-53" value="1.2.1.1.2 getOne&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="di5l27wVPfo-70FuPS_U-52">
+          <mxGeometry x="0.3947" y="-1" relative="1" as="geometry">
+            <mxPoint x="36" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-51" value="游戏规则信息（tab_game_rule）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="972" y="-68" width="194" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="di5l27wVPfo-70FuPS_U-39" target="di5l27wVPfo-70FuPS_U-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1266" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="871" y="324" />
+              <mxPoint x="871" y="324" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-56" value="1.2.1.1.3 list" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="di5l27wVPfo-70FuPS_U-55">
+          <mxGeometry x="0.6364" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-57" value="游戏规则-参与门槛（tab_game_rule_condition）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1177" y="-68" width="277" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-58" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;monospace&quot; color=&quot;#ba0000&quot;&gt;&lt;span style=&quot;font-size: 0px;&quot;&gt;GameApiService&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1422" y="-34" width="171" height="505" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-59" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="di5l27wVPfo-70FuPS_U-58">
+          <mxGeometry x="80.5" y="369" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-60" value="GamePrizeService" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="di5l27wVPfo-70FuPS_U-58">
+          <mxGeometry x="18" y="5" width="118" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.25;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="di5l27wVPfo-70FuPS_U-24" target="di5l27wVPfo-70FuPS_U-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1485" y="348" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="868" y="355" />
+              <mxPoint x="868" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-64" value="1.2.1.1.4 list&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="di5l27wVPfo-70FuPS_U-63">
+          <mxGeometry x="0.76" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-65" value="游戏奖品信息（tab_game_prize）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="-67" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-70" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;monospace&quot; color=&quot;#ba0000&quot;&gt;&lt;span style=&quot;font-size: 0px;&quot;&gt;GameApiService&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1615" y="-41" width="171" height="714" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-71" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="di5l27wVPfo-70FuPS_U-70">
+          <mxGeometry x="80.5" y="439" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-72" value="GameTemplateService" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="di5l27wVPfo-70FuPS_U-70">
+          <mxGeometry x="18" y="5" width="118" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-73" value="1.2.1.1.4 list&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1591" y="356" as="geometry">
+            <mxPoint x="-6" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="di5l27wVPfo-70FuPS_U-24" target="di5l27wVPfo-70FuPS_U-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1609" y="412" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1098" y="434" />
+              <mxPoint x="1098" y="434" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-75" value="1.2.1.2 getOne（新增，查询游戏模板）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="di5l27wVPfo-70FuPS_U-74">
+          <mxGeometry x="-0.8755" y="-2" relative="1" as="geometry">
+            <mxPoint x="73" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-76" value="游戏模板（tab_game_template）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1632" y="-67" width="196" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-77" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;monospace&quot; color=&quot;#ba0000&quot;&gt;&lt;span style=&quot;font-size: 0px;&quot;&gt;GameApiService&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1817" y="-40" width="171" height="714" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-78" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="di5l27wVPfo-70FuPS_U-77">
+          <mxGeometry x="80.5" y="538" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-79" value="&lt;font face=&quot;monospace&quot; color=&quot;#ba0000&quot;&gt;&lt;span style=&quot;font-size: 0px;&quot;&gt;GameInitChain&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="di5l27wVPfo-70FuPS_U-77">
+          <mxGeometry x="18" y="5" width="118" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-83" value="GameInitChain" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="di5l27wVPfo-70FuPS_U-77">
+          <mxGeometry x="31.5" y="11" width="108" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-84" value="游戏责任链" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1844" y="-67" width="78" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.15;entryY=0.213;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="di5l27wVPfo-70FuPS_U-24" target="di5l27wVPfo-70FuPS_U-78">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1104" y="515" />
+              <mxPoint x="1104" y="515" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="di5l27wVPfo-70FuPS_U-86" value="1.2.1.3&amp;nbsp;execDefault (初始化责任链)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="di5l27wVPfo-70FuPS_U-85">
+          <mxGeometry x="-0.9458" y="-1" relative="1" as="geometry">
+            <mxPoint x="95" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
