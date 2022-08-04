@@ -1,1 +1,158 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T01:32:47.691Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.0.4" etag="VTpHiLvUEclJ2KIFZgMe" type="github"><diagram id="DsFtVOhBct7KmkY49DuS">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-04T02:20:41.320Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="p8csA1ElGWkTNmbXeUO6" version="20.0.4" type="github">
+  <diagram id="DsFtVOhBct7KmkY49DuS" name="第 1 页">
+    <mxGraphModel dx="1886" dy="793" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GePZ_v3D-l83YXkypCSm-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GePZ_v3D-l83YXkypCSm-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="317" y="148" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-2" value="营销活动-游戏列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="96" y="118" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GePZ_v3D-l83YXkypCSm-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="536" y="148" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GePZ_v3D-l83YXkypCSm-3" target="GePZ_v3D-l83YXkypCSm-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-3" value="链接" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="118" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-5" value="操作" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="232" y="125" width="42" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GePZ_v3D-l83YXkypCSm-7" target="GePZ_v3D-l83YXkypCSm-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-7" value="复制连接" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="537" y="115" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GePZ_v3D-l83YXkypCSm-8" target="GePZ_v3D-l83YXkypCSm-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-8" value="小程序二维码下载" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="258" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GePZ_v3D-l83YXkypCSm-10" target="GePZ_v3D-l83YXkypCSm-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-10" value="配置-小程序管理/装修" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="737" y="115" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GePZ_v3D-l83YXkypCSm-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="997" y="254" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-12" value="链接小工具-自定义连接（复制）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="937" y="115" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GePZ_v3D-l83YXkypCSm-14" target="GePZ_v3D-l83YXkypCSm-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-14" value="营销活动-营销工具" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="258" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GePZ_v3D-l83YXkypCSm-16" target="GePZ_v3D-l83YXkypCSm-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-16" value="智能推送（公众号）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="258" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GePZ_v3D-l83YXkypCSm-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="379" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="980" y="339" />
+              <mxPoint x="980" y="339" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-18" value="微信端" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="258" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GePZ_v3D-l83YXkypCSm-24" target="GePZ_v3D-l83YXkypCSm-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-24" value="小程序/扫码" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GePZ_v3D-l83YXkypCSm-25" target="GePZ_v3D-l83YXkypCSm-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-25" value="进入游戏" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GePZ_v3D-l83YXkypCSm-27" target="GePZ_v3D-l83YXkypCSm-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GePZ_v3D-l83YXkypCSm-27" target="GePZ_v3D-l83YXkypCSm-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-27" value="玩游戏（盲盒）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GePZ_v3D-l83YXkypCSm-29" target="GePZ_v3D-l83YXkypCSm-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GePZ_v3D-l83YXkypCSm-29" target="GePZ_v3D-l83YXkypCSm-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-29" value="中奖（我的奖品）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-31" value="积分明细（来源）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="94" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-33" value="积分" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="273" y="390" width="42" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-34" value="卡券包（来源）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-36" value="卡券" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="387" y="456" width="42" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GePZ_v3D-l83YXkypCSm-37" target="GePZ_v3D-l83YXkypCSm-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-37" value="游戏次数剩余为0" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.875;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GePZ_v3D-l83YXkypCSm-42" target="GePZ_v3D-l83YXkypCSm-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1032" y="550" />
+              <mxPoint x="1032" y="466" />
+              <mxPoint x="635" y="466" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-46" value="好友首次关注服务号增加一次" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GePZ_v3D-l83YXkypCSm-45">
+          <mxGeometry x="-0.3574" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-42" value="分享到微信/朋友圈" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-44" value="邀请助力" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="654" y="523" width="66" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GePZ_v3D-l83YXkypCSm-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="161" y="181" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GePZ_v3D-l83YXkypCSm-47" value="GIC商户后台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="101" y="255" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
