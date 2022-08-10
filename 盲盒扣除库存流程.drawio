@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-10T05:54:40.390Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="q_JcPkQi1Wf3A0SlkJbw" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-10T05:57:48.949Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="krRsnd4d9Ezc1pglW848" version="20.2.3" type="github">
   <diagram id="fN33L1gSerF0L8n7w4XK" name="第 1 页">
-    <mxGraphModel dx="1886" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1886" dy="849" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,7 +49,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1fnKo0RKmU6SC69-NGVL-12" value="当奖品卡券增量&amp;gt;0 扣减卡券库存&lt;br&gt;当奖品卡券增量&amp;lt;0 回退券库存" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="490" y="350" width="120" height="60" as="geometry" />
+          <mxGeometry x="446" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1fnKo0RKmU6SC69-NGVL-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1fnKo0RKmU6SC69-NGVL-18" target="1fnKo0RKmU6SC69-NGVL-22">
           <mxGeometry relative="1" as="geometry" />
@@ -61,7 +61,7 @@
           <mxGeometry x="224" y="345" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1fnKo0RKmU6SC69-NGVL-21" value="预扣增量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="515" y="325" width="70" height="30" as="geometry" />
+          <mxGeometry x="463" y="325" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1fnKo0RKmU6SC69-NGVL-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1fnKo0RKmU6SC69-NGVL-22" target="1fnKo0RKmU6SC69-NGVL-24">
           <mxGeometry relative="1" as="geometry" />
@@ -79,16 +79,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1fnKo0RKmU6SC69-NGVL-26" value="通过要删除奖品卡券的PrizeIdList得到需要删除的卡券cardReleaseList" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="460" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="446" y="490" width="134" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1fnKo0RKmU6SC69-NGVL-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1fnKo0RKmU6SC69-NGVL-28" target="1fnKo0RKmU6SC69-NGVL-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1fnKo0RKmU6SC69-NGVL-28" value="遍历卡券根据当前奖品库存退到卡券库中" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="660" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="690" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1fnKo0RKmU6SC69-NGVL-30" value="保存/更新游戏奖品表" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="660" y="630" width="120" height="60" as="geometry" />
+          <mxGeometry x="690" y="622" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
