@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-09T10:27:39.947Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="nVJbcWnPUSyzU82_ULZ2" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-10T05:54:40.390Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="q_JcPkQi1Wf3A0SlkJbw" version="20.2.3" type="github">
   <diagram id="fN33L1gSerF0L8n7w4XK" name="第 1 页">
-    <mxGraphModel dx="1406" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1886" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -69,8 +69,26 @@
         <mxCell id="1fnKo0RKmU6SC69-NGVL-22" value="原始的奖项不包含现有的奖项--删除" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="60" y="490" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="1fnKo0RKmU6SC69-NGVL-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1fnKo0RKmU6SC69-NGVL-24" target="1fnKo0RKmU6SC69-NGVL-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="1fnKo0RKmU6SC69-NGVL-24" value="删除对应的游戏奖品的记录" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="260" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1fnKo0RKmU6SC69-NGVL-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1fnKo0RKmU6SC69-NGVL-26" target="1fnKo0RKmU6SC69-NGVL-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1fnKo0RKmU6SC69-NGVL-26" value="通过要删除奖品卡券的PrizeIdList得到需要删除的卡券cardReleaseList" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1fnKo0RKmU6SC69-NGVL-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1fnKo0RKmU6SC69-NGVL-28" target="1fnKo0RKmU6SC69-NGVL-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1fnKo0RKmU6SC69-NGVL-28" value="遍历卡券根据当前奖品库存退到卡券库中" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1fnKo0RKmU6SC69-NGVL-30" value="保存/更新游戏奖品表" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="630" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
