@@ -1,1 +1,120 @@
-<mxfile host="app.diagrams.net" modified="2022-08-30T02:35:49.469Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.2.5" etag="fBeaEwup-WVz4iYpt8Cp" type="github"><diagram id="HqbpfLIzmpd1MU_-doPL">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-31T08:22:25.757Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="dA6EfjJQhv33sfY--QD7" version="20.2.5" type="github">
+  <diagram id="HqbpfLIzmpd1MU_-doPL" name="第 1 页">
+    <mxGraphModel dx="1875" dy="892" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YxX0e2cfIZdYxiA2WUdW-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YxX0e2cfIZdYxiA2WUdW-1" target="YxX0e2cfIZdYxiA2WUdW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YxX0e2cfIZdYxiA2WUdW-12" value="发起请求：生成task任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YxX0e2cfIZdYxiA2WUdW-3">
+          <mxGeometry x="-0.2947" relative="1" as="geometry">
+            <mxPoint x="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxX0e2cfIZdYxiA2WUdW-1" value="hrssweb" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxX0e2cfIZdYxiA2WUdW-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YxX0e2cfIZdYxiA2WUdW-2" target="YxX0e2cfIZdYxiA2WUdW-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YxX0e2cfIZdYxiA2WUdW-19" value="MQ异步处理：任务状态更新" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YxX0e2cfIZdYxiA2WUdW-11">
+          <mxGeometry x="-0.2833" y="4" relative="1" as="geometry">
+            <mxPoint x="25" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxX0e2cfIZdYxiA2WUdW-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YxX0e2cfIZdYxiA2WUdW-2" target="YxX0e2cfIZdYxiA2WUdW-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="350" />
+              <mxPoint x="90" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxX0e2cfIZdYxiA2WUdW-14" value="MQ异步处理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YxX0e2cfIZdYxiA2WUdW-13">
+          <mxGeometry x="-0.7745" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxX0e2cfIZdYxiA2WUdW-16" value="返回TaskNumber" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YxX0e2cfIZdYxiA2WUdW-13">
+          <mxGeometry x="0.166" y="-3" relative="1" as="geometry">
+            <mxPoint x="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxX0e2cfIZdYxiA2WUdW-2" value="hrsscore" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxX0e2cfIZdYxiA2WUdW-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YxX0e2cfIZdYxiA2WUdW-6" target="YxX0e2cfIZdYxiA2WUdW-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YxX0e2cfIZdYxiA2WUdW-6" value="hrssGateWay" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxX0e2cfIZdYxiA2WUdW-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YxX0e2cfIZdYxiA2WUdW-7" target="YxX0e2cfIZdYxiA2WUdW-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YxX0e2cfIZdYxiA2WUdW-20" value="调用相应的接口" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YxX0e2cfIZdYxiA2WUdW-10">
+          <mxGeometry x="-0.2667" y="-1" relative="1" as="geometry">
+            <mxPoint x="16" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxX0e2cfIZdYxiA2WUdW-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.008;entryY=0.642;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YxX0e2cfIZdYxiA2WUdW-7" target="YxX0e2cfIZdYxiA2WUdW-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="910" y="439" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxX0e2cfIZdYxiA2WUdW-26" value="MQ: 将处理的结果异步的发送&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YxX0e2cfIZdYxiA2WUdW-25">
+          <mxGeometry x="-0.8203" y="-2" relative="1" as="geometry">
+            <mxPoint y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxX0e2cfIZdYxiA2WUdW-7" value="dpcore" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxX0e2cfIZdYxiA2WUdW-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YxX0e2cfIZdYxiA2WUdW-9" target="YxX0e2cfIZdYxiA2WUdW-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1170" y="300" />
+              <mxPoint x="930" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxX0e2cfIZdYxiA2WUdW-22" value="处理结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YxX0e2cfIZdYxiA2WUdW-21">
+          <mxGeometry x="0.0667" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxX0e2cfIZdYxiA2WUdW-9" value="网厅" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxX0e2cfIZdYxiA2WUdW-17" value="任务状态控制：提交状态：待提交、已提交、提交成功、提失败&lt;br&gt;办理状态：待办理、已办理、已反馈、办理失败、办理成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="140" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YxX0e2cfIZdYxiA2WUdW-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YxX0e2cfIZdYxiA2WUdW-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxX0e2cfIZdYxiA2WUdW-29" value="MQ 消息处理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YxX0e2cfIZdYxiA2WUdW-28">
+          <mxGeometry x="-0.3125" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxX0e2cfIZdYxiA2WUdW-24" value="hrsscore—consumer" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxX0e2cfIZdYxiA2WUdW-30" value="1、通过tasknumber回去RedisKey(枚举类型的)&lt;br style=&quot;font-size: 13px;&quot;&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="280" y="540" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YxX0e2cfIZdYxiA2WUdW-31" value="Redis-Clint（jedis）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="455" y="510" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YxX0e2cfIZdYxiA2WUdW-32" value="2、通过while循环。尝试加锁，key：任务维度、value、uuid、过期时间为30s。==》&lt;span style=&quot;caret-color: rgb(40, 44, 52); color: rgb(40, 44, 52); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 13px; orphans: 4; word-spacing: 0.8px; text-size-adjust: auto; background-color: rgb(254, 254, 254);&quot;&gt;set key value NX Px timeOut&lt;/span&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;获取锁失败3s之后之后重试三次&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;3、获取锁成功之后根据网厅code和业务类型路由到具体的业务逻辑处理&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;4、finally 解锁使用了Lua脚本：&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 释放锁的时候，有可能因为持锁之后方法执行时间大于锁的有效期，此时有可能已经被另外一个线程持有锁，所以不能直接删除&lt;br style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;br style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;使用lua脚本删除redis中匹配value的key，可以避免由于方法执行时间过长而redis锁自动过期失效的时候误删其他线程的锁&lt;br style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;br style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;horizontal=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="290" y="690" width="390" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
