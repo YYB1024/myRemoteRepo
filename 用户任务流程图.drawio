@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-10-18T10:10:59.851Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="g1Q92_b0Hm6yqiium6ks" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-18T10:23:25.717Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="y0zlOfAC0Ru3U5lIJiME" version="20.4.1" type="github">
   <diagram id="CpEp9zq7Seui4pqeS5PY" name="第 1 页">
-    <mxGraphModel dx="2556" dy="1218" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2009" dy="957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="KRKUq6-_kkCT4HEE8_le-4" value="赚积分——任务中心" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="330" y="110" width="150" height="30" as="geometry" />
+          <mxGeometry x="292.5" y="110" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KRKUq6-_kkCT4HEE8_le-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="KRKUq6-_kkCT4HEE8_le-5">
           <mxGeometry relative="1" as="geometry">
