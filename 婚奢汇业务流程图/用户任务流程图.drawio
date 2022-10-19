@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-19T08:07:38.924Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="pUFGNuX-elOLTaBptIgx" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-19T08:32:16.553Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="u_ZLW-r0pM10-kDLw1xj" version="20.4.1" type="github">
   <diagram id="CpEp9zq7Seui4pqeS5PY" name="第 1 页">
-    <mxGraphModel dx="2743" dy="1517" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2275" dy="1293" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -297,11 +297,38 @@
         <mxCell id="4cBtJ1Qznls-FBv1ZnqD-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="4cBtJ1Qznls-FBv1ZnqD-56" target="4cBtJ1Qznls-FBv1ZnqD-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="4cBtJ1Qznls-FBv1ZnqD-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="4cBtJ1Qznls-FBv1ZnqD-56" target="4cBtJ1Qznls-FBv1ZnqD-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="4cBtJ1Qznls-FBv1ZnqD-56" value="是否存在日志记录" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="663" y="1014" width="187" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="4cBtJ1Qznls-FBv1ZnqD-58" value="" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="4cBtJ1Qznls-FBv1ZnqD-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="4cBtJ1Qznls-FBv1ZnqD-58" target="4cBtJ1Qznls-FBv1ZnqD-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4cBtJ1Qznls-FBv1ZnqD-58" value="获取积分日志记录" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="963.5" y="1024.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4cBtJ1Qznls-FBv1ZnqD-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="4cBtJ1Qznls-FBv1ZnqD-61" target="4cBtJ1Qznls-FBv1ZnqD-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4cBtJ1Qznls-FBv1ZnqD-61" value="获取任务积分配置" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="696.5" y="1185.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4cBtJ1Qznls-FBv1ZnqD-63" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="764" y="1120" width="34" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="4cBtJ1Qznls-FBv1ZnqD-64" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;判断是否已达到&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;最大次数&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1183.5" y="1014.5" width="162.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4cBtJ1Qznls-FBv1ZnqD-66" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="876" y="1014" width="34" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="4cBtJ1Qznls-FBv1ZnqD-67" value="积分日志记录" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="986" y="1185.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4cBtJ1Qznls-FBv1ZnqD-71" value="插入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1186" width="50" height="31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
