@@ -1,1 +1,141 @@
-<mxfile host="app.diagrams.net" modified="2022-10-20T05:49:49.116Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.4.1" etag="jbUKGr64z4wVGW55G5Eh" type="github"><diagram id="_SFacuyED67VI4C1ypXI">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-20T05:50:19.113Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="kaEav6Zt3LQRkxj0ud1W" version="20.4.1" type="github">
+  <diagram id="_SFacuyED67VI4C1ypXI" name="第 1 页">
+    <mxGraphModel dx="4417" dy="1114" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uw5iLvtp_UuE417FuDuC-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uw5iLvtp_UuE417FuDuC-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-14.66666666666606" y="1149.0200000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-2" value="完成任务接口" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-329" y="1119.02" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-3" value="方案二：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-333" y="1019" width="82" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uw5iLvtp_UuE417FuDuC-5" target="uw5iLvtp_UuE417FuDuC-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="632.0461728395057" y="1126.02" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-5" value="查询积分日志表" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="444" y="1109.02" width="120" height="59.98" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-6" value="用户Id、source_Id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-183" y="1111.5" width="150" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="uw5iLvtp_UuE417FuDuC-9" target="uw5iLvtp_UuE417FuDuC-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="uw5iLvtp_UuE417FuDuC-9" target="uw5iLvtp_UuE417FuDuC-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-9" value="是否存在日志记录" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="675" y="1097.52" width="187" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="uw5iLvtp_UuE417FuDuC-11" target="uw5iLvtp_UuE417FuDuC-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-11" value="获取积分日志记录" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="975.5" y="1108.02" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="uw5iLvtp_UuE417FuDuC-13" target="uw5iLvtp_UuE417FuDuC-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-13" value="获取任务积分配置" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="708.5" y="1269.02" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-14" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="776" y="1203.52" width="34" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="uw5iLvtp_UuE417FuDuC-17" target="uw5iLvtp_UuE417FuDuC-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="uw5iLvtp_UuE417FuDuC-17" target="uw5iLvtp_UuE417FuDuC-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-17" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;判断完成状态&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1195.5" y="1096.52" width="226.5" height="81.5" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-18" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="888" y="1097.52" width="34" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-19" value="积分日志记录" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="998" y="1269.02" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-20" value="插入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="862" y="1269.52" width="50" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-21" value="提示该任务&lt;br&gt;已完成" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1248.75" y="1269.52" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-22" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="1203.52" width="34" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="uw5iLvtp_UuE417FuDuC-24" target="uw5iLvtp_UuE417FuDuC-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-24" value="任务未完成" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1577" y="1107.27" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-25" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1449" y="1103.52" width="34" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="uw5iLvtp_UuE417FuDuC-28" target="uw5iLvtp_UuE417FuDuC-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="uw5iLvtp_UuE417FuDuC-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2077" y="1137.3199999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-28" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;判断是否已达到&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;最大次数&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1798" y="1096.52" width="191" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-29" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;插入积分日志（已完成）&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="1265.52" width="167" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-30" value="是否存在并发问题" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1820.5" y="1055.52" width="146" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-31" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1898" y="1195.52" width="34" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-32" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;插入积分日志&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="2087" y="1103.52" width="167" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-33" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="2005" y="1104.52" width="34" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uw5iLvtp_UuE417FuDuC-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="193" y="1141.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-35" value="查询积分任务表" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-7" y="1111.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uw5iLvtp_UuE417FuDuC-38" target="uw5iLvtp_UuE417FuDuC-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uw5iLvtp_UuE417FuDuC-38" target="uw5iLvtp_UuE417FuDuC-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-38" value="是否配置了积分-任务" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="193" y="1099.02" width="155" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-39" value="返回" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210.5" y="1269.02" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-40" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="267" y="1201.02" width="30" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uw5iLvtp_UuE417FuDuC-41" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="367" y="1106" width="30" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
