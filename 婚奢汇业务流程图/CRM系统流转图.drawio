@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-11-04T09:59:17.640Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="2DveFLkVMS9gUsJOw-Nq" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-04T10:05:43.828Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="GmTO9Mh1Par4nOMioUTb" version="20.4.2" type="github">
   <diagram id="AHrSXwYfTzhvrlqlwkTV" name="第 1 页">
-    <mxGraphModel dx="2713" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3521" dy="2383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="jvQon4aiT2xwoVpZ9eFU-58" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="-40" width="1270" height="870" as="geometry" />
+        </mxCell>
         <mxCell id="jvQon4aiT2xwoVpZ9eFU-1" value="潜在客户列表来源" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="200" width="120" height="60" as="geometry" />
         </mxCell>
@@ -17,7 +20,7 @@
           <mxGeometry x="80" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jvQon4aiT2xwoVpZ9eFU-6" value="客服手工批量导入" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="200" width="120" height="60" as="geometry" />
+          <mxGeometry x="200" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jvQon4aiT2xwoVpZ9eFU-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jvQon4aiT2xwoVpZ9eFU-10" target="jvQon4aiT2xwoVpZ9eFU-13">
           <mxGeometry relative="1" as="geometry" />
@@ -54,8 +57,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="380" y="370" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="380" y="320" />
-              <mxPoint x="435" y="320" />
+              <mxPoint x="410" y="290" />
+              <mxPoint x="435" y="290" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -78,11 +81,11 @@
         <mxCell id="jvQon4aiT2xwoVpZ9eFU-18" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;状态流转&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="30" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jvQon4aiT2xwoVpZ9eFU-19" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;rounded=1;direction=west;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="200" width="100" height="60" as="geometry" />
+        <mxCell id="jvQon4aiT2xwoVpZ9eFU-19" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.37777777777777716;arrowSize=0.3233333333333337;rounded=1;direction=north;rotation=45;" vertex="1" parent="1">
+          <mxGeometry x="220" y="160" width="50" height="100" as="geometry" />
         </mxCell>
         <mxCell id="jvQon4aiT2xwoVpZ9eFU-23" value="（消息中心-》提醒规划师）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="370" y="230" width="170" height="30" as="geometry" />
+          <mxGeometry x="414" y="230" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jvQon4aiT2xwoVpZ9eFU-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jvQon4aiT2xwoVpZ9eFU-25" target="jvQon4aiT2xwoVpZ9eFU-1">
           <mxGeometry relative="1" as="geometry">
@@ -114,7 +117,7 @@
           <mxGeometry x="560" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jvQon4aiT2xwoVpZ9eFU-30" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;分配：分配给对应的规划师&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="200" width="150" height="40" as="geometry" />
+          <mxGeometry x="430" y="200" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jvQon4aiT2xwoVpZ9eFU-36" value="已转换（新增客户）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="827" y="385" width="140" height="60" as="geometry" />
@@ -156,6 +159,27 @@
             <mxPoint x="720" y="420" as="targetPoint" />
             <mxPoint x="720" y="530" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jvQon4aiT2xwoVpZ9eFU-49" value="潜在客户列表来源" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jvQon4aiT2xwoVpZ9eFU-50" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;rounded=1;direction=south;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="110" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jvQon4aiT2xwoVpZ9eFU-51" value="婚奢汇新用户数据自动同步" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jvQon4aiT2xwoVpZ9eFU-52" value="客服手工批量导入" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jvQon4aiT2xwoVpZ9eFU-53" value="在CRM系统新建录入" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="405" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jvQon4aiT2xwoVpZ9eFU-54" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;rounded=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="300" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jvQon4aiT2xwoVpZ9eFU-55" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;rounded=1;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="220" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
