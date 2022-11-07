@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-07T08:45:49.230Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="3hqQNWF8hxZmdxCG60Rd" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-07T08:51:57.498Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="RdPmzK3HLVMeOawg7-Ky" version="20.5.3" type="github">
   <diagram id="AHrSXwYfTzhvrlqlwkTV" name="第 1 页">
     <mxGraphModel dx="5175" dy="2383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -213,7 +213,15 @@
         <mxCell id="m_f-bOdlUHWgCZtoHaHE-16" value="&lt;b&gt;回收/退回&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-210" y="460" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="m_f-bOdlUHWgCZtoHaHE-17" value="待成单（&lt;font face=&quot;Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, 微软雅黑, Arial, sans-serif&quot; color=&quot;#606266&quot;&gt;&lt;span style=&quot;background-color: rgb(245, 247, 250);&quot;&gt;未支付&lt;/span&gt;&lt;/font&gt;）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="m_f-bOdlUHWgCZtoHaHE-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="m_f-bOdlUHWgCZtoHaHE-17" target="m_f-bOdlUHWgCZtoHaHE-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m_f-bOdlUHWgCZtoHaHE-96" value="已支付服务套餐" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="m_f-bOdlUHWgCZtoHaHE-95">
+          <mxGeometry x="-0.2168" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_f-bOdlUHWgCZtoHaHE-17" value="待成单（&lt;font face=&quot;Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, 微软雅黑, Arial, sans-serif&quot; color=&quot;#606266&quot;&gt;&lt;span style=&quot;background-color: rgb(245, 247, 250);&quot;&gt;未支付&lt;/span&gt;&lt;/font&gt;）" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-760" y="50" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m_f-bOdlUHWgCZtoHaHE-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="m_f-bOdlUHWgCZtoHaHE-20" target="m_f-bOdlUHWgCZtoHaHE-23">
@@ -229,7 +237,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="m_f-bOdlUHWgCZtoHaHE-20" value="待联系(分配有规划但未建立聊天关系)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="m_f-bOdlUHWgCZtoHaHE-20" value="待联系(分配有规划但未建立聊天关系)" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-880" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m_f-bOdlUHWgCZtoHaHE-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="m_f-bOdlUHWgCZtoHaHE-22" target="m_f-bOdlUHWgCZtoHaHE-23">
@@ -297,7 +305,7 @@
             <mxPoint x="33" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="m_f-bOdlUHWgCZtoHaHE-23" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="m_f-bOdlUHWgCZtoHaHE-23" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-1110" y="215" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m_f-bOdlUHWgCZtoHaHE-28" value="待成单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
@@ -314,7 +322,7 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="m_f-bOdlUHWgCZtoHaHE-36" value="服务中" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="m_f-bOdlUHWgCZtoHaHE-36" value="服务中" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-1400" y="215" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m_f-bOdlUHWgCZtoHaHE-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="m_f-bOdlUHWgCZtoHaHE-39" target="m_f-bOdlUHWgCZtoHaHE-61">
@@ -417,6 +425,14 @@
         <mxCell id="m_f-bOdlUHWgCZtoHaHE-73" value="3-陪同探店" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-1400" y="635" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="m_f-bOdlUHWgCZtoHaHE-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="m_f-bOdlUHWgCZtoHaHE-85" target="m_f-bOdlUHWgCZtoHaHE-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m_f-bOdlUHWgCZtoHaHE-94" value="状态流转" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="m_f-bOdlUHWgCZtoHaHE-93">
+          <mxGeometry x="-0.1886" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="m_f-bOdlUHWgCZtoHaHE-85" value="平台回访" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-1400" y="760" width="120" height="60" as="geometry" />
         </mxCell>
@@ -429,8 +445,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="m_f-bOdlUHWgCZtoHaHE-91" value="规划师服务订单-回访（运营平台）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="m_f-bOdlUHWgCZtoHaHE-90">
+          <mxGeometry x="-0.2705" relative="1" as="geometry">
+            <mxPoint x="34" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="m_f-bOdlUHWgCZtoHaHE-89" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/vista_terminal.svg;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-1710" y="750" width="39" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m_f-bOdlUHWgCZtoHaHE-92" value="已完成" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1030" y="760" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
