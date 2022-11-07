@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-07T02:18:13.617Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="miPKEcApPdmrkxrPo0v1" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-07T05:54:52.505Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="3WPK0WLtq3-wXyLNlB_N" version="20.5.3" type="github">
   <diagram id="AHrSXwYfTzhvrlqlwkTV" name="第 1 页">
     <mxGraphModel dx="4797" dy="2586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -158,10 +158,21 @@
         <mxCell id="jvQon4aiT2xwoVpZ9eFU-50" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;rounded=1;direction=south;rotation=-180;" parent="1" vertex="1">
           <mxGeometry x="-410" y="110" width="60" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="jvQon4aiT2xwoVpZ9eFU-51" value="婚奢汇新用户数据自动同步" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="m_f-bOdlUHWgCZtoHaHE-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="jvQon4aiT2xwoVpZ9eFU-51" target="m_f-bOdlUHWgCZtoHaHE-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m_f-bOdlUHWgCZtoHaHE-19" value="状态流转" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="m_f-bOdlUHWgCZtoHaHE-18">
+          <mxGeometry x="-0.1333" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jvQon4aiT2xwoVpZ9eFU-51" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: PingFangSC-Regular, &amp;quot;PingFang SC&amp;quot;, sans-serif; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;线上婚奢汇规划师订单&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-440" y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jvQon4aiT2xwoVpZ9eFU-52" value="客服手工批量导入" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="m_f-bOdlUHWgCZtoHaHE-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="jvQon4aiT2xwoVpZ9eFU-52" target="m_f-bOdlUHWgCZtoHaHE-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jvQon4aiT2xwoVpZ9eFU-52" value="潜在客户私有池&lt;br&gt;（转换）" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-680" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jvQon4aiT2xwoVpZ9eFU-53" value="在CRM系统新建录入" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
@@ -186,7 +197,22 @@
           <mxGeometry x="-220" y="250" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m_f-bOdlUHWgCZtoHaHE-12" value="&lt;b&gt;转换&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="235" width="50" height="30" as="geometry" />
+          <mxGeometry x="-150" y="240" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m_f-bOdlUHWgCZtoHaHE-14" value="逆向生成" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="160" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m_f-bOdlUHWgCZtoHaHE-15" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;rounded=1;direction=east;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="465" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m_f-bOdlUHWgCZtoHaHE-16" value="&lt;b&gt;回收/退回&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="460" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m_f-bOdlUHWgCZtoHaHE-17" value="待成单（&lt;span style=&quot;color: rgb(96, 98, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, Arial, sans-serif; background-color: rgb(245, 247, 250);&quot;&gt;定制婚礼规划书&lt;/span&gt;）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="50" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m_f-bOdlUHWgCZtoHaHE-20" value="待联系" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-880" y="220" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
