@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-04T14:08:40.794Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="RP1_byHF1OZnpvkJOSoQ" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-04T14:45:36.657Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="Bs-lkbPXxei9MDxMLqGN" type="github">
   <diagram id="QFPkRWwK-rK3bPJWCA9W" name="第 1 页">
-    <mxGraphModel dx="2233" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3951" dy="1489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,8 +10,18 @@
         <mxCell id="1xVAN8a_lrKq11_nG08K-2" value="Work平台端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="190" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1xVAN8a_lrKq11_nG08K-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="1xVAN8a_lrKq11_nG08K-3" value="C端-助力活动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1xVAN8a_lrKq11_nG08K-4" target="1xVAN8a_lrKq11_nG08K-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690.0000000000005" y="630" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="1xVAN8a_lrKq11_nG08K-4" value="第三方-企微端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="180" width="120" height="60" as="geometry" />
@@ -42,11 +52,151 @@
         <mxCell id="1xVAN8a_lrKq11_nG08K-12" value="下载专属（含企微号）活动海报" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-170" y="610" width="170" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1xVAN8a_lrKq11_nG08K-16" target="1xVAN8a_lrKq11_nG08K-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-21" value="看到" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1xVAN8a_lrKq11_nG08K-20">
+          <mxGeometry x="-0.0405" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="1xVAN8a_lrKq11_nG08K-16" value="用户-微信客户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="910" y="180" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1xVAN8a_lrKq11_nG08K-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="390" width="120" height="60" as="geometry" />
+        <mxCell id="1xVAN8a_lrKq11_nG08K-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1xVAN8a_lrKq11_nG08K-19" target="1xVAN8a_lrKq11_nG08K-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-24" value="扫一扫（参加）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1xVAN8a_lrKq11_nG08K-23">
+          <mxGeometry x="-0.0066" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-19" value="朋友圈、微信群、公众号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="865" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1xVAN8a_lrKq11_nG08K-22" target="1xVAN8a_lrKq11_nG08K-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-59" value="参与活动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1xVAN8a_lrKq11_nG08K-41">
+          <mxGeometry x="-0.0615" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-22" value="活动（专属）海报" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="865" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1xVAN8a_lrKq11_nG08K-25" target="1xVAN8a_lrKq11_nG08K-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-25" value="触发首次活动后裂变文案、活动小程序等" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="865" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1xVAN8a_lrKq11_nG08K-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="859.9999999999995" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1xVAN8a_lrKq11_nG08K-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="1380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-28" value="企微号自动推送" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1xVAN8a_lrKq11_nG08K-31" target="1xVAN8a_lrKq11_nG08K-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-45" value="想参与活动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1xVAN8a_lrKq11_nG08K-35">
+          <mxGeometry x="-0.2105" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-31" value="不会触发该活动&lt;br&gt;（&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;之前已经是老朋友&lt;/span&gt;）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1065" y="650" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.001;entryY=0.39;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1xVAN8a_lrKq11_nG08K-34" target="1xVAN8a_lrKq11_nG08K-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1050" y="833" />
+              <mxPoint x="1050" y="833" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-34" value="双方互删（再次添加企微号）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1072.5" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-42" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1xVAN8a_lrKq11_nG08K-37" target="1xVAN8a_lrKq11_nG08K-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1xVAN8a_lrKq11_nG08K-37" target="1xVAN8a_lrKq11_nG08K-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-44" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1xVAN8a_lrKq11_nG08K-43">
+          <mxGeometry x="-0.2728" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-37" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;首次添加企微&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="872.5" y="640" width="105" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="1xVAN8a_lrKq11_nG08K-48" target="1xVAN8a_lrKq11_nG08K-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1xVAN8a_lrKq11_nG08K-48" target="1xVAN8a_lrKq11_nG08K-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-65" value="助力活动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1xVAN8a_lrKq11_nG08K-56">
+          <mxGeometry x="-0.025" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-48" value="点击活动小程序" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="866" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-51" value="活动详情" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1xVAN8a_lrKq11_nG08K-55" target="1xVAN8a_lrKq11_nG08K-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-55" value="分享海报到朋友圈、微信群、公众号" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="869" y="1090" width="114" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1xVAN8a_lrKq11_nG08K-61" target="1xVAN8a_lrKq11_nG08K-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1370" y="1250" />
+              <mxPoint x="1370" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-68" value="看到" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1xVAN8a_lrKq11_nG08K-67">
+          <mxGeometry x="0.1219" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1xVAN8a_lrKq11_nG08K-61" target="1xVAN8a_lrKq11_nG08K-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-71" value="注：参加活动过程基本如上一致但给分享人助力成功后" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1xVAN8a_lrKq11_nG08K-70">
+          <mxGeometry x="0.0655" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-61" value="其他微信用户" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="866" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-69" value="推送助力成功的文案（给助力的用户）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1390" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1xVAN8a_lrKq11_nG08K-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="1415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-73" value="企微号自动推送" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1385" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
