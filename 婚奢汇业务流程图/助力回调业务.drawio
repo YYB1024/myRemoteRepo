@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-04T14:45:36.657Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="Bs-lkbPXxei9MDxMLqGN" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-04T14:46:03.269Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="IqMBWADaQcYoH_Evz-ZO" type="github">
   <diagram id="QFPkRWwK-rK3bPJWCA9W" name="第 1 页">
-    <mxGraphModel dx="3951" dy="1489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2585" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -179,7 +179,7 @@
         <mxCell id="1xVAN8a_lrKq11_nG08K-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1xVAN8a_lrKq11_nG08K-61" target="1xVAN8a_lrKq11_nG08K-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1xVAN8a_lrKq11_nG08K-71" value="注：参加活动过程基本如上一致但给分享人助力成功后" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1xVAN8a_lrKq11_nG08K-70">
+        <mxCell id="1xVAN8a_lrKq11_nG08K-71" value="注：参加活动过程基本如上一致但给被助力人助力成功后" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1xVAN8a_lrKq11_nG08K-70">
           <mxGeometry x="0.0655" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
