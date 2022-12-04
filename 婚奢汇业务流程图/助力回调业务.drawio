@@ -1,1 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2022-12-04T13:57:51.074Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="9pK-3hF1gV-brhkUniG4" type="github"><diagram id="3QuFo2zMujJjGDAZ0A6a">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-04T14:08:40.794Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="RP1_byHF1OZnpvkJOSoQ" type="github">
+  <diagram id="QFPkRWwK-rK3bPJWCA9W" name="第 1 页">
+    <mxGraphModel dx="2233" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1xVAN8a_lrKq11_nG08K-1" value="业务场景" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="50" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-2" value="Work平台端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-3" value="C端-助力活动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-4" value="第三方-企微端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1xVAN8a_lrKq11_nG08K-5" target="1xVAN8a_lrKq11_nG08K-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-5" value="活动配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1xVAN8a_lrKq11_nG08K-8" target="1xVAN8a_lrKq11_nG08K-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1xVAN8a_lrKq11_nG08K-8" target="1xVAN8a_lrKq11_nG08K-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-14" value="推广" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1xVAN8a_lrKq11_nG08K-13">
+          <mxGeometry x="0.4087" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-8" value="配置活动承接企微号" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-10" value="助力文案等" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-12" value="下载专属（含企微号）活动海报" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="610" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-16" value="用户-微信客户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="180" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1xVAN8a_lrKq11_nG08K-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
