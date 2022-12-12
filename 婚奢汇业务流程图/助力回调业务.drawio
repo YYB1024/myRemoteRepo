@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-12T07:45:25.876Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="yHS2XOj6a2LAdQ5mDZoK" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-12T08:01:03.246Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="6pWS148WvZnsis-yTPPF" version="20.6.0" type="github">
   <diagram id="QFPkRWwK-rK3bPJWCA9W" name="第 1 页">
     <mxGraphModel dx="2166" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -244,8 +244,8 @@
         </mxCell>
         <mxCell id="x1SukQiWENwMJN_2tl-X-1" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="191" y="1754" as="sourcePoint" />
-            <mxPoint x="1250" y="1750" as="targetPoint" />
+            <mxPoint x="200" y="1739" as="sourcePoint" />
+            <mxPoint x="1250" y="1735" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="x1SukQiWENwMJN_2tl-X-2" value="企微好友裂变--活动助力" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -349,8 +349,8 @@
         <mxCell id="x1SukQiWENwMJN_2tl-X-33" value="userId(员工的id)&lt;br&gt;agentId(企微应用id)&lt;br&gt;state(自定义参数)：活动Id+用户Id" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1200" y="2020" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="x1SukQiWENwMJN_2tl-X-35" value="新用户参与" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1225" y="1880" width="120" height="60" as="geometry" />
+        <mxCell id="x1SukQiWENwMJN_2tl-X-35" value="新用户参与/助力" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1880" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="x1SukQiWENwMJN_2tl-X-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;strokeColor=#FF3333;" edge="1" parent="1" source="x1SukQiWENwMJN_2tl-X-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -358,7 +358,7 @@
             <mxPoint x="820" y="1900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="x1SukQiWENwMJN_2tl-X-42" value="回调" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x1SukQiWENwMJN_2tl-X-41">
+        <mxCell id="x1SukQiWENwMJN_2tl-X-42" value="2、回调" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x1SukQiWENwMJN_2tl-X-41">
           <mxGeometry x="-0.1127" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -390,7 +390,7 @@
             <mxPoint x="1220" y="1910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="x1SukQiWENwMJN_2tl-X-61" value="发送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x1SukQiWENwMJN_2tl-X-60">
+        <mxCell id="x1SukQiWENwMJN_2tl-X-61" value="3、发送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x1SukQiWENwMJN_2tl-X-60">
           <mxGeometry x="-0.1083" relative="1" as="geometry">
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
@@ -404,7 +404,7 @@
             <mxPoint x="1170" y="1870" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="x1SukQiWENwMJN_2tl-X-56" value="扫码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x1SukQiWENwMJN_2tl-X-55">
+        <mxCell id="x1SukQiWENwMJN_2tl-X-56" value="1、扫码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x1SukQiWENwMJN_2tl-X-55">
           <mxGeometry x="0.0328" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
