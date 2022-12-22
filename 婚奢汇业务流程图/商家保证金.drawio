@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-22T02:24:10.960Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.2" etag="vxOufbKfvSFaL6c8Pf_T" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-22T02:29:34.736Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.2" etag="VskuUL6G35fYoEXf8Ua5" type="github">
   <diagram id="NA4BKqEWUt-a89zvymNg" name="第 1 页">
     <mxGraphModel dx="1223" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -65,6 +65,11 @@
         <mxCell id="Y1J3zVxvZXF6_qakw0I8-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y1J3zVxvZXF6_qakw0I8-23" target="Y1J3zVxvZXF6_qakw0I8-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Y1J3zVxvZXF6_qakw0I8-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y1J3zVxvZXF6_qakw0I8-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="-180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Y1J3zVxvZXF6_qakw0I8-23" value="work端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="-80" width="120" height="60" as="geometry" />
         </mxCell>
@@ -81,6 +86,28 @@
         </mxCell>
         <mxCell id="Y1J3zVxvZXF6_qakw0I8-26" value="商家入驻" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1J3zVxvZXF6_qakw0I8-31" value="提供保证金保存接口（DubbleSerVice）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="-85" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1J3zVxvZXF6_qakw0I8-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y1J3zVxvZXF6_qakw0I8-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="-220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y1J3zVxvZXF6_qakw0I8-32" value="商家登录-未交保证金" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="71" y="-250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1J3zVxvZXF6_qakw0I8-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y1J3zVxvZXF6_qakw0I8-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="-220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y1J3zVxvZXF6_qakw0I8-35" value="支付拦截" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1J3zVxvZXF6_qakw0I8-36" value="支付基础保证金" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="-250" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
