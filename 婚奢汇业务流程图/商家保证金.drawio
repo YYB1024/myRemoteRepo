@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-22T02:55:44.853Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="M4EXl6a78W2RLwd-3j5U" version="20.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-22T02:56:45.732Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Vj1-hx_K75tmMY6JKsAf" version="20.6.2" type="github">
   <diagram id="NA4BKqEWUt-a89zvymNg" name="第 1 页">
     <mxGraphModel dx="1406" dy="1070" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -133,8 +133,14 @@
         <mxCell id="Y1J3zVxvZXF6_qakw0I8-43" value="查看明细" style="whiteSpace=wrap;html=1;fontColor=#FF3333;rounded=1;" parent="1" vertex="1">
           <mxGeometry y="730" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="nQCQSema7qJGIRkRdBQZ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y1J3zVxvZXF6_qakw0I8-45" target="nQCQSema7qJGIRkRdBQZ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Y1J3zVxvZXF6_qakw0I8-45" value="明细列表（VO）" style="whiteSpace=wrap;html=1;fontColor=#FF3333;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nQCQSema7qJGIRkRdBQZ-1" value="增加收费保证接口" style="whiteSpace=wrap;html=1;fontColor=#FF3333;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="870" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
