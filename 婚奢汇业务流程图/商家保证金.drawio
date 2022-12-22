@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-22T02:30:24.303Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.2" etag="GKYKNOAjEPbaR6R8p2WL" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-22T02:53:22.626Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.2" etag="FL6whGj7_h1PrD2whln8" type="github">
   <diagram id="NA4BKqEWUt-a89zvymNg" name="第 1 页">
     <mxGraphModel dx="1223" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -108,6 +108,33 @@
         </mxCell>
         <mxCell id="Y1J3zVxvZXF6_qakw0I8-36" value="支付基础保证金" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="-250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1J3zVxvZXF6_qakw0I8-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="Y1J3zVxvZXF6_qakw0I8-38" target="Y1J3zVxvZXF6_qakw0I8-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1J3zVxvZXF6_qakw0I8-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#030101;" edge="1" parent="1" source="Y1J3zVxvZXF6_qakw0I8-38" target="Y1J3zVxvZXF6_qakw0I8-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1J3zVxvZXF6_qakw0I8-38" value="&lt;font color=&quot;#000000&quot;&gt;店铺信息、商家列表详情&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1J3zVxvZXF6_qakw0I8-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="Y1J3zVxvZXF6_qakw0I8-39" target="Y1J3zVxvZXF6_qakw0I8-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1J3zVxvZXF6_qakw0I8-39" value="&lt;font color=&quot;#000000&quot;&gt;查询店铺保证金是否缴纳&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#FF3333;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1J3zVxvZXF6_qakw0I8-41" value="&lt;font color=&quot;#030101&quot;&gt;提供是否已缴List（&lt;/font&gt;&lt;span style=&quot;&quot;&gt;DubbleSerVice&lt;/span&gt;&lt;font color=&quot;#030101&quot;&gt;）&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#FF3333;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1J3zVxvZXF6_qakw0I8-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#030101;" edge="1" parent="1" source="Y1J3zVxvZXF6_qakw0I8-43" target="Y1J3zVxvZXF6_qakw0I8-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1J3zVxvZXF6_qakw0I8-43" value="查看明细" style="whiteSpace=wrap;html=1;fontColor=#FF3333;rounded=1;" vertex="1" parent="1">
+          <mxGeometry y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1J3zVxvZXF6_qakw0I8-45" value="明细列表" style="whiteSpace=wrap;html=1;fontColor=#FF3333;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="730" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
