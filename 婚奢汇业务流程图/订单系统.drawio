@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-11T03:37:43.294Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="xtUcl7z_rNM1kVlUVGp0" version="20.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-11T05:55:59.778Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="GeiYwzFyQnBLphPx1Sv7" version="20.8.3" type="github">
   <diagram id="L1Md74T0iGSnTZSqdi6X" name="第 1 页">
-    <mxGraphModel dx="1758" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1758" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -115,11 +115,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KtWLmuLaP4DR1fBGIdUf-12" value="发送创建订单的MQ消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KtWLmuLaP4DR1fBGIdUf-11">
-          <mxGeometry x="-0.6553" y="-4" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
+        <UserObject label="发送创建订单的MQ消息、订单延时消息（Producer）" tooltip="MQ发送&#xa;创建订单：com.odbpo.app.order.mq.producer.OrderSendMqHelper#sendCreateOrderMsg&#xa;订单超时（延时消息）&#xa;com.odbpo.app.order.mq.producer.OrderSendMqHelper#sendCreateOrderTimingMsg&#xa;&#xa;MQ消费&#xa;订单延时消息消费：&#xa;com.odbpo.app.order.mq.consumer.CancelOvertimeOrderConsumer" id="KtWLmuLaP4DR1fBGIdUf-12">
+          <mxCell style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KtWLmuLaP4DR1fBGIdUf-11">
+            <mxGeometry x="-0.6553" y="-4" relative="1" as="geometry">
+              <mxPoint x="129" y="-4" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
