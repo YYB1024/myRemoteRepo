@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-12T06:54:46.449Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="gL-Sy5IyxaV7vi9jvGyb" version="20.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-12T07:12:54.064Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="DU-QIa6vORTpmlysbgjM" version="20.8.3" type="github">
   <diagram id="L1Md74T0iGSnTZSqdi6X" name="第 1 页">
     <mxGraphModel dx="2343" dy="1120" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -356,6 +356,11 @@
             <mxPoint x="740" y="1610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="nTdPX7boH0QsrCSPBOs8-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nTdPX7boH0QsrCSPBOs8-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1549.9999999999995" y="1770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="nTdPX7boH0QsrCSPBOs8-48" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1365" y="1240" width="30" height="60" as="geometry" />
         </mxCell>
@@ -484,8 +489,19 @@
         <mxCell id="nTdPX7boH0QsrCSPBOs8-92" value="退款失败" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="2180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nTdPX7boH0QsrCSPBOs8-96" value="售后工单关闭" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="2180" width="120" height="60" as="geometry" />
+        <mxCell id="nTdPX7boH0QsrCSPBOs8-96" value="用户-撤销申请&lt;br&gt;（可再次发起）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="674.23" y="2180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nTdPX7boH0QsrCSPBOs8-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nTdPX7boH0QsrCSPBOs8-101">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1279.9999999999995" y="1810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nTdPX7boH0QsrCSPBOs8-101" value="商品-订单售后" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="1780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nTdPX7boH0QsrCSPBOs8-104" value="申请驳回" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="1780" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
