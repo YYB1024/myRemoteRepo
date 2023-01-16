@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-16T08:09:36.809Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="-gDuQIHfZxemqnd79Nts" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-16T09:08:32.243Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Kk1sfABRwlYfEF0Mbqmn" version="20.8.5" type="github">
   <diagram id="L1Md74T0iGSnTZSqdi6X" name="第 1 页">
-    <mxGraphModel dx="2481" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2702" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -653,6 +653,9 @@
         <mxCell id="JLbRcTaZxDnZmXYW_TNH-42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=16;" vertex="1" parent="JLbRcTaZxDnZmXYW_TNH-41">
           <mxGeometry x="80" y="92" width="10" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="JLbRcTaZxDnZmXYW_TNH-70" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=16;" vertex="1" parent="JLbRcTaZxDnZmXYW_TNH-41">
+          <mxGeometry x="80" y="180" width="10" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="JLbRcTaZxDnZmXYW_TNH-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.041;entryY=0.096;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;" edge="1" parent="1" source="JLbRcTaZxDnZmXYW_TNH-37" target="JLbRcTaZxDnZmXYW_TNH-42">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -675,9 +678,6 @@
         </mxCell>
         <mxCell id="JLbRcTaZxDnZmXYW_TNH-50" value="findListByOrdersPaySn（）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="JLbRcTaZxDnZmXYW_TNH-46">
           <mxGeometry x="-160" y="115" width="220" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="JLbRcTaZxDnZmXYW_TNH-61" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=16;" vertex="1" parent="JLbRcTaZxDnZmXYW_TNH-46">
-          <mxGeometry x="79.99999999999999" y="180" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JLbRcTaZxDnZmXYW_TNH-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.225;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;" edge="1" parent="1" source="JLbRcTaZxDnZmXYW_TNH-42" target="JLbRcTaZxDnZmXYW_TNH-47">
           <mxGeometry relative="1" as="geometry">
@@ -716,24 +716,30 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JLbRcTaZxDnZmXYW_TNH-59" value="PayMethodHelper" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1195" y="2760" width="170" height="340" as="geometry" />
+          <mxGeometry x="1195" y="2770" width="170" height="340" as="geometry" />
         </mxCell>
         <mxCell id="JLbRcTaZxDnZmXYW_TNH-60" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=16;" vertex="1" parent="JLbRcTaZxDnZmXYW_TNH-59">
           <mxGeometry x="80" y="210" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="JLbRcTaZxDnZmXYW_TNH-66" value="handleOrderPayMethodsDiscount" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="JLbRcTaZxDnZmXYW_TNH-59">
-          <mxGeometry x="-180" y="202" width="260" height="30" as="geometry" />
+        <mxCell id="JLbRcTaZxDnZmXYW_TNH-64" value="处理支付的订单的各种优惠-价格" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="460" y="2962" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JLbRcTaZxDnZmXYW_TNH-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.047;entryY=0.246;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;" edge="1" parent="1" source="JLbRcTaZxDnZmXYW_TNH-61" target="JLbRcTaZxDnZmXYW_TNH-60">
+        <mxCell id="JLbRcTaZxDnZmXYW_TNH-67" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="2770" width="170" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="JLbRcTaZxDnZmXYW_TNH-68" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=16;" vertex="1" parent="JLbRcTaZxDnZmXYW_TNH-67">
+          <mxGeometry x="80" y="220" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JLbRcTaZxDnZmXYW_TNH-66" value="handleOrderPayMethodsDiscount" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="740" y="2962" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JLbRcTaZxDnZmXYW_TNH-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.167;entryY=0.196;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;" edge="1" parent="1" source="JLbRcTaZxDnZmXYW_TNH-70" target="JLbRcTaZxDnZmXYW_TNH-60">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="870" y="2990" />
-              <mxPoint x="870" y="2990" />
+              <mxPoint x="650" y="2996" />
+              <mxPoint x="650" y="2996" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="JLbRcTaZxDnZmXYW_TNH-64" value="处理支付的订单的各种优惠-价格" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="760" y="2960" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
