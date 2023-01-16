@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-16T09:08:32.243Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Kk1sfABRwlYfEF0Mbqmn" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-16T10:07:46.367Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="119xGQjgaTV0tPjwVvFa" version="20.8.5" type="github">
   <diagram id="L1Md74T0iGSnTZSqdi6X" name="第 1 页">
     <mxGraphModel dx="2702" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -648,13 +648,13 @@
           <mxGeometry x="80" y="70" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JLbRcTaZxDnZmXYW_TNH-41" value="OrderPayServiceImpl" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="350" y="2790" width="170" height="340" as="geometry" />
+          <mxGeometry x="350" y="2790" width="170" height="430" as="geometry" />
         </mxCell>
         <mxCell id="JLbRcTaZxDnZmXYW_TNH-42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=16;" vertex="1" parent="JLbRcTaZxDnZmXYW_TNH-41">
           <mxGeometry x="80" y="92" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JLbRcTaZxDnZmXYW_TNH-70" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=16;" vertex="1" parent="JLbRcTaZxDnZmXYW_TNH-41">
-          <mxGeometry x="80" y="180" width="10" height="80" as="geometry" />
+          <mxGeometry x="80" y="180" width="10" height="140" as="geometry" />
         </mxCell>
         <mxCell id="JLbRcTaZxDnZmXYW_TNH-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.041;entryY=0.096;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;" edge="1" parent="1" source="JLbRcTaZxDnZmXYW_TNH-37" target="JLbRcTaZxDnZmXYW_TNH-42">
           <mxGeometry relative="1" as="geometry">
@@ -725,10 +725,10 @@
           <mxGeometry x="460" y="2962" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JLbRcTaZxDnZmXYW_TNH-67" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1470" y="2770" width="170" height="340" as="geometry" />
+          <mxGeometry x="1470" y="2770" width="170" height="470" as="geometry" />
         </mxCell>
         <mxCell id="JLbRcTaZxDnZmXYW_TNH-68" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=16;" vertex="1" parent="JLbRcTaZxDnZmXYW_TNH-67">
-          <mxGeometry x="80" y="220" width="10" height="80" as="geometry" />
+          <mxGeometry x="80" y="280" width="10" height="90" as="geometry" />
         </mxCell>
         <mxCell id="JLbRcTaZxDnZmXYW_TNH-66" value="handleOrderPayMethodsDiscount" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="740" y="2962" width="260" height="30" as="geometry" />
@@ -738,6 +738,14 @@
             <Array as="points">
               <mxPoint x="650" y="2996" />
               <mxPoint x="650" y="2996" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JLbRcTaZxDnZmXYW_TNH-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="JLbRcTaZxDnZmXYW_TNH-70" target="JLbRcTaZxDnZmXYW_TNH-68">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="3070" />
+              <mxPoint x="810" y="3070" />
             </Array>
           </mxGeometry>
         </mxCell>
