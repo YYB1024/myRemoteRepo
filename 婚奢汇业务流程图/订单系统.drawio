@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-16T07:05:02.166Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="NYxx2DIQHr67ZTSm5ewq" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-16T07:39:47.234Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="KO-sbGs0VKK7hSW8xFjz" version="20.8.5" type="github">
   <diagram id="L1Md74T0iGSnTZSqdi6X" name="第 1 页">
     <mxGraphModel dx="2481" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -667,7 +667,7 @@
         <mxCell id="JLbRcTaZxDnZmXYW_TNH-45" value="payCallback（）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="205" y="2892" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JLbRcTaZxDnZmXYW_TNH-46" value="ParentOrderDeal" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="JLbRcTaZxDnZmXYW_TNH-46" value="OrderDeal" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="649.23" y="2780" width="170" height="340" as="geometry" />
         </mxCell>
         <mxCell id="JLbRcTaZxDnZmXYW_TNH-47" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=16;" vertex="1" parent="JLbRcTaZxDnZmXYW_TNH-46">
@@ -703,6 +703,14 @@
         </mxCell>
         <mxCell id="JLbRcTaZxDnZmXYW_TNH-56" value="参数校验" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="755" y="2875" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JLbRcTaZxDnZmXYW_TNH-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.077;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;" edge="1" parent="1" source="JLbRcTaZxDnZmXYW_TNH-52" target="JLbRcTaZxDnZmXYW_TNH-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JLbRcTaZxDnZmXYW_TNH-58" value="查询子订单列表信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="JLbRcTaZxDnZmXYW_TNH-57">
+          <mxGeometry x="0.4693" y="1" relative="1" as="geometry">
+            <mxPoint x="46" y="2" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
