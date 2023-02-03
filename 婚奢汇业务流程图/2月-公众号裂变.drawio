@@ -1,1 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2023-02-03T09:46:05.754Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.15" etag="eYYxdpwwzYe7xjW-Q8d4" type="github"><diagram name="第 1 页" id="GJjgt-Rwlbf1KBuLVcWF">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-03T10:10:12.942Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="UE0MGEYeJlFydYAuBadL" version="20.8.15" type="github">
+  <diagram name="第 1 页" id="GJjgt-Rwlbf1KBuLVcWF">
+    <mxGraphModel dx="1406" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WQ1iNIRnrmCbUFtxx1GU-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQ1iNIRnrmCbUFtxx1GU-1" target="WQ1iNIRnrmCbUFtxx1GU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WQ1iNIRnrmCbUFtxx1GU-4" value="进入活动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WQ1iNIRnrmCbUFtxx1GU-3">
+          <mxGeometry x="-0.225" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WQ1iNIRnrmCbUFtxx1GU-1" value="参与活动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WQ1iNIRnrmCbUFtxx1GU-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQ1iNIRnrmCbUFtxx1GU-2" target="WQ1iNIRnrmCbUFtxx1GU-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="260" />
+              <mxPoint x="380" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WQ1iNIRnrmCbUFtxx1GU-7" value="助力成功：条件：成功添加新好友" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WQ1iNIRnrmCbUFtxx1GU-6">
+          <mxGeometry x="-0.0375" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WQ1iNIRnrmCbUFtxx1GU-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.558;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WQ1iNIRnrmCbUFtxx1GU-2" target="WQ1iNIRnrmCbUFtxx1GU-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="270" />
+              <mxPoint x="597" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WQ1iNIRnrmCbUFtxx1GU-2" value="邀请好友助力并关注公众号" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WQ1iNIRnrmCbUFtxx1GU-5" value="给被助力人关注的公众号发送模板模板消息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WQ1iNIRnrmCbUFtxx1GU-8" value="给企微发送助力成功的消息（已完成）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f3f4;" vertex="1" parent="1">
+          <mxGeometry x="530" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WQ1iNIRnrmCbUFtxx1GU-12" value="注：只有关注后才会发送助力消息" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#ffffff;position2=0.83;" vertex="1" parent="1">
+          <mxGeometry x="140" y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WQ1iNIRnrmCbUFtxx1GU-13" value="企微成功添加新好友" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="115" y="475" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WQ1iNIRnrmCbUFtxx1GU-14" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="250" y="440" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WQ1iNIRnrmCbUFtxx1GU-15" value="向企微用户发送助力成功消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="324" y="425" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WQ1iNIRnrmCbUFtxx1GU-16" value="&amp;nbsp;向用户关注已关注的公众号发送模板消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="520" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WQ1iNIRnrmCbUFtxx1GU-20" value="&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 13px;&quot;&gt;回调&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="455" width="50" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
