@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T02:47:42.063Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="CC5EO6yNV8dr1eTSob5m" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-09T14:19:08.930Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="qoPZp_gPcMo1KfNqDC9u" version="20.8.16" type="github">
   <diagram name="第 1 页" id="GJjgt-Rwlbf1KBuLVcWF">
-    <mxGraphModel dx="1886" dy="852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1406" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -63,36 +63,33 @@
         <mxCell id="WQ1iNIRnrmCbUFtxx1GU-20" value="&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 13px;&quot;&gt;回调&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="240" y="455" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YVejtYPgXgVpvgSTZWIS-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YVejtYPgXgVpvgSTZWIS-1" target="YVejtYPgXgVpvgSTZWIS-5">
+        <mxCell id="YVejtYPgXgVpvgSTZWIS-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YVejtYPgXgVpvgSTZWIS-1" target="YVejtYPgXgVpvgSTZWIS-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YVejtYPgXgVpvgSTZWIS-1" value="添加公众号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YVejtYPgXgVpvgSTZWIS-1" value="添加公众号" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="690" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YVejtYPgXgVpvgSTZWIS-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+        <mxCell id="YVejtYPgXgVpvgSTZWIS-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="330" y="720" as="targetPoint" />
             <mxPoint x="190" y="720" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YVejtYPgXgVpvgSTZWIS-4" value="进入活动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YVejtYPgXgVpvgSTZWIS-3">
+        <mxCell id="YVejtYPgXgVpvgSTZWIS-4" value="进入活动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="YVejtYPgXgVpvgSTZWIS-3" vertex="1" connectable="0">
           <mxGeometry x="-0.2714" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YVejtYPgXgVpvgSTZWIS-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YVejtYPgXgVpvgSTZWIS-5" target="YVejtYPgXgVpvgSTZWIS-9">
+        <mxCell id="YVejtYPgXgVpvgSTZWIS-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YVejtYPgXgVpvgSTZWIS-5" target="YVejtYPgXgVpvgSTZWIS-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YVejtYPgXgVpvgSTZWIS-5" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(34, 34, 34); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;SF UI Text&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;生成带参数二维码的接口&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="YVejtYPgXgVpvgSTZWIS-5" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(34, 34, 34); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;SF UI Text&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;生成带参数二维码的接口&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="504" y="790" width="176" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YVejtYPgXgVpvgSTZWIS-7" value="周二晚上" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="125" y="575" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="YVejtYPgXgVpvgSTZWIS-8" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="YVejtYPgXgVpvgSTZWIS-8" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="150" y="680" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YVejtYPgXgVpvgSTZWIS-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YVejtYPgXgVpvgSTZWIS-9" target="WQ1iNIRnrmCbUFtxx1GU-5">
+        <mxCell id="YVejtYPgXgVpvgSTZWIS-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YVejtYPgXgVpvgSTZWIS-9" target="WQ1iNIRnrmCbUFtxx1GU-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="760" y="960" />
@@ -101,7 +98,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YVejtYPgXgVpvgSTZWIS-9" value="长按扫描关注" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="YVejtYPgXgVpvgSTZWIS-9" value="长按扫描关注" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="532" y="930" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
