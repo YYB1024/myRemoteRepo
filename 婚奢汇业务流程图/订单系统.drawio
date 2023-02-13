@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-13T03:39:11.404Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="VPvtFFIkG9B6xU8eB6cl" version="20.8.19" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-13T05:33:05.427Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="GCDcKF2DaupDNiw81xWf" version="20.8.19" type="github">
   <diagram id="L1Md74T0iGSnTZSqdi6X" name="第 1 页">
-    <mxGraphModel dx="2809" dy="1597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2809" dy="1593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -871,24 +871,21 @@
         <mxCell id="kPr86lV8RaTdT64qXtqa-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="500" y="-405" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="kPr86lV8RaTdT64qXtqa-14" value="dubbo接口：rerurnStock（）、" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="511.03" y="-415" width="190" height="30" as="geometry" />
+        <mxCell id="kPr86lV8RaTdT64qXtqa-14" value="dubbo接口：rerurnStock（）、&lt;br&gt;refundCouponBatch（）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="535" y="-420" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kPr86lV8RaTdT64qXtqa-15" value="增加库存（更新sku）：com.odbpo.app.goods.service.StockService#addStock" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="520" y="-220" width="440" height="30" as="geometry" />
+          <mxGeometry x="500" y="-270" width="440" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kPr86lV8RaTdT64qXtqa-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="1040" y="-360" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="kPr86lV8RaTdT64qXtqa-19" value="com.odbpo.app.goods.dao.SpuDAO#updateSpuStockVolume" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="610" y="-190" width="350" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="kPr86lV8RaTdT64qXtqa-20" value="MQ(更新spu)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="520" y="-190" width="90" height="30" as="geometry" />
+        <mxCell id="kPr86lV8RaTdT64qXtqa-20" value="MQ(更新spu)：com.odbpo.app.goods.dao.SpuDAO#updateSpuStockVolume" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="505" y="-240" width="430" height="30" as="geometry" />
         </mxCell>
         <UserObject label="更新优惠券：com.odbpo.app.market.dao.CouponInstanceMapper#updateStatusBatch" link="com.odbpo.app.market.dao.CouponInstanceMapper#updateStatusBatch" id="kPr86lV8RaTdT64qXtqa-22">
           <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="530" y="-150" width="420" height="40" as="geometry" />
+            <mxGeometry x="515" y="-200" width="420" height="40" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
