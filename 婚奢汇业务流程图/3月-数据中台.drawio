@@ -1,1 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2023-03-06T02:21:31.356Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="20.8.23" etag="v3h5wZqe19ZDBG2l5PVT" type="github"><diagram name="第 1 页" id="JaNlK0dR6edvkOwPo-ah">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-06T02:46:36.240Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="hDCBKx0SLrt-_UXluZT5" version="20.8.23" type="github">
+  <diagram name="第 1 页" id="JaNlK0dR6edvkOwPo-ah">
+    <mxGraphModel dx="1406" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="07U4XjZwByyUyWGIjWmX-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="07U4XjZwByyUyWGIjWmX-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="07U4XjZwByyUyWGIjWmX-4" value="创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="07U4XjZwByyUyWGIjWmX-3">
+          <mxGeometry x="-0.35" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="07U4XjZwByyUyWGIjWmX-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="90" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="07U4XjZwByyUyWGIjWmX-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="07U4XjZwByyUyWGIjWmX-5" target="07U4XjZwByyUyWGIjWmX-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="07U4XjZwByyUyWGIjWmX-5" value="激励策略" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="07U4XjZwByyUyWGIjWmX-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="07U4XjZwByyUyWGIjWmX-6" target="07U4XjZwByyUyWGIjWmX-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="07U4XjZwByyUyWGIjWmX-10" value="入库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="07U4XjZwByyUyWGIjWmX-9">
+          <mxGeometry x="0.075" y="3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="07U4XjZwByyUyWGIjWmX-6" value="规则配置&lt;br&gt;（分层条件优先级）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="07U4XjZwByyUyWGIjWmX-12" value="strategy_id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="07U4XjZwByyUyWGIjWmX-8" target="07U4XjZwByyUyWGIjWmX-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="inspire_strategy&lt;br&gt;（激励策略表）" tooltip="将规则中的配置拆分为每一个字段组装成json存入strategy_ruleview" id="07U4XjZwByyUyWGIjWmX-8">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="630" y="90" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="inspire_rule&lt;br&gt;（激励规则表）" tooltip="将策略拆分的前置条件与结果条进分别存入rule_condition、rule_resultformula" id="07U4XjZwByyUyWGIjWmX-11">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="630" y="230" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="07U4XjZwByyUyWGIjWmX-13" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
