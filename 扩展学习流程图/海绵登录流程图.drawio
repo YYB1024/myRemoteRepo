@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-22T09:40:50.650Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="j1ixh18hfo-5oyys-lrk" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-22T09:57:13.684Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="V5sjpG8idl1S3wkH5qOa" version="24.4.4" type="github">
   <diagram name="第 1 页" id="IZgFfTSHIUC8vvN_eHqE">
-    <mxGraphModel dx="1687" dy="925" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="786" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -341,9 +341,17 @@
         <mxCell id="s-7A4ezLg-ZEzOZGVY8U-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-7A4ezLg-ZEzOZGVY8U-84" target="s-7A4ezLg-ZEzOZGVY8U-87">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <object label="获取用户绑定的信息user_bind" this.sysUserService.getBindUser="用户绑定信息User_bind" id="s-7A4ezLg-ZEzOZGVY8U-84">
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-7A4ezLg-ZEzOZGVY8U-84" target="s-7A4ezLg-ZEzOZGVY8U-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-104" value="为空" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s-7A4ezLg-ZEzOZGVY8U-102">
+          <mxGeometry x="-0.0388" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="通过BindNo获取用户绑定的信息user_bind" this.sysUserService.getBindUser="用户绑定信息User_bind" id="s-7A4ezLg-ZEzOZGVY8U-84">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="1939" y="1082" width="120" height="60" as="geometry" />
+            <mxGeometry x="1939" y="1082" width="120" height="53" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="s-7A4ezLg-ZEzOZGVY8U-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-7A4ezLg-ZEzOZGVY8U-87" target="s-7A4ezLg-ZEzOZGVY8U-91">
@@ -376,8 +384,37 @@
         <mxCell id="s-7A4ezLg-ZEzOZGVY8U-94" value="则更新微信用户绑定信息的bindNo(unionid)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="2774.5" y="1082" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-96" value="再" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2974.5" y="1082" width="120" height="60" as="geometry" />
+        <object label="再查询绑定关系通过BindNo" this.sysUserService.getBindUser="BindNo查询绑定关系" id="s-7A4ezLg-ZEzOZGVY8U-96">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="2974.5" y="1082" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-7A4ezLg-ZEzOZGVY8U-101" target="s-7A4ezLg-ZEzOZGVY8U-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-107" value="为空" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s-7A4ezLg-ZEzOZGVY8U-106">
+          <mxGeometry x="0.0125" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="通过userId获取用户绑定的信息user_bind" appUserService.getExistDelBindData="userId查询" id="s-7A4ezLg-ZEzOZGVY8U-101">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="1939" y="1238" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-7A4ezLg-ZEzOZGVY8U-105" target="s-7A4ezLg-ZEzOZGVY8U-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-110" value="userVO不为空且绑定&amp;gt;=2 ?" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s-7A4ezLg-ZEzOZGVY8U-109">
+          <mxGeometry x="-0.2677" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-105" value="从users表查询用户" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2139" y="1238" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-108" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2482" y="1242" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
