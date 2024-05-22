@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-22T10:33:16.908Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="WOYiC9BOH48PE45AhyGG" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-22T10:43:06.519Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="IB0i1tcy33LhGBnPlN1q" version="24.4.4" type="github">
   <diagram name="第 1 页" id="IZgFfTSHIUC8vvN_eHqE">
-    <mxGraphModel dx="1593" dy="873" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="925" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -384,7 +384,7 @@
         <mxCell id="s-7A4ezLg-ZEzOZGVY8U-94" value="则更新微信用户绑定信息的bindNo(unionid)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="2774.5" y="1082" width="120" height="60" as="geometry" />
         </mxCell>
-        <object label="再查询绑定关系通过BindNo" this.sysUserService.getBindUser="BindNo查询绑定关系" id="s-7A4ezLg-ZEzOZGVY8U-96">
+        <object label="再查询绑定关系通过BindNo--user" this.sysUserService.getBindUser="BindNo查询绑定关系" id="s-7A4ezLg-ZEzOZGVY8U-96">
           <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
             <mxGeometry x="2974.5" y="1082" width="120" height="60" as="geometry" />
           </mxCell>
@@ -436,11 +436,17 @@
             <mxGeometry x="2774.5" y="1242" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-7A4ezLg-ZEzOZGVY8U-114" target="s-7A4ezLg-ZEzOZGVY8U-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="s-7A4ezLg-ZEzOZGVY8U-114" value="更新Users(用户名和绑定次数)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="2974.5" y="1242" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="s-7A4ezLg-ZEzOZGVY8U-116" value="入参" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="825" y="1222" width="42" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-117" value="通用登录方法" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="3139" y="1140" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
