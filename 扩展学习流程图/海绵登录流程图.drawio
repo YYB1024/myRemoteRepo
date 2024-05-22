@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-22T09:57:13.684Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="V5sjpG8idl1S3wkH5qOa" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-22T10:07:44.240Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="NeWWqeBYuw-1_SnesxSN" version="24.4.4" type="github">
   <diagram name="第 1 页" id="IZgFfTSHIUC8vvN_eHqE">
     <mxGraphModel dx="1434" dy="786" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -410,11 +410,26 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-105" value="从users表查询用户" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2139" y="1238" width="120" height="60" as="geometry" />
+        <object label="从users表查询用户" this.sysUserService.getUserByUserId="Users表查询数据" id="s-7A4ezLg-ZEzOZGVY8U-105">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="2139" y="1238" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-7A4ezLg-ZEzOZGVY8U-108" target="s-7A4ezLg-ZEzOZGVY8U-111">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-108" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2482" y="1242" width="120" height="60" as="geometry" />
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-113" value="从微信接口下载头像" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s-7A4ezLg-ZEzOZGVY8U-112">
+          <mxGeometry x="-0.4319" relative="1" as="geometry">
+            <mxPoint x="27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="绑定微信用户关系（user_bind）" appUserService.bind="绑定关系" id="s-7A4ezLg-ZEzOZGVY8U-108">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="2482" y="1242" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-111" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2774.5" y="1242" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
