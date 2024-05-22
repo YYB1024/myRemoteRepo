@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-22T09:31:15.918Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="NrTSQEsg5hjM9jkZQBPn" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-22T09:40:50.650Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="j1ixh18hfo-5oyys-lrk" version="24.4.4" type="github">
   <diagram name="第 1 页" id="IZgFfTSHIUC8vvN_eHqE">
     <mxGraphModel dx="1687" dy="925" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -346,11 +346,38 @@
             <mxGeometry x="1939" y="1082" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-87" value="从OpenId获取微信登录信息记录&lt;br&gt;user_wxapp_logion" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2258" y="1082" width="120" height="60" as="geometry" />
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-7A4ezLg-ZEzOZGVY8U-87" target="s-7A4ezLg-ZEzOZGVY8U-91">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-93" value="存在user_id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s-7A4ezLg-ZEzOZGVY8U-92">
+          <mxGeometry x="0.0515" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="从OpenId获取微信登录信息记录&lt;br&gt;user_wxapp_logion" this.userHelp.getWxAppLoginByOpenId="登录记录ByOpenId" id="s-7A4ezLg-ZEzOZGVY8U-87">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="2258" y="1082" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
         <mxCell id="s-7A4ezLg-ZEzOZGVY8U-90" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;微信用户没有绑定关系&lt;br&gt;但存在之前关注过某个公众号-openId&lt;br&gt;（公司主体变更了）&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2057" y="1060" width="198" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-95" value="存在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-7A4ezLg-ZEzOZGVY8U-91" target="s-7A4ezLg-ZEzOZGVY8U-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="&lt;br&gt;获得微信用户绑定信息&lt;br&gt;user_bind&lt;div&gt;&lt;br&gt;&lt;/div&gt;" userHelp.getBindData="微信用户绑定关系" id="s-7A4ezLg-ZEzOZGVY8U-91">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="2564" y="1082" width="127" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-7A4ezLg-ZEzOZGVY8U-94" target="s-7A4ezLg-ZEzOZGVY8U-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-94" value="则更新微信用户绑定信息的bindNo(unionid)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2774.5" y="1082" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-96" value="再" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2974.5" y="1082" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
