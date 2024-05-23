@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-23T03:18:21.455Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="RCPzt1Inn0mpK672CrU4" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-23T05:48:05.380Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="6KeVzvsHz2cgT3RMPsCL" version="24.4.4" type="github">
   <diagram name="第 1 页" id="IZgFfTSHIUC8vvN_eHqE">
-    <mxGraphModel dx="1122" dy="713" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1793" dy="983" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -211,6 +211,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-135" value="不同类型的小程序" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s-7A4ezLg-ZEzOZGVY8U-52">
+          <mxGeometry x="0.0123" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="s-7A4ezLg-ZEzOZGVY8U-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s-7A4ezLg-ZEzOZGVY8U-51" target="s-7A4ezLg-ZEzOZGVY8U-55">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="260" y="1519" as="targetPoint" />
@@ -227,6 +232,11 @@
         </mxCell>
         <mxCell id="s-7A4ezLg-ZEzOZGVY8U-60" value="User" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s-7A4ezLg-ZEzOZGVY8U-53">
           <mxGeometry x="0.6123" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-136" value="小程序之外的" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s-7A4ezLg-ZEzOZGVY8U-53">
+          <mxGeometry x="0.0316" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -498,7 +508,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <object label="&lt;h3 style=&quot;margin: 2em 0px 0.5em; padding: 0px; -webkit-tap-highlight-color: transparent; font-size: 16px; color: rgb(34, 34, 34); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;SF UI Text&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; text-align: start;&quot; id=&quot;第二步：通过-code-获取-access-token&quot;&gt;移动应用微信登录通过 code 获取access_token（appId不同）&lt;/h3&gt;" WxUtil.getWxWebAccessToken="获得微信AccessToken" id="s-7A4ezLg-ZEzOZGVY8U-126">
+        <object label="&lt;span style=&quot;caret-color: rgb(40, 44, 52); color: rgb(40, 44, 52); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 16px; orphans: 4; text-align: justify; white-space-collapse: preserve; word-spacing: 0.8px; background-color: rgb(254, 254, 254);&quot;&gt;移动应用微信登录通过 code 获取access_token（appId不同）&lt;/span&gt;" WxUtil.getWxWebAccessToken="获得微信AccessToken" id="s-7A4ezLg-ZEzOZGVY8U-126">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
             <mxGeometry x="602" y="1667" width="202" height="80" as="geometry" />
           </mxCell>
@@ -513,6 +523,9 @@
         </mxCell>
         <mxCell id="s-7A4ezLg-ZEzOZGVY8U-134" value="通用登录方法-commLogin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1399" y="1465" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-137" value="通用登录方法-commLogin" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2245" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
