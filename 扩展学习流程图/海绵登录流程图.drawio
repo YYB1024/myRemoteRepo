@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-23T09:07:09.412Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="yDt05HK1Wjl8F7fkNLNa" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-23T09:34:27.664Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="mUx63J4RfeDYyuSH4tgP" version="24.4.4" type="github">
   <diagram name="第 1 页" id="IZgFfTSHIUC8vvN_eHqE">
-    <mxGraphModel dx="2868" dy="1572" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="786" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -602,14 +602,20 @@
         <mxCell id="s-7A4ezLg-ZEzOZGVY8U-154" value="异常" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2713" y="1490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-161" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="s-7A4ezLg-ZEzOZGVY8U-160">
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-161" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3366" y="1514" as="sourcePoint" />
+            <mxPoint x="3366" y="1513.25" as="sourcePoint" />
+            <mxPoint x="3993" y="1512.25" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-162" value="封装用户信息对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s-7A4ezLg-ZEzOZGVY8U-161">
-          <mxGeometry x="-0.1409" y="3" relative="1" as="geometry">
-            <mxPoint y="-1" as="offset" />
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-203" value="&amp;nbsp; 系统生成user_id、pwd、session" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s-7A4ezLg-ZEzOZGVY8U-161">
+          <mxGeometry x="0.1655" y="-5" relative="1" as="geometry">
+            <mxPoint x="-164" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-205" value="封装用户信息对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s-7A4ezLg-ZEzOZGVY8U-161">
+          <mxGeometry x="0.224" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <object label="&lt;span style=&quot;caret-color: rgb(40, 44, 52); color: rgb(40, 44, 52); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 16px; orphans: 4; text-align: justify; white-space-collapse: preserve; word-spacing: 0.8px; background-color: rgb(254, 254, 254);&quot;&gt;将当前注册记录在缓存&lt;/span&gt;" userHelp.setUserLoggingIn="正在注册放入缓存" id="s-7A4ezLg-ZEzOZGVY8U-157">
@@ -618,7 +624,12 @@
           </mxCell>
         </object>
         <mxCell id="s-7A4ezLg-ZEzOZGVY8U-165" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-7A4ezLg-ZEzOZGVY8U-160" target="s-7A4ezLg-ZEzOZGVY8U-164">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4053" y="1576" />
+              <mxPoint x="4053" y="1576" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="s-7A4ezLg-ZEzOZGVY8U-166" value="参数处理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s-7A4ezLg-ZEzOZGVY8U-165">
           <mxGeometry x="-0.0579" y="2" relative="1" as="geometry">
@@ -626,7 +637,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="s-7A4ezLg-ZEzOZGVY8U-160" value="&lt;span style=&quot;caret-color: rgb(40, 44, 52); color: rgb(40, 44, 52); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 16px; orphans: 4; text-align: justify; white-space-collapse: preserve; word-spacing: 0.8px; background-color: rgb(254, 254, 254);&quot;&gt;this.userHelp.add&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3993" y="1483" width="119" height="60" as="geometry" />
+          <mxGeometry x="3993" y="1483" width="153" height="55" as="geometry" />
         </mxCell>
         <mxCell id="s-7A4ezLg-ZEzOZGVY8U-168" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-7A4ezLg-ZEzOZGVY8U-164">
           <mxGeometry relative="1" as="geometry">
@@ -714,7 +725,18 @@
         <mxCell id="s-7A4ezLg-ZEzOZGVY8U-189" value="删除绑定关系缓存" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3993" y="2105" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-192" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-198" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-7A4ezLg-ZEzOZGVY8U-192" target="s-7A4ezLg-ZEzOZGVY8U-197">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-199" value="小程序（wxType &amp;gt; 0）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s-7A4ezLg-ZEzOZGVY8U-198">
+          <mxGeometry x="-0.2195" relative="1" as="geometry">
+            <mxPoint x="21" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-201" value="其他(wxType&amp;lt;= 0)&amp;nbsp;&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-7A4ezLg-ZEzOZGVY8U-192" target="s-7A4ezLg-ZEzOZGVY8U-200">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-192" value="不同平台的登录" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="3293" y="1888" width="120" height="60" as="geometry" />
         </mxCell>
         <object label="&lt;span style=&quot;caret-color: rgb(40, 44, 52); color: rgb(40, 44, 52); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 16px; orphans: 4; text-align: justify; white-space-collapse: preserve; word-spacing: 0.8px; background-color: rgb(254, 254, 254);&quot;&gt;清除用户正在登陆的记录&lt;/span&gt;" userHelp.clearUserLoggingIn="清除缓存记录" id="s-7A4ezLg-ZEzOZGVY8U-194">
@@ -722,6 +744,14 @@
             <mxGeometry x="3993" y="2245" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
+        <object label="新增或更新wxap_login信息" this.userHelp.wxAppLogin="存在-更新反则插入" id="s-7A4ezLg-ZEzOZGVY8U-197">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="3612" y="1888" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-200" value="新增或更新user_login登录信息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="3293" y="2062" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
