@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-22T10:43:06.519Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="IB0i1tcy33LhGBnPlN1q" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-23T03:01:17.213Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="rHuptX3zdiZNjzLWwht8" version="24.4.4" type="github">
   <diagram name="第 1 页" id="IZgFfTSHIUC8vvN_eHqE">
-    <mxGraphModel dx="1687" dy="925" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1509" dy="827" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -241,7 +241,33 @@
             <mxGeometry x="388" y="1220" width="173" height="60" as="geometry" />
           </mxCell>
         </object>
-        <object label="H5、app登录 (调用微信App)" commonLoginByWx="微信App登录" id="s-7A4ezLg-ZEzOZGVY8U-55">
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-120" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-7A4ezLg-ZEzOZGVY8U-55" target="s-7A4ezLg-ZEzOZGVY8U-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-121" value="登录平台是APP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s-7A4ezLg-ZEzOZGVY8U-120">
+          <mxGeometry x="-0.0672" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s-7A4ezLg-ZEzOZGVY8U-55" target="s-7A4ezLg-ZEzOZGVY8U-126">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="486" y="1690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="454" y="1697" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-127" value="wxcode(微信授权)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s-7A4ezLg-ZEzOZGVY8U-124">
+          <mxGeometry x="0.3773" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-128" value="H5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s-7A4ezLg-ZEzOZGVY8U-124">
+          <mxGeometry x="-0.4416" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="H5网页（微信授权登录）、app登录 (调用微信App)" commonLoginByWx="微信App登录" id="s-7A4ezLg-ZEzOZGVY8U-55">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
             <mxGeometry x="384" y="1469" width="162" height="60" as="geometry" />
           </mxCell>
@@ -447,6 +473,46 @@
         </mxCell>
         <mxCell id="s-7A4ezLg-ZEzOZGVY8U-117" value="通用登录方法" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="3139" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-123" value="与入参User校验" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-7A4ezLg-ZEzOZGVY8U-119" target="s-7A4ezLg-ZEzOZGVY8U-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="&lt;span style=&quot;font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 13px; text-align: left;&quot;&gt;通过网页授权access_token和openid获取用户基本信息&lt;/span&gt;" WxUtil.getWxWebUserinfo="网页授权微信获取信息" id="s-7A4ezLg-ZEzOZGVY8U-119">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="682" y="1469" width="165" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-7A4ezLg-ZEzOZGVY8U-122">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1394" y="1499" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-122" value="得到unionId、OpenId、userName" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1011" y="1469" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-130" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-7A4ezLg-ZEzOZGVY8U-126" target="s-7A4ezLg-ZEzOZGVY8U-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-131" value="access_token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s-7A4ezLg-ZEzOZGVY8U-130">
+          <mxGeometry x="-0.0799" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="&lt;h3 style=&quot;margin: 2em 0px 0.5em; padding: 0px; -webkit-tap-highlight-color: transparent; font-size: 16px; color: rgb(34, 34, 34); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;SF UI Text&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; text-align: start;&quot; id=&quot;第二步：通过-code-获取-access-token&quot;&gt;移动应用微信登录通过 code 获取access_token（appId不同）&lt;/h3&gt;" WxUtil.getWxWebAccessToken="获得微信AccessToken" id="s-7A4ezLg-ZEzOZGVY8U-126">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="602" y="1667" width="202" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-7A4ezLg-ZEzOZGVY8U-129">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1076" y="1537.2105263157896" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-129" value="获取微信基本用户信息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1016" y="1677" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-134" value="通用登录方法-commLogin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1399" y="1465" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
