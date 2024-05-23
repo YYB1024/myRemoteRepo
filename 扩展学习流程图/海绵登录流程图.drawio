@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-23T07:14:52.376Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="n5GoXKRH7WFuMSLPfkAn" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-23T08:50:27.013Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="u06VnmAg3JVbkG4Oswl6" version="24.4.4" type="github">
   <diagram name="第 1 页" id="IZgFfTSHIUC8vvN_eHqE">
-    <mxGraphModel dx="3585" dy="1965" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2049" dy="1123" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -497,7 +497,7 @@
           <mxGeometry x="797" y="2028" width="42" height="26" as="geometry" />
         </mxCell>
         <mxCell id="s-7A4ezLg-ZEzOZGVY8U-117" value="通用登录方法" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="3111" y="1946" width="120" height="60" as="geometry" />
+          <mxGeometry x="2946.5" y="2196" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="s-7A4ezLg-ZEzOZGVY8U-123" value="与入参User校验" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-7A4ezLg-ZEzOZGVY8U-119" target="s-7A4ezLg-ZEzOZGVY8U-122">
           <mxGeometry relative="1" as="geometry" />
@@ -590,17 +590,21 @@
         <mxCell id="s-7A4ezLg-ZEzOZGVY8U-154" value="异常" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2713" y="1490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-161" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-7A4ezLg-ZEzOZGVY8U-157" target="s-7A4ezLg-ZEzOZGVY8U-160">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-161" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="s-7A4ezLg-ZEzOZGVY8U-160">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3366" y="1514" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="s-7A4ezLg-ZEzOZGVY8U-162" value="封装用户信息对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s-7A4ezLg-ZEzOZGVY8U-161">
           <mxGeometry x="-0.1409" y="3" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-157" value="set用户信息到缓存中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3246" y="1488" width="120" height="60" as="geometry" />
-        </mxCell>
+        <object label="&lt;span style=&quot;caret-color: rgb(40, 44, 52); color: rgb(40, 44, 52); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 16px; orphans: 4; text-align: justify; white-space-collapse: preserve; word-spacing: 0.8px; background-color: rgb(254, 254, 254);&quot;&gt;将当前注册记录在缓存&lt;/span&gt;" userHelp.setUserLoggingIn="正在注册放入缓存" id="s-7A4ezLg-ZEzOZGVY8U-157">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="3246" y="1488" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
         <mxCell id="s-7A4ezLg-ZEzOZGVY8U-165" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-7A4ezLg-ZEzOZGVY8U-160" target="s-7A4ezLg-ZEzOZGVY8U-164">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -610,10 +614,90 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="s-7A4ezLg-ZEzOZGVY8U-160" value="&lt;span style=&quot;caret-color: rgb(40, 44, 52); color: rgb(40, 44, 52); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 16px; orphans: 4; text-align: justify; white-space-collapse: preserve; word-spacing: 0.8px; background-color: rgb(254, 254, 254);&quot;&gt;this.userHelp.add&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3247" y="1806" width="119" height="60" as="geometry" />
+          <mxGeometry x="3993" y="1483" width="119" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-164" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3530" y="1806" width="120" height="60" as="geometry" />
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-168" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-7A4ezLg-ZEzOZGVY8U-164">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4271" y="1957" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="4271" y="1712" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-174" value="pc、web (wxType&amp;lt;= 0)&amp;nbsp;&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s-7A4ezLg-ZEzOZGVY8U-168">
+          <mxGeometry x="-0.2283" relative="1" as="geometry">
+            <mxPoint x="-5" y="35" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-177" value="参数封装（getWebLoginVO）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s-7A4ezLg-ZEzOZGVY8U-168">
+          <mxGeometry x="0.099" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-170" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-7A4ezLg-ZEzOZGVY8U-164" target="s-7A4ezLg-ZEzOZGVY8U-169">
+          <mxGeometry x="0.0313" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-171" value="小程序（wxType &amp;gt; 0）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s-7A4ezLg-ZEzOZGVY8U-170">
+          <mxGeometry x="-0.225" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-173" value="参数封装(getWxappLoginVO)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s-7A4ezLg-ZEzOZGVY8U-170">
+          <mxGeometry x="0.2646" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-181" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="s-7A4ezLg-ZEzOZGVY8U-184">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4429" y="1984" as="targetPoint" />
+            <mxPoint x="4271" y="1858" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="4271" y="1844" />
+              <mxPoint x="4434" y="1844" />
+              <mxPoint x="4434" y="1991" />
+              <mxPoint x="4329" y="1991" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-182" value="其他" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s-7A4ezLg-ZEzOZGVY8U-181">
+          <mxGeometry x="-0.6769" y="3" relative="1" as="geometry">
+            <mxPoint x="40" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-183" value="参数封装（getLoginVO）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s-7A4ezLg-ZEzOZGVY8U-181">
+          <mxGeometry x="-0.3532" y="-1" relative="1" as="geometry">
+            <mxPoint x="33" y="68" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="不同平台的注册" this.userService.add="注册" id="s-7A4ezLg-ZEzOZGVY8U-164">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+            <mxGeometry x="3993" y="1682" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-190" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-7A4ezLg-ZEzOZGVY8U-169" target="s-7A4ezLg-ZEzOZGVY8U-189">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="add数据—&lt;br&gt;user_bind&lt;br&gt;user_login&lt;br&gt;user_wx_login" this.userService.add="注册入库" id="s-7A4ezLg-ZEzOZGVY8U-169">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+            <mxGeometry x="3993" y="1965" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-188" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-7A4ezLg-ZEzOZGVY8U-184" target="s-7A4ezLg-ZEzOZGVY8U-187">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-184" value="add数据—&lt;br&gt;user_bind&lt;br&gt;user_login&lt;br&gt;user_wx_login" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4209" y="1965" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-191" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-7A4ezLg-ZEzOZGVY8U-187" target="s-7A4ezLg-ZEzOZGVY8U-189">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-187" value="更新用户信息缓存" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4209" y="2105" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-189" value="删除绑定关系缓存" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3993" y="2105" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
