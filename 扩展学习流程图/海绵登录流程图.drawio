@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-24T03:52:56.484Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Cd4Bzj4838fmQIKVMgcS" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-24T05:40:42.787Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="ikQX3vHW2Rwd4OoJ_lma" version="24.4.4" type="github">
   <diagram name="第 1 页" id="IZgFfTSHIUC8vvN_eHqE">
     <mxGraphModel dx="2193" dy="983" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -846,7 +846,7 @@
         <mxCell id="s-7A4ezLg-ZEzOZGVY8U-231" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-7A4ezLg-ZEzOZGVY8U-227" target="s-7A4ezLg-ZEzOZGVY8U-230">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-234" value="调用（公共数据服务）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s-7A4ezLg-ZEzOZGVY8U-231">
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-234" value="&lt;b&gt;调用（公共数据服务）&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s-7A4ezLg-ZEzOZGVY8U-231">
           <mxGeometry x="0.1263" y="-2" relative="1" as="geometry">
             <mxPoint x="20" y="-1" as="offset" />
           </mxGeometry>
@@ -934,7 +934,7 @@
         <mxCell id="s-7A4ezLg-ZEzOZGVY8U-252" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.402;entryY=-0.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s-7A4ezLg-ZEzOZGVY8U-227" target="s-7A4ezLg-ZEzOZGVY8U-249">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-253" value="DB层服务(专属的db服务)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s-7A4ezLg-ZEzOZGVY8U-252">
+        <mxCell id="s-7A4ezLg-ZEzOZGVY8U-253" value="&lt;b&gt;DB层服务(专属的db服务)&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s-7A4ezLg-ZEzOZGVY8U-252">
           <mxGeometry x="-0.1885" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
