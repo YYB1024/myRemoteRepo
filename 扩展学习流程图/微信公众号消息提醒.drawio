@@ -1,9 +1,110 @@
-<mxfile host="app.diagrams.net" modified="2024-05-24T07:18:24.291Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.4.4" etag="FnEKziEIGMBLARNLgJx_" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-24T08:04:13.420Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="n16tEGOUUZoi10D0cekL" version="24.4.7" type="github">
   <diagram name="第 1 页" id="so2a-fZOwkQ3VGi0FD7v">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="1955" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1Soqwje3NpvlHoM93TKd-3" value="跳转" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1Soqwje3NpvlHoM93TKd-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="268" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="208" y="200" />
+              <mxPoint x="208" y="201" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Soqwje3NpvlHoM93TKd-1" value="app" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Soqwje3NpvlHoM93TKd-5" value="获得" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1Soqwje3NpvlHoM93TKd-2" target="1Soqwje3NpvlHoM93TKd-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Soqwje3NpvlHoM93TKd-2" value="小程序" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="277" y="172" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Soqwje3NpvlHoM93TKd-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1Soqwje3NpvlHoM93TKd-4" target="1Soqwje3NpvlHoM93TKd-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Soqwje3NpvlHoM93TKd-8" value="小程序" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1Soqwje3NpvlHoM93TKd-7">
+          <mxGeometry x="-0.075" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Soqwje3NpvlHoM93TKd-4" value="学号SNO、小程序的UnionId" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="477" y="172" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Soqwje3NpvlHoM93TKd-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1Soqwje3NpvlHoM93TKd-6" target="1Soqwje3NpvlHoM93TKd-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Soqwje3NpvlHoM93TKd-11" value="关注" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1Soqwje3NpvlHoM93TKd-10">
+          <mxGeometry x="-0.125" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Soqwje3NpvlHoM93TKd-6" value="公众号二维码" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="677" y="172" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Soqwje3NpvlHoM93TKd-9" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="677" y="312" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Soqwje3NpvlHoM93TKd-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1Soqwje3NpvlHoM93TKd-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="327" y="-150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Soqwje3NpvlHoM93TKd-16" value="1：1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1Soqwje3NpvlHoM93TKd-15">
+          <mxGeometry x="-0.0916" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Soqwje3NpvlHoM93TKd-12" value="微信学号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="82" y="-180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Soqwje3NpvlHoM93TKd-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1Soqwje3NpvlHoM93TKd-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="582" y="-150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Soqwje3NpvlHoM93TKd-18" value="1:N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1Soqwje3NpvlHoM93TKd-17">
+          <mxGeometry x="-0.0506" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Soqwje3NpvlHoM93TKd-13" value="unionid" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="-180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Soqwje3NpvlHoM93TKd-14" value="openId" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="586" y="-180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Soqwje3NpvlHoM93TKd-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.592;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1Soqwje3NpvlHoM93TKd-12" target="1Soqwje3NpvlHoM93TKd-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="129" y="-100" />
+              <mxPoint x="657" y="-100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Soqwje3NpvlHoM93TKd-20" value="1：N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1Soqwje3NpvlHoM93TKd-19">
+          <mxGeometry x="-0.007" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Soqwje3NpvlHoM93TKd-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1Soqwje3NpvlHoM93TKd-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="394" y="25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Soqwje3NpvlHoM93TKd-24" value="1:1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1Soqwje3NpvlHoM93TKd-22">
+          <mxGeometry x="-0.1801" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Soqwje3NpvlHoM93TKd-21" value="app学号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="94" y="-5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Soqwje3NpvlHoM93TKd-23" value="手机号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="-1" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
