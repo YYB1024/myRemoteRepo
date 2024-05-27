@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-27T02:49:26.780Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="57DbTBvY43Vj_OEy54KJ" version="24.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-27T02:57:17.618Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="VYizE1Z4GgIrpdOuil2Q" version="24.4.7" type="github">
   <diagram name="第 1 页" id="so2a-fZOwkQ3VGi0FD7v">
-    <mxGraphModel dx="1193" dy="1158" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1060" dy="1073" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -234,6 +234,27 @@
         </mxCell>
         <mxCell id="eFi9s5QGdC3UwhBrHFLH-33" value="解绑再绑定新号" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1114" y="1127" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eFi9s5QGdC3UwhBrHFLH-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eFi9s5QGdC3UwhBrHFLH-38" target="eFi9s5QGdC3UwhBrHFLH-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eFi9s5QGdC3UwhBrHFLH-38" value="学号" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="413" y="1336" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eFi9s5QGdC3UwhBrHFLH-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eFi9s5QGdC3UwhBrHFLH-39" target="eFi9s5QGdC3UwhBrHFLH-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eFi9s5QGdC3UwhBrHFLH-39" value="手机号" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="706" y="1336" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eFi9s5QGdC3UwhBrHFLH-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eFi9s5QGdC3UwhBrHFLH-41" target="eFi9s5QGdC3UwhBrHFLH-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eFi9s5QGdC3UwhBrHFLH-41" value="uniondId" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="906" y="1336" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eFi9s5QGdC3UwhBrHFLH-43" value="openid" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1106" y="1336" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
