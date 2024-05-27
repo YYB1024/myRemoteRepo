@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-27T02:33:22.489Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="4EfXHlFXF7wFH2DhpC9p" version="24.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-27T02:49:26.780Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="57DbTBvY43Vj_OEy54KJ" version="24.4.7" type="github">
   <diagram name="第 1 页" id="so2a-fZOwkQ3VGi0FD7v">
-    <mxGraphModel dx="909" dy="977" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1193" dy="1158" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -124,6 +124,11 @@
         <mxCell id="eFi9s5QGdC3UwhBrHFLH-19" value="直接扫码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eFi9s5QGdC3UwhBrHFLH-18">
           <mxGeometry x="-0.031" y="-4" relative="1" as="geometry">
             <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eFi9s5QGdC3UwhBrHFLH-37" value="若没有app学号自动注册微信学号" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eFi9s5QGdC3UwhBrHFLH-18">
+          <mxGeometry x="0.8094" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eFi9s5QGdC3UwhBrHFLH-1" value="用户" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
