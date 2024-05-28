@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-28T03:43:13.943Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="e8JXDYS-inE3VBV4Rqrx" version="24.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-28T07:32:57.066Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="VNTI6lSGgcfjzMqiAd32" version="24.4.7" type="github">
   <diagram name="第 1 页" id="so2a-fZOwkQ3VGi0FD7v">
-    <mxGraphModel dx="1311" dy="1215" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1114" dy="1093" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -275,7 +275,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="eFi9s5QGdC3UwhBrHFLH-52" value="登录方式" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="1">
+        <mxCell id="eFi9s5QGdC3UwhBrHFLH-52" value="登录方式（顺序）" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="1">
           <mxGeometry x="591.5" y="1657" width="150" height="90" as="geometry" />
         </mxCell>
         <mxCell id="eFi9s5QGdC3UwhBrHFLH-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eFi9s5QGdC3UwhBrHFLH-55">
@@ -318,7 +318,7 @@
             <mxPoint x="481.5" y="2239" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eFi9s5QGdC3UwhBrHFLH-65" value="跳转小程序&lt;br&gt;显示服务号二维码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eFi9s5QGdC3UwhBrHFLH-65" value="跳转-登录小程序&lt;br&gt;显示服务号二维码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="421.5" y="2099" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eFi9s5QGdC3UwhBrHFLH-70" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -395,7 +395,7 @@
             <mxPoint x="872" y="2382" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eFi9s5QGdC3UwhBrHFLH-97" value="跳转小程序&lt;br&gt;显示服务号二维码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eFi9s5QGdC3UwhBrHFLH-97" value="跳转-登录小程序&lt;br&gt;显示服务号二维码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="812" y="2242" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eFi9s5QGdC3UwhBrHFLH-98" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
