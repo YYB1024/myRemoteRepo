@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-29T02:01:23.002Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="2eSW5hneyHqk1l56JVkB" version="24.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-29T02:06:38.310Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="759TYqdp12NFiiJZUYTy" version="24.4.9" type="github">
   <diagram name="第 1 页" id="so2a-fZOwkQ3VGi0FD7v">
     <mxGraphModel dx="1647" dy="1293" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -487,7 +487,7 @@
             <mxPoint x="1873.0523797607423" y="1821.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UdJub12H227SVvU6hEi2-22" value="绑定" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="UdJub12H227SVvU6hEi2-22" value="绑定手机号" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1700.495" y="1791.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UdJub12H227SVvU6hEi2-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UdJub12H227SVvU6hEi2-27">
@@ -495,7 +495,7 @@
             <mxPoint x="1760.4950000000001" y="1858.6249694824219" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UdJub12H227SVvU6hEi2-27" value="换绑" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="UdJub12H227SVvU6hEi2-27" value="换绑手机号" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1700.495" y="1960.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UdJub12H227SVvU6hEi2-30" value="显示账号、手机号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
