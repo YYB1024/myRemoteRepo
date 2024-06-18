@@ -1,9 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2024-06-18T01:53:01.794Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.5.3" etag="lDWyZItsi69T8j_wLr9x" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-18T02:05:52.487Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="TORpAkGHKpedK3Mh2bKr" version="24.5.3" type="github">
   <diagram name="第 1 页" id="ZFWPjSFioh74IkLd_UBf">
-    <mxGraphModel>
+    <mxGraphModel dx="2047" dy="893" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TpBj-Mq1nXgDXKkRl8jZ-1" target="TpBj-Mq1nXgDXKkRl8jZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-6" value="代码零侵入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TpBj-Mq1nXgDXKkRl8jZ-3">
+          <mxGeometry x="-0.2569" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-1" value="mba" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-195" y="345" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TpBj-Mq1nXgDXKkRl8jZ-2" target="TpBj-Mq1nXgDXKkRl8jZ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-2" value="项目启动JVM扩展启动参数（加载MyPer4J）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-209" y="506" width="148" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="TpBj-Mq1nXgDXKkRl8jZ-2" target="TpBj-Mq1nXgDXKkRl8jZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TpBj-Mq1nXgDXKkRl8jZ-7" target="TpBj-Mq1nXgDXKkRl8jZ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-7" value="标准监控日志输出磁盘并发送到InfluxDB server" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-195" y="623" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TpBj-Mq1nXgDXKkRl8jZ-10" target="TpBj-Mq1nXgDXKkRl8jZ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-10" value="存储到时序数据库InfuxDB" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-195" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TpBj-Mq1nXgDXKkRl8jZ-12" target="TpBj-Mq1nXgDXKkRl8jZ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-12" value="配置Grafana" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-195" y="874" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-14" value="指标大屏展示" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-195" y="984" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
