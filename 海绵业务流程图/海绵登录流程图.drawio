@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-21T03:40:50.738Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="BK-Si8IosGiPOT7M5kwN" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-21T03:42:01.702Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="YwtNpsHFPJLWaMefA3YP" version="24.5.5" type="github">
   <diagram name="第 1 页" id="IZgFfTSHIUC8vvN_eHqE">
     <mxGraphModel dx="2047" dy="893" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1279,6 +1279,16 @@
         <mxCell id="_2iDghMOjYoS5DVDDs84-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_2iDghMOjYoS5DVDDs84-29">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="676.3368377685547" y="3750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_2iDghMOjYoS5DVDDs84-35" value="核心业务逻辑" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_2iDghMOjYoS5DVDDs84-30">
+          <mxGeometry x="-0.4035" y="-1" relative="1" as="geometry">
+            <mxPoint x="4" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_2iDghMOjYoS5DVDDs84-36" value="调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_2iDghMOjYoS5DVDDs84-30">
+          <mxGeometry x="0.3294" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_2iDghMOjYoS5DVDDs84-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_2iDghMOjYoS5DVDDs84-29">
