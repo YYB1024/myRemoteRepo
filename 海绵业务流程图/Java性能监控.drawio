@@ -1,49 +1,93 @@
-<mxfile host="app.diagrams.net" modified="2024-06-18T02:05:52.487Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="TORpAkGHKpedK3Mh2bKr" version="24.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-25T09:01:41.266Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="2QAd8ttg8diihz2TksnD" version="24.6.0" type="github">
   <diagram name="第 1 页" id="ZFWPjSFioh74IkLd_UBf">
-    <mxGraphModel dx="2047" dy="893" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1743" dy="866" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TpBj-Mq1nXgDXKkRl8jZ-1" target="TpBj-Mq1nXgDXKkRl8jZ-2">
+        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="TpBj-Mq1nXgDXKkRl8jZ-1" target="TpBj-Mq1nXgDXKkRl8jZ-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-6" value="代码零侵入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TpBj-Mq1nXgDXKkRl8jZ-3">
+        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-6" value="代码零侵入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TpBj-Mq1nXgDXKkRl8jZ-3" vertex="1" connectable="0">
           <mxGeometry x="-0.2569" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-1" value="mba" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-1" value="mba" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-195" y="345" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TpBj-Mq1nXgDXKkRl8jZ-2" target="TpBj-Mq1nXgDXKkRl8jZ-7">
+        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="TpBj-Mq1nXgDXKkRl8jZ-2" target="TpBj-Mq1nXgDXKkRl8jZ-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-2" value="项目启动JVM扩展启动参数（加载MyPer4J）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-2" value="项目启动JVM扩展启动参数（加载MyPer4J）" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-209" y="506" width="148" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="TpBj-Mq1nXgDXKkRl8jZ-2" target="TpBj-Mq1nXgDXKkRl8jZ-2">
+        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="TpBj-Mq1nXgDXKkRl8jZ-2" target="TpBj-Mq1nXgDXKkRl8jZ-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TpBj-Mq1nXgDXKkRl8jZ-7" target="TpBj-Mq1nXgDXKkRl8jZ-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-7" value="标准监控日志输出磁盘并发送到InfluxDB server" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-7" value="标准监控日志输出磁盘并发送到InfluxDB server" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-195" y="623" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TpBj-Mq1nXgDXKkRl8jZ-10" target="TpBj-Mq1nXgDXKkRl8jZ-12">
+        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="TpBj-Mq1nXgDXKkRl8jZ-10" target="TpBj-Mq1nXgDXKkRl8jZ-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-10" value="存储到时序数据库InfuxDB" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="u6IjXa0HeacAdeog_4TH-14" value="配置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TpBj-Mq1nXgDXKkRl8jZ-13">
+          <mxGeometry x="-0.26" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u6IjXa0HeacAdeog_4TH-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TpBj-Mq1nXgDXKkRl8jZ-10" target="TpBj-Mq1nXgDXKkRl8jZ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u6IjXa0HeacAdeog_4TH-13" value="读取" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u6IjXa0HeacAdeog_4TH-12">
+          <mxGeometry x="0.0245" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-10" value="存储到时序数据库InfuxDB" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-195" y="750" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TpBj-Mq1nXgDXKkRl8jZ-12" target="TpBj-Mq1nXgDXKkRl8jZ-14">
+        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="TpBj-Mq1nXgDXKkRl8jZ-12" target="TpBj-Mq1nXgDXKkRl8jZ-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-12" value="配置Grafana" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-12" value="配置Grafana" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-195" y="874" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-14" value="指标大屏展示" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="TpBj-Mq1nXgDXKkRl8jZ-14" value="指标大屏展示" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-195" y="984" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u6IjXa0HeacAdeog_4TH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u6IjXa0HeacAdeog_4TH-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-255.2187042236328" y="1343" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u6IjXa0HeacAdeog_4TH-7" value="Tomcat的JVM启动加载" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u6IjXa0HeacAdeog_4TH-6">
+          <mxGeometry x="0.3618" y="2" relative="1" as="geometry">
+            <mxPoint x="25" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u6IjXa0HeacAdeog_4TH-1" value="mba项目" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6" y="1313" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u6IjXa0HeacAdeog_4TH-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u6IjXa0HeacAdeog_4TH-2" target="u6IjXa0HeacAdeog_4TH-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u6IjXa0HeacAdeog_4TH-2" value="MyPer4J&lt;br&gt;&lt;div&gt;（官网下载解压-jar、配置文件）&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-383" y="1313" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u6IjXa0HeacAdeog_4TH-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u6IjXa0HeacAdeog_4TH-8" target="u6IjXa0HeacAdeog_4TH-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u6IjXa0HeacAdeog_4TH-8" value="修改配置文件参数&lt;br&gt;（指标输出路径、&lt;br&gt;存储服务等）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-383" y="1453" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u6IjXa0HeacAdeog_4TH-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u6IjXa0HeacAdeog_4TH-10" target="u6IjXa0HeacAdeog_4TH-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u6IjXa0HeacAdeog_4TH-10" value="安装InfuxDB数据库" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-383" y="1593" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u6IjXa0HeacAdeog_4TH-15" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-383" y="1733" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
