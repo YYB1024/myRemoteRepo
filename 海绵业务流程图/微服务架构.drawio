@@ -1,9 +1,180 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="第 1 页" id="O_CdZbX7atALuH6GtehD">
-    <mxGraphModel>
+    <mxGraphModel dx="2425" dy="893" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-1" value="网关-getway-鉴权" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="212" y="339" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-2" value="nacos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="203" y="846" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dfkabiMcD6jGLtH_Wmro-3" target="dfkabiMcD6jGLtH_Wmro-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="125" y="369" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-16" value="上报接口" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dfkabiMcD6jGLtH_Wmro-13">
+          <mxGeometry x="-0.0079" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dfkabiMcD6jGLtH_Wmro-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="357.0034637451172" y="611" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-27" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;服务内部调用&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dfkabiMcD6jGLtH_Wmro-18">
+          <mxGeometry x="-0.2984" y="-2" relative="1" as="geometry">
+            <mxPoint x="9" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dfkabiMcD6jGLtH_Wmro-3" target="dfkabiMcD6jGLtH_Wmro-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="194.0034637451172" y="818.6806335449219" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="125" y="876" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-21" value="服务注册" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dfkabiMcD6jGLtH_Wmro-19">
+          <mxGeometry x="-0.4337" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-3" value="ads-data服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="581" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dfkabiMcD6jGLtH_Wmro-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="272" y="335.6806335449219" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-6" value="请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dfkabiMcD6jGLtH_Wmro-5">
+          <mxGeometry x="-0.1297" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-4" value="客户端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="212" y="185" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dfkabiMcD6jGLtH_Wmro-7" target="dfkabiMcD6jGLtH_Wmro-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="369" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-17" value="上报接口" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dfkabiMcD6jGLtH_Wmro-14">
+          <mxGeometry x="0.0286" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dfkabiMcD6jGLtH_Wmro-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="323" y="876" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="424" y="876" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-22" value="服务注册" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dfkabiMcD6jGLtH_Wmro-20">
+          <mxGeometry x="-0.5423" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-7" value="login服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="364" y="578" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-15" value="接口路径&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;配置文件(shenyu-path）+@ShenyuDubboClient(path)&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="125" y="473" width="308" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-25" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;@DubboReference&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210.0034637451172" y="578.0017175292969" width="122" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="dfkabiMcD6jGLtH_Wmro-29" target="dfkabiMcD6jGLtH_Wmro-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="544" y="996" />
+              <mxPoint x="544" y="593" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-32" value="http请求（MVC）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dfkabiMcD6jGLtH_Wmro-30">
+          <mxGeometry x="0.3412" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dfkabiMcD6jGLtH_Wmro-29" target="dfkabiMcD6jGLtH_Wmro-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5" y="996" />
+              <mxPoint x="5" y="611" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-33" value="http请求（MVC）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dfkabiMcD6jGLtH_Wmro-31">
+          <mxGeometry x="0.3121" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-29" value="自测-Test" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="966" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-34" value="common服务-接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="197" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-36" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="dfkabiMcD6jGLtH_Wmro-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="254" y="709" as="sourcePoint" />
+            <mxPoint x="243" y="659" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-38" value="实现" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dfkabiMcD6jGLtH_Wmro-36">
+          <mxGeometry x="-0.0052" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.136;entryY=0.995;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="dfkabiMcD6jGLtH_Wmro-34" target="dfkabiMcD6jGLtH_Wmro-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="268" y="711" as="sourcePoint" />
+            <mxPoint x="318" y="661" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-39" value="实现" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dfkabiMcD6jGLtH_Wmro-37">
+          <mxGeometry x="0.1152" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dfkabiMcD6jGLtH_Wmro-41" target="dfkabiMcD6jGLtH_Wmro-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-45" value="对外提供接口" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dfkabiMcD6jGLtH_Wmro-44">
+          <mxGeometry x="0.2893" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dfkabiMcD6jGLtH_Wmro-41" target="dfkabiMcD6jGLtH_Wmro-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-47" value="内部调用接口" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dfkabiMcD6jGLtH_Wmro-46">
+          <mxGeometry x="0.2077" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-41" value="common服务-接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="775" y="720" width="132" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-42" value="controller" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="647" y="873" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dfkabiMcD6jGLtH_Wmro-43" value="api" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="913" y="873" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
