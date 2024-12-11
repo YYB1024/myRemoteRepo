@@ -1,9 +1,63 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="第 1 页" id="WTZBqrwiulWjSEPMM5hU">
-    <mxGraphModel>
+    <mxGraphModel dx="1790" dy="971" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6mGI-D8ulKCgt3njF4uA-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6mGI-D8ulKCgt3njF4uA-1" target="6mGI-D8ulKCgt3njF4uA-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mGI-D8ulKCgt3njF4uA-1" value="复试表单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="333" y="316" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6mGI-D8ulKCgt3njF4uA-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6mGI-D8ulKCgt3njF4uA-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="379" y="173.56080627441406" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6mGI-D8ulKCgt3njF4uA-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6mGI-D8ulKCgt3njF4uA-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="111.00346374511719" y="229.56080627441406" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6mGI-D8ulKCgt3njF4uA-21" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6mGI-D8ulKCgt3njF4uA-19">
+          <mxGeometry x="0.5184" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6mGI-D8ulKCgt3njF4uA-2" value="用户" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="319" y="84" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6mGI-D8ulKCgt3njF4uA-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6mGI-D8ulKCgt3njF4uA-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="545.0034637451172" y="213" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6mGI-D8ulKCgt3njF4uA-15" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6mGI-D8ulKCgt3njF4uA-12">
+          <mxGeometry x="-0.2317" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6mGI-D8ulKCgt3njF4uA-8" value="是否购买&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;后台配置的课程&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294.5" y="173" width="169" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6mGI-D8ulKCgt3njF4uA-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.383;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6mGI-D8ulKCgt3njF4uA-8" target="6mGI-D8ulKCgt3njF4uA-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mGI-D8ulKCgt3njF4uA-11" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6mGI-D8ulKCgt3njF4uA-10">
+          <mxGeometry x="-0.1508" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6mGI-D8ulKCgt3njF4uA-14" value="提示" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="183" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6mGI-D8ulKCgt3njF4uA-16" value="保存答案" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="333" y="456" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6mGI-D8ulKCgt3njF4uA-20" value="问卷详情" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="233" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
