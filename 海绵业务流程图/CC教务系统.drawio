@@ -1,9 +1,69 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="第 1 页" id="EBy_cypRLoO-Xsg59K2N">
-    <mxGraphModel>
+    <mxGraphModel dx="1790" dy="971" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WLaNTj-L8ht26HBVauC4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WLaNTj-L8ht26HBVauC4-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="337" y="379.3385772705078" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-7" value="项目服务配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="277" y="222" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WLaNTj-L8ht26HBVauC4-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="773" y="700.0052032470703" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-20" value="数据组合" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WLaNTj-L8ht26HBVauC4-18">
+          <mxGeometry x="-0.2191" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-9" value="学生服务表&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;retest_user_serve&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="713" y="515" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WLaNTj-L8ht26HBVauC4-10" target="WLaNTj-L8ht26HBVauC4-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-13" value="年份+课程Id+老师Id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WLaNTj-L8ht26HBVauC4-12">
+          <mxGeometry x="-0.5224" y="1" relative="1" as="geometry">
+            <mxPoint x="47" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-10" value="查询" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="76" y="519" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WLaNTj-L8ht26HBVauC4-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="708.4479217529297" y="549" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-15" value="userIdList+项目场次id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WLaNTj-L8ht26HBVauC4-14">
+          <mxGeometry x="-0.2307" y="2" relative="1" as="geometry">
+            <mxPoint x="19" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WLaNTj-L8ht26HBVauC4-11" target="WLaNTj-L8ht26HBVauC4-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="484" y="731" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-19" value="数据组合" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WLaNTj-L8ht26HBVauC4-17">
+          <mxGeometry x="0.1482" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-11" value="学生分配表retest_user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="424" y="519" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-16" value="学生服务情况" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="716" y="701" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
