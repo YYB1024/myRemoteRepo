@@ -157,7 +157,7 @@
             <mxPoint x="-145" y="1956.0052032470703" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WLaNTj-L8ht26HBVauC4-71" value="用户信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WLaNTj-L8ht26HBVauC4-71" value="用户、购课信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-205" y="1807" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WLaNTj-L8ht26HBVauC4-76" value="服务已终止" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -215,7 +215,7 @@
             <mxPoint x="8" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WLaNTj-L8ht26HBVauC4-89" value="当前时间是否在&lt;br&gt;预约服务项目之内" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WLaNTj-L8ht26HBVauC4-89" value="当前时间是否在&lt;br&gt;预约服务项目场数&lt;br&gt;的时间段之内" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-229.75" y="2240" width="169.75" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WLaNTj-L8ht26HBVauC4-96" value="提示未开放" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -266,22 +266,28 @@
         <mxCell id="WLaNTj-L8ht26HBVauC4-106" value="选择有空闲时间的老师" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-202" y="2881" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WLaNTj-L8ht26HBVauC4-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WLaNTj-L8ht26HBVauC4-110">
+        <mxCell id="WLaNTj-L8ht26HBVauC4-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-142" y="3134.8941192626953" as="targetPoint" />
+            <mxPoint x="-137.43" y="3361.8941192626953" as="targetPoint" />
+            <mxPoint x="-137.43" y="3316" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WLaNTj-L8ht26HBVauC4-110">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-142" y="3136.2276153564453" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WLaNTj-L8ht26HBVauC4-110" value="预约+预扣库存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-202" y="3028" width="120" height="61" as="geometry" />
+          <mxGeometry x="-202" y="3028" width="120" height="54" as="geometry" />
         </mxCell>
         <mxCell id="WLaNTj-L8ht26HBVauC4-115" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WLaNTj-L8ht26HBVauC4-111">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-142.15999999999985" y="3279.8941192626953" as="targetPoint" />
+            <mxPoint x="-137.58999999999986" y="3506.8941192626953" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WLaNTj-L8ht26HBVauC4-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WLaNTj-L8ht26HBVauC4-111">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="109.22575378417969" y="3174" as="targetPoint" />
+            <mxPoint x="113.79575378417968" y="3401" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WLaNTj-L8ht26HBVauC4-118" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WLaNTj-L8ht26HBVauC4-117">
@@ -289,22 +295,68 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WLaNTj-L8ht26HBVauC4-111" value="&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap;&quot;&gt;是否确定与预约&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-234.32" y="3134" width="184.32" height="80" as="geometry" />
+        <mxCell id="WLaNTj-L8ht26HBVauC4-111" value="&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap;&quot;&gt;是否确定预约&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-229.75" y="3361" width="184.32" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WLaNTj-L8ht26HBVauC4-116" value="预约成功+真正扣减老师库存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-204.87" y="3396" width="120" height="60" as="geometry" />
+          <mxGeometry x="-203" y="3765" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WLaNTj-L8ht26HBVauC4-119" value="手动或自动取消（库存回滚）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="3144" width="120" height="60" as="geometry" />
+          <mxGeometry x="114.57" y="3371" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WLaNTj-L8ht26HBVauC4-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WLaNTj-L8ht26HBVauC4-120">
+        <mxCell id="WLaNTj-L8ht26HBVauC4-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-142" y="3393.2276153564453" as="targetPoint" />
+            <mxPoint x="-137.38" y="3768.2276153564453" as="targetPoint" />
+            <mxPoint x="-137.38" y="3714" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WLaNTj-L8ht26HBVauC4-120">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-137.4300000000003" y="3635.2276153564453" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WLaNTj-L8ht26HBVauC4-120" value="分配规则分配老师" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-202" y="3279" width="120" height="60" as="geometry" />
+          <mxGeometry x="-197.43" y="3506" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WLaNTj-L8ht26HBVauC4-123">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="76" y="3176" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-126" value="不足" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WLaNTj-L8ht26HBVauC4-125">
+          <mxGeometry x="-0.1312" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WLaNTj-L8ht26HBVauC4-123">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-143" y="3250.5608673095703" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-123" value="校验老师库存" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-204" y="3136" width="122" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-129" value="&lt;span style=&quot;font-family: &amp;quot;Arial Negreta&amp;quot;, &amp;quot;Arial Normal&amp;quot;, Arial; font-size: 15px; letter-spacing: 0.5px; text-align: left;&quot;&gt;该时段已满，请重新选择&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="76" y="3146" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-131" value="预约" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-203" y="3253" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WLaNTj-L8ht26HBVauC4-135">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="88" y="3676" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-134" value="不足" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WLaNTj-L8ht26HBVauC4-133">
+          <mxGeometry x="-0.1312" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-135" value="校验老师库存" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-198.43" y="3636" width="122" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-136" value="&lt;span style=&quot;font-family: &amp;quot;Arial Negreta&amp;quot;, &amp;quot;Arial Normal&amp;quot;, Arial; font-size: 15px; letter-spacing: 0.5px; text-align: left;&quot;&gt;该时段已满，请重新选择&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="88" y="3646" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
