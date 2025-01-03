@@ -1,29 +1,19 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="第 1 页" id="EBy_cypRLoO-Xsg59K2N">
-    <mxGraphModel dx="1790" dy="971" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2190" dy="971" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="WLaNTj-L8ht26HBVauC4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WLaNTj-L8ht26HBVauC4-7">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="337" y="379.3385772705078" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WLaNTj-L8ht26HBVauC4-9" target="WLaNTj-L8ht26HBVauC4-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WLaNTj-L8ht26HBVauC4-7" value="项目服务配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="277" y="222" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="WLaNTj-L8ht26HBVauC4-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WLaNTj-L8ht26HBVauC4-9">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="773" y="700.0052032470703" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WLaNTj-L8ht26HBVauC4-20" value="数据组合" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WLaNTj-L8ht26HBVauC4-18">
-          <mxGeometry x="-0.2191" y="-2" relative="1" as="geometry">
+        <mxCell id="WLaNTj-L8ht26HBVauC4-28" value="数据组合" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WLaNTj-L8ht26HBVauC4-25">
+          <mxGeometry x="-0.3618" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WLaNTj-L8ht26HBVauC4-9" value="学生服务表&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;retest_user_serve&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="713" y="515" width="120" height="60" as="geometry" />
+          <mxGeometry x="418" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WLaNTj-L8ht26HBVauC4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WLaNTj-L8ht26HBVauC4-10" target="WLaNTj-L8ht26HBVauC4-11">
           <mxGeometry relative="1" as="geometry" />
@@ -36,33 +26,105 @@
         <mxCell id="WLaNTj-L8ht26HBVauC4-10" value="查询" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="76" y="519" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WLaNTj-L8ht26HBVauC4-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WLaNTj-L8ht26HBVauC4-11">
+        <mxCell id="WLaNTj-L8ht26HBVauC4-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="708.4479217529297" y="549" as="targetPoint" />
+            <mxPoint x="473" y="412" as="targetPoint" />
+            <mxPoint x="473" y="515" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WLaNTj-L8ht26HBVauC4-15" value="userIdList+项目场次id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WLaNTj-L8ht26HBVauC4-14">
+        <mxCell id="WLaNTj-L8ht26HBVauC4-15" value="userIdList+项目场次id+服务类型" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WLaNTj-L8ht26HBVauC4-14">
           <mxGeometry x="-0.2307" y="2" relative="1" as="geometry">
             <mxPoint x="19" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WLaNTj-L8ht26HBVauC4-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WLaNTj-L8ht26HBVauC4-11" target="WLaNTj-L8ht26HBVauC4-16">
+        <mxCell id="WLaNTj-L8ht26HBVauC4-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WLaNTj-L8ht26HBVauC4-11">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="484" y="731" />
-            </Array>
+            <mxPoint x="484" y="697.6719512939453" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WLaNTj-L8ht26HBVauC4-19" value="数据组合" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WLaNTj-L8ht26HBVauC4-17">
-          <mxGeometry x="0.1482" y="-1" relative="1" as="geometry">
+        <mxCell id="WLaNTj-L8ht26HBVauC4-23" value="userIdList" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WLaNTj-L8ht26HBVauC4-22">
+          <mxGeometry x="-0.1161" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WLaNTj-L8ht26HBVauC4-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="738.0034637451172" y="549" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-29" value="数据组合" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WLaNTj-L8ht26HBVauC4-26">
+          <mxGeometry x="-0.0745" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WLaNTj-L8ht26HBVauC4-11" value="学生分配表retest_user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="424" y="519" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WLaNTj-L8ht26HBVauC4-16" value="学生服务情况" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="716" y="701" width="120" height="60" as="geometry" />
+        <mxCell id="WLaNTj-L8ht26HBVauC4-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WLaNTj-L8ht26HBVauC4-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="798.0034637451172" y="585.6719512939453" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-30" value="数据组合" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WLaNTj-L8ht26HBVauC4-27">
+          <mxGeometry x="-0.4445" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-16" value="学生问卷表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="432" y="698" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-24" value="学生分配情况列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="741" y="515" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WLaNTj-L8ht26HBVauC4-53" target="WLaNTj-L8ht26HBVauC4-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-52" value="年份+课程Id+老师Id+项目场次id+服务类型" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WLaNTj-L8ht26HBVauC4-51">
+          <mxGeometry x="-0.5224" y="1" relative="1" as="geometry">
+            <mxPoint x="47" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-53" value="查询" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-113" y="1087" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WLaNTj-L8ht26HBVauC4-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="429" y="1265.6719512939453" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-57" value="userIdList" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WLaNTj-L8ht26HBVauC4-56">
+          <mxGeometry x="-0.1161" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WLaNTj-L8ht26HBVauC4-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="683.0034637451172" y="1117" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-59" value="数据组合" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WLaNTj-L8ht26HBVauC4-58">
+          <mxGeometry x="-0.0745" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-60" value="学生服务表&lt;div&gt;retest_user_serve&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="369" y="1087" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WLaNTj-L8ht26HBVauC4-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="743.0034637451172" y="1153.6719512939453" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-62" value="数据组合" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WLaNTj-L8ht26HBVauC4-61">
+          <mxGeometry x="-0.4445" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-63" value="学生问卷表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="377" y="1266" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WLaNTj-L8ht26HBVauC4-64" value="学生分配情况列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="686" y="1083" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
