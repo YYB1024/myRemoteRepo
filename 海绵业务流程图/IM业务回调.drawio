@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.4">
   <diagram name="第 1 页" id="K4c51cqWcBI6KButup8c">
-    <mxGraphModel dx="1790" dy="971" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2590" dy="971" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,16 +11,32 @@
           <mxGeometry x="45" y="90" width="10" height="120" as="geometry" />
         </mxCell>
         <mxCell id="GdpRhM1X2Ku-xJICTaHq-3" value="即时通信IM后台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="42" y="198" width="100" height="300" as="geometry" />
+          <mxGeometry x="45" y="190" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="GdpRhM1X2Ku-xJICTaHq-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="196" as="targetPoint" />
+            <mxPoint x="55" y="171" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="145" y="196" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="GdpRhM1X2Ku-xJICTaHq-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="GdpRhM1X2Ku-xJICTaHq-3">
-          <mxGeometry x="45" y="82" width="10" height="120" as="geometry" />
+          <mxGeometry x="45" y="82" width="10" height="157" as="geometry" />
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="GdpRhM1X2Ku-xJICTaHq-3" source="GdpRhM1X2Ku-xJICTaHq-3" target="GdpRhM1X2Ku-xJICTaHq-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="97" y="152" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="GdpRhM1X2Ku-xJICTaHq-5" value="MQ消息" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="832" y="178" width="100" height="322" as="geometry" />
+          <mxGeometry x="761" y="170" width="100" height="322" as="geometry" />
         </mxCell>
         <mxCell id="GdpRhM1X2Ku-xJICTaHq-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="GdpRhM1X2Ku-xJICTaHq-5">
-          <mxGeometry x="48" y="88" width="10" height="120" as="geometry" />
+          <mxGeometry x="47" y="101" width="10" height="120" as="geometry" />
         </mxCell>
         <mxCell id="GdpRhM1X2Ku-xJICTaHq-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="GdpRhM1X2Ku-xJICTaHq-4" target="GdpRhM1X2Ku-xJICTaHq-1">
           <mxGeometry relative="1" as="geometry">
@@ -51,7 +67,7 @@
             <mxPoint x="33" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GdpRhM1X2Ku-xJICTaHq-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1">
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" target="GdpRhM1X2Ku-xJICTaHq-5">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="508" y="357" as="sourcePoint" />
             <mxPoint x="877.5" y="360" as="targetPoint" />
@@ -62,7 +78,7 @@
         </mxCell>
         <mxCell id="GdpRhM1X2Ku-xJICTaHq-18" value="封装处理MQ消息并发送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GdpRhM1X2Ku-xJICTaHq-17">
           <mxGeometry x="-0.5168" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="60" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GdpRhM1X2Ku-xJICTaHq-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="GdpRhM1X2Ku-xJICTaHq-2" target="GdpRhM1X2Ku-xJICTaHq-3">
@@ -75,6 +91,260 @@
         </mxCell>
         <mxCell id="GdpRhM1X2Ku-xJICTaHq-20" value="返回回调结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="163" y="322" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-24" value="开发者应用" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-205" y="197" width="100" height="322" as="geometry" />
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-25" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="GdpRhM1X2Ku-xJICTaHq-24">
+          <mxGeometry x="45" y="68" width="10" height="169" as="geometry" />
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="GdpRhM1X2Ku-xJICTaHq-25" target="GdpRhM1X2Ku-xJICTaHq-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="32" y="291" />
+              <mxPoint x="32" y="291" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-28" value="发送消息或状态变更" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-118" y="266" width="126" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="GdpRhM1X2Ku-xJICTaHq-4" target="GdpRhM1X2Ku-xJICTaHq-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-16" y="408" />
+              <mxPoint x="-16" y="408" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-31" value="应答客户端" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GdpRhM1X2Ku-xJICTaHq-30">
+          <mxGeometry x="0.3427" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-37" value="下发消息（code=0）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="181" y="368" width="130" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdpRhM1X2Ku-xJICTaHq-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-155" y="845.1162872314453" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-44" value="解析JSON消息(TIMCallback)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GdpRhM1X2Ku-xJICTaHq-43">
+          <mxGeometry x="-0.2019" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-38" value="IM回调" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-215" y="645" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdpRhM1X2Ku-xJICTaHq-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="384" y="875" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-59" value="&lt;a style=&quot;box-sizing: border-box; cursor: pointer; background-color: inherit; color: rgb(36, 132, 193); font-weight: 600; text-decoration-line: none; -webkit-user-drag: none; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 16px; text-align: left; white-space: pre-wrap;&quot; href=&quot;https://cloud.tencent.com/document/product/269/1667&quot;&gt;&lt;span style=&quot;box-sizing: border-box;&quot; class=&quot;md-plain&quot;&gt; Group.CallbackAfterNewMemberJoin&lt;/span&gt;&lt;/a&gt;(新入群)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GdpRhM1X2Ku-xJICTaHq-45">
+          <mxGeometry x="-0.1125" relative="1" as="geometry">
+            <mxPoint x="7" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdpRhM1X2Ku-xJICTaHq-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-658" y="875" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-73" value="&lt;a style=&quot;box-sizing: border-box; cursor: pointer; background-color: inherit; color: rgb(36, 132, 193); font-weight: 600; outline: 0px; -webkit-user-drag: none; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 16px; text-align: left; white-space: pre-wrap;&quot; href=&quot;https://cloud.tencent.com/document/product/269/1668&quot;&gt;&lt;span style=&quot;box-sizing: border-box;&quot; class=&quot;md-plain&quot;&gt; Group.CallbackAfterMemberExit&lt;/span&gt;&lt;/a&gt;（退群）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GdpRhM1X2Ku-xJICTaHq-47">
+          <mxGeometry x="0.2978" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-42" value="回调命令" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-212" y="845" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdpRhM1X2Ku-xJICTaHq-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="118.5" y="1189.8941192626953" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-49" value="字段解析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="58.5" y="1064" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdpRhM1X2Ku-xJICTaHq-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="118.5" y="1335.5607452392578" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-65" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GdpRhM1X2Ku-xJICTaHq-55">
+          <mxGeometry x="-0.3876" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-54" value="是否为退出" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="51" y="1188" width="135" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdpRhM1X2Ku-xJICTaHq-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120.5" y="1478.3385772705078" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-56" value="封装MQ数据（sendLeave）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60.5" y="1335" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-58" value="发送MQ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="66" y="1596" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdpRhM1X2Ku-xJICTaHq-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="447" y="972.0052032470703" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-60" value="字段解析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="387" y="842" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdpRhM1X2Ku-xJICTaHq-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="447" y="1128.0052032470703" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-64" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GdpRhM1X2Ku-xJICTaHq-63">
+          <mxGeometry x="-0.1446" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-62" value="成员列表是否为空" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374.5" y="969" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdpRhM1X2Ku-xJICTaHq-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="454" y="1260.0052032470703" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-66" value="封装MQ数据（sendJoin）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="394" y="1129" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdpRhM1X2Ku-xJICTaHq-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="454" y="1399.0052032470703" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-68" value="MQ数据处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="394" y="1259" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-70" value="发送MQ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="392" y="1399" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdpRhM1X2Ku-xJICTaHq-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="122.5" y="1594.6719512939453" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-71" value="MQ数据处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="62.5" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GdpRhM1X2Ku-xJICTaHq-74" target="GdpRhM1X2Ku-xJICTaHq-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-74" value="字段解析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-780" y="842" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdpRhM1X2Ku-xJICTaHq-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-720" y="1164.0052032470703" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-76" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GdpRhM1X2Ku-xJICTaHq-75">
+          <mxGeometry x="-0.1446" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-77" value="退群成员列表是否为空" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-792.5" y="1005" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdpRhM1X2Ku-xJICTaHq-79">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-713" y="1296.0052032470703" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-79" value="封装MQ数据（sendLeave）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-773" y="1165" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdpRhM1X2Ku-xJICTaHq-81">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-713" y="1435.0052032470703" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-81" value="MQ数据处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-773" y="1295" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-82" value="发送MQ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-775" y="1435" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-84" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-210.5" y="902" as="sourcePoint" />
+            <mxPoint x="-438.5" y="1073" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-86" value="&lt;a style=&quot;box-sizing: border-box; cursor: pointer; background-color: inherit; color: rgb(36, 132, 193); font-weight: 600; text-decoration-line: none; -webkit-user-drag: none; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 16px; text-align: left; white-space: pre-wrap;&quot; href=&quot;https://cloud.tencent.com/document/product/269/2661&quot;&gt;&lt;span style=&quot;box-sizing: border-box;&quot; class=&quot;md-plain&quot;&gt; Group.CallbackAfterSendMsg&lt;/span&gt;&lt;/a&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GdpRhM1X2Ku-xJICTaHq-84">
+          <mxGeometry x="0.1568" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-87" value="群内发言" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GdpRhM1X2Ku-xJICTaHq-84">
+          <mxGeometry x="0.4263" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdpRhM1X2Ku-xJICTaHq-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-429" y="1233.3385772705078" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-88" value="子段解析-根据发言人账户来源（老师、学生）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-502" y="1073" width="146" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdpRhM1X2Ku-xJICTaHq-90">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-429" y="1374.3385772705078" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-93" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GdpRhM1X2Ku-xJICTaHq-92">
+          <mxGeometry x="-0.3746" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-90" value="消息体列表是否为空" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-499" y="1233" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdpRhM1X2Ku-xJICTaHq-91">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-429" y="1529.3385772705078" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-91" value="封装MQ数据（sendWord）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-489" y="1382" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdpRhM1X2Ku-xJICTaHq-95">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-429" y="1632.4496612548828" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-95" value="MQ数据处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-489" y="1530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-98" value="发送MQ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-486" y="1633" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-99" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-91" y="905" as="sourcePoint" />
+            <mxPoint x="99" y="1063" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdpRhM1X2Ku-xJICTaHq-100" value="&lt;a style=&quot;background-color: inherit; box-sizing: border-box; cursor: pointer; font-weight: 600; text-decoration-line: none; -webkit-user-drag: none; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 16px; text-align: left; white-space: pre-wrap; color: rgb(36, 132, 193);&quot; href=&quot;https://cloud.tencent.com/document/product/269/2570&quot;&gt;&lt;span style=&quot;box-sizing: border-box;&quot; class=&quot;md-plain&quot;&gt;State.StateChange&lt;/span&gt;&lt;/a&gt;（状态变更）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GdpRhM1X2Ku-xJICTaHq-99">
+          <mxGeometry x="0.0037" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
