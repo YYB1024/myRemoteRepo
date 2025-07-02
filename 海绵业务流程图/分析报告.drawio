@@ -1,9 +1,128 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="第 1 页" id="ViaAI9ll2HowO2Gb6FL9">
-    <mxGraphModel>
+    <mxGraphModel dx="1790" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7_3ddVTEXYTXa83JMsSR-2" target="7_3ddVTEXYTXa83JMsSR-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-5" value="APP断" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7_3ddVTEXYTXa83JMsSR-4">
+          <mxGeometry x="0.5484" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7_3ddVTEXYTXa83JMsSR-2" target="7_3ddVTEXYTXa83JMsSR-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-8" value="后台配置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7_3ddVTEXYTXa83JMsSR-7">
+          <mxGeometry x="0.4385" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="65" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7_3ddVTEXYTXa83JMsSR-2" target="7_3ddVTEXYTXa83JMsSR-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-2" value="生成分析报告入口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7_3ddVTEXYTXa83JMsSR-3" target="7_3ddVTEXYTXa83JMsSR-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-3" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;获取分析状态&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7_3ddVTEXYTXa83JMsSR-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="767" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-6" value="生成排行榜数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="707" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7_3ddVTEXYTXa83JMsSR-9" target="7_3ddVTEXYTXa83JMsSR-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-9" value="模考配置、试卷信息、开榜时间校验" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7_3ddVTEXYTXa83JMsSR-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-15" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7_3ddVTEXYTXa83JMsSR-14">
+          <mxGeometry x="-0.0539" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7_3ddVTEXYTXa83JMsSR-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-28" value="存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7_3ddVTEXYTXa83JMsSR-27">
+          <mxGeometry x="-0.3249" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-11" value="试卷信息记录是否存&lt;br&gt;在分析数据" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="78.75" y="540" width="142.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7_3ddVTEXYTXa83JMsSR-17" target="7_3ddVTEXYTXa83JMsSR-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-20" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7_3ddVTEXYTXa83JMsSR-19">
+          <mxGeometry x="-0.0373" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7_3ddVTEXYTXa83JMsSR-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-30" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7_3ddVTEXYTXa83JMsSR-29">
+          <mxGeometry x="0.0093" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-17" value="是否海绵内部用户" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="78.75" y="700" width="142.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7_3ddVTEXYTXa83JMsSR-18" target="7_3ddVTEXYTXa83JMsSR-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-18" value="获取排行榜中（生成分析报告）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7_3ddVTEXYTXa83JMsSR-21" target="7_3ddVTEXYTXa83JMsSR-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-21" value="当前时间已经超过大模考开榜时间但还在延迟显示期内（2分钟）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1020" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-26" value="MQ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7_3ddVTEXYTXa83JMsSR-23" target="7_3ddVTEXYTXa83JMsSR-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-23" value="发送获取分析报告MQ消息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-25" value="消费获取分析报告休息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-31" value="返回" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-32" value="逻辑处理继续..." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-34" value="模考配置、试卷信息查询处理" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-37" value="&lt;h3 style=&quot;box-sizing: border-box; border-color: rgb(234, 236, 240); border-style: solid; border-width: 0px; border-image: none 100% / 1 / 0 stretch; color: rgb(52, 64, 84); margin-top: 0px; margin-bottom: 0px; max-width: calc(100% - 460px); font-size: 23px; text-wrap-mode: nowrap; text-overflow: ellipsis; cursor: pointer; line-height: 32px; overflow: hidden; font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, roboto, &amp;quot;Helvetica Neue&amp;quot;, arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;name-text-nO_wGQ&quot; title=&quot;获取考试统计信息(meth=user.getExamStats)&quot;&gt;&lt;span style=&quot;box-sizing: border-box; border-color: rgb(234, 236, 240); border-style: solid; border-width: 0px; border-image: none 100% / 1 / 0 stretch; cursor: pointer;&quot; class=&quot;copyable-NYoI4L&quot;&gt;获取考试统计信息&lt;/span&gt;&lt;span style=&quot;background-color: rgb(254, 254, 254); color: rgb(40, 44, 52); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 16px; orphans: 4; text-align: justify; word-spacing: 0.8px; caret-color: rgb(40, 44, 52); white-space: pre-wrap; font-weight: normal;&quot;&gt;获取考试统计信息(meth=user.getExamStats)&lt;/span&gt;&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
