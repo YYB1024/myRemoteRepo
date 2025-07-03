@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="第 1 页" id="ViaAI9ll2HowO2Gb6FL9">
-    <mxGraphModel dx="4106" dy="1542" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0" adaptiveColors="auto">
+    <mxGraphModel dx="3884" dy="1422" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0" adaptiveColors="auto">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,15 +32,6 @@
         <mxCell id="7_3ddVTEXYTXa83JMsSR-46" value="APP端" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7_3ddVTEXYTXa83JMsSR-38">
           <mxGeometry x="0.5736" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7_3ddVTEXYTXa83JMsSR-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2298.448043823242" y="148.00411926269533" as="targetPoint" />
-            <mxPoint x="1317" y="59.11" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="2298" y="59.11" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="7_3ddVTEXYTXa83JMsSR-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7_3ddVTEXYTXa83JMsSR-130">
