@@ -119,6 +119,9 @@
         <mxCell id="7_3ddVTEXYTXa83JMsSR-23" value="发送获取分析报告MQ消息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="1005" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7_3ddVTEXYTXa83JMsSR-25" target="7_3ddVTEXYTXa83JMsSR-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="7_3ddVTEXYTXa83JMsSR-25" value="消费获取分析报告休息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="1200" width="120" height="60" as="geometry" />
         </mxCell>
@@ -157,6 +160,9 @@
         </mxCell>
         <mxCell id="7_3ddVTEXYTXa83JMsSR-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.194;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7_3ddVTEXYTXa83JMsSR-39" target="7_3ddVTEXYTXa83JMsSR-23">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_3ddVTEXYTXa83JMsSR-52" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;方法getMockAnalysis&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1335" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
