@@ -1,9 +1,127 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.2.0">
   <diagram name="第 1 页" id="qvVbESOaweT5n2VWb7YH">
-    <mxGraphModel>
+    <mxGraphModel dx="1782" dy="976" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="bC4nvKiJPD9nZRwSsMF0-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bC4nvKiJPD9nZRwSsMF0-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="552" y="566.7899780273438" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bC4nvKiJPD9nZRwSsMF0-1" value="进入考试" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="492" y="382" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bC4nvKiJPD9nZRwSsMF0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bC4nvKiJPD9nZRwSsMF0-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="552" y="720.7899780273438" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bC4nvKiJPD9nZRwSsMF0-3" value="答题初始化草稿" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="492" y="566" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bC4nvKiJPD9nZRwSsMF0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bC4nvKiJPD9nZRwSsMF0-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="789" y="869" as="targetPoint" />
+            <mxPoint x="988.5" y="737" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bC4nvKiJPD9nZRwSsMF0-7" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bC4nvKiJPD9nZRwSsMF0-6">
+          <mxGeometry x="0.4581" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bC4nvKiJPD9nZRwSsMF0-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bC4nvKiJPD9nZRwSsMF0-5" target="bC4nvKiJPD9nZRwSsMF0-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bC4nvKiJPD9nZRwSsMF0-21" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bC4nvKiJPD9nZRwSsMF0-19">
+          <mxGeometry x="0.4244" relative="1" as="geometry">
+            <mxPoint y="-26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bC4nvKiJPD9nZRwSsMF0-5" value="中途是否退出考试" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="498.5" y="721" width="107" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bC4nvKiJPD9nZRwSsMF0-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bC4nvKiJPD9nZRwSsMF0-8" target="bC4nvKiJPD9nZRwSsMF0-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bC4nvKiJPD9nZRwSsMF0-8" value="保存草稿至本地缓存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="732" y="876" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bC4nvKiJPD9nZRwSsMF0-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bC4nvKiJPD9nZRwSsMF0-10" target="bC4nvKiJPD9nZRwSsMF0-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="619.7778167724609" y="1059" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="696" y="1055" />
+              <mxPoint x="696" y="1055" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bC4nvKiJPD9nZRwSsMF0-10" value="再次进入考试可看本地草稿记录" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="732" y="1029" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bC4nvKiJPD9nZRwSsMF0-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bC4nvKiJPD9nZRwSsMF0-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="552" y="1020.4566040039062" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bC4nvKiJPD9nZRwSsMF0-14" value="提交答题完成考试" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="492" y="878.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bC4nvKiJPD9nZRwSsMF0-18" value="保存本场所有考试的草稿记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="492" y="1025" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bC4nvKiJPD9nZRwSsMF0-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bC4nvKiJPD9nZRwSsMF0-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="195" y="551.7899780273438" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bC4nvKiJPD9nZRwSsMF0-29" value="进入答题记录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="393" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bC4nvKiJPD9nZRwSsMF0-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bC4nvKiJPD9nZRwSsMF0-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="201" y="678.9010620117188" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bC4nvKiJPD9nZRwSsMF0-30" value="查看答题详情" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="141" y="553" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bC4nvKiJPD9nZRwSsMF0-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bC4nvKiJPD9nZRwSsMF0-32" target="bC4nvKiJPD9nZRwSsMF0-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bC4nvKiJPD9nZRwSsMF0-32" value="获取草稿记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="143" y="678" width="120" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="bC4nvKiJPD9nZRwSsMF0-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bC4nvKiJPD9nZRwSsMF0-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="61" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bC4nvKiJPD9nZRwSsMF0-38" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bC4nvKiJPD9nZRwSsMF0-36">
+          <mxGeometry x="0.4845" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bC4nvKiJPD9nZRwSsMF0-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bC4nvKiJPD9nZRwSsMF0-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="927" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bC4nvKiJPD9nZRwSsMF0-41" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bC4nvKiJPD9nZRwSsMF0-40">
+          <mxGeometry x="0.5252" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bC4nvKiJPD9nZRwSsMF0-34" value="是否编辑草稿" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="135.5" y="789" width="133.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bC4nvKiJPD9nZRwSsMF0-39" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2" y="931" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bC4nvKiJPD9nZRwSsMF0-43" value="保存该条草稿记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="271" y="931" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
